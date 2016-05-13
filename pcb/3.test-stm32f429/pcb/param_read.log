@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : f429.brd                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Tue Apr 12 00:24:35 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : E:/cadence lib/parameters.prm
+	Layout Name   : E:/material/glass/pcb/3.test-stm32f429/pcb/f429.brd
+
+Reading...parameter_header:
+Reading...db_common_type:
+Reading...grid_parms_type:
+Reading...UnusedPadsSuppressionSettings:
+Reading...color_table_table:
+Reading...text_size_table:
+Reading...placement_parameter_type:
+Reading...ats_parm_type:
+Reading...ifp_parm_type:
+Reading...ministat_parm_type:
+Reading...dynfill_parm_type:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 0.

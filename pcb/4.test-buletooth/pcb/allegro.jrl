@@ -1,0 +1,18 @@
+\t (00:00:07) allegro 16.6-2015 S064 (v16-6-112FD) Windows 32
+\t (00:00:07)     Journal start - Fri Feb 26 15:08:32 2016
+\t (00:00:07)         Host=HFP-20120615TNE User=Administrator Pid=7524 CPUs=4
+\t (00:00:07) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:07) 
+\t (00:00:09) Opening existing design...
+\d (00:00:09) Design opened: E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd
+\i (00:00:09) trapsize 129
+\i (00:00:09) trapsize 125
+\i (00:00:09) trapsize 129
+\i (00:00:09) trapsize 129
+\i (00:00:10) generaledit 
+\i (00:00:11) open 
+\i (00:00:17) fillin "E:\material\glass\pcb\3.test-stm32f429\pcb\f429.brd"
+\i (00:00:17) cd "E:\material\glass\pcb\3.test-stm32f429\pcb"
+\t (00:00:17) Opening existing design...
+\i (00:00:17) trapsize 915
+\t (00:00:17)     Journal end - Fri Feb 26 15:08:43 2016

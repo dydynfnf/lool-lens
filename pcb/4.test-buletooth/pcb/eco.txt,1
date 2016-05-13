@@ -1,0 +1,177 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd               |
+|                                                    Tue Dec 29 14:53:32 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.2           D1.1           J1.2           
+                                 R4.1           R5.1           U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00432       pins ADDED TO this new net
+                                 R2.2           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00495       pins ADDED TO this new net
+                                 SW1.2          U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00527       pins ADDED TO this new net
+                                 R4.2           SW1.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00595       pins ADDED TO this new net
+                                 R6.1           U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00680       pins ADDED TO this new net
+                                 R1.1           R5.2           U1.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00684       pins ADDED TO this new net
+                                 R3.1           U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00768       pins ADDED TO this new net
+                                 D1.2           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01274       pins ADDED TO this new net
+                                 J3.1           U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01286       pins ADDED TO this new net
+                                 J3.2           U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01298       pins ADDED TO this new net
+                                 J3.3           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01310       pins ADDED TO this new net
+                                 J3.4           U1.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01322       pins ADDED TO this new net
+                                 J3.5           U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01334       pins ADDED TO this new net
+                                 J3.6           U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01346       pins ADDED TO this new net
+                                 J3.7           U1.15          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd               |
+|                                                    Tue Dec 29 14:53:32 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N02048       pins ADDED TO this new net
+                                 J2.6           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02052       pins ADDED TO this new net
+                                 J2.5           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P0.0         pins ADDED TO this new net
+                                 J2.8           U1.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P0.1         pins ADDED TO this new net
+                                 J2.7           U1.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P0.4         pins ADDED TO this new net
+                                 J2.4           U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P0.5         pins ADDED TO this new net
+                                 J2.3           U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P0.6         pins ADDED TO this new net
+                                 J2.2           U1.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P0.7         pins ADDED TO this new net
+                                 J2.1           U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P1.6         pins ADDED TO this new net
+                                 J1.8           U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P1.7         pins ADDED TO this new net
+                                 J1.7           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2.1         pins ADDED TO this new net
+                                 J1.5           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2.2         pins ADDED TO this new net
+                                 J1.4           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD3.3       pins ADDED TO this new net
+                                 C1.1           J1.1           R2.1           
+                                 U1.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd               |
+|                                                    Tue Dec 29 14:53:32 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 8 HEADER_H-8_8 HEADER
+ CAP NP_0805_0.1UF
+ CC2540-MODULE_CC2540-MODULE_CC2
+ LED_0805_LED
+ R_0805_22
+ R_0805_10K
+ R_0805_1K
+ R_0805_2K
+ SW PUSHBUTTON_KEY-3-6_SW PUSHBU
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd               |
+|                                                    Tue Dec 29 14:53:32 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_0805_0.1UF     
+ D1                  LED_0805_LED          
+ J1                  8 HEADER_H-8_8 HEADER 
+ J2                  8 HEADER_H-8_8 HEADER 
+ J3                  8 HEADER_H-8_8 HEADER 
+ R1                  R_0805_1K             
+ R2                  R_0805_10K            
+ R3                  R_0805_22             
+ R4                  R_0805_10K            
+ R5                  R_0805_2K             
+ R6                  R_0805_1K             
+ SW1                 SW PUSHBUTTON_KEY-3-6_SW PUSHBU 
+ U1                  CC2540-MODULE_CC2540-MODULE_CC2 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd               |
+|                                                    Tue Dec 29 14:53:32 2015  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ J1.8                           PRIM_FILE      .\pstchip.dat
+ J2.8                           PRIM_FILE      .\pstchip.dat
+ J3.8                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ SW1.2                          PRIM_FILE      .\pstchip.dat
+ U1.1                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  98                                             |
+|------------------------------------------------------------------------------|

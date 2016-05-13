@@ -1,0 +1,34 @@
+\t (00:00:00) sigxp 16.6 S049 (v16-6-112DU) Windows 32
+\t (00:00:00)     Journal start - Wed Oct 14 16:22:24 2015
+\t (00:00:00)         Host=HFP-20120615TNE User=Administrator Pid=6492 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\pcb\test-stm32f429\pcb C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaama11792.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1007
+\i (00:00:00) trapsize 979
+\i (00:00:00) trapsize 1012
+\i (00:00:00) trapsize 1062
+\i (00:00:00) trapsize 1290
+\i (00:00:00) trapsize 6449
+\t (00:00:00) Starting new design...
+\i (00:00:01) trapsize 6449
+\i (00:00:01) trapsize 6449
+\i (00:00:01) trapsize 6449
+   (00:00:01) Loading signal.cxt 
+   (00:00:01) Loading sigxp.cxt 
+   (00:00:01) Loading sxutil.cxt 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) Loading fputil.cxt 
+   (00:00:01) Already Placed Circuit
+\i (00:00:01) trapsize 16
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:01) sigxp background 
+\i (00:00:02) sxconstraints 
+\i (00:00:03) setwindow form.sxconstraint
+\i (00:00:03) FORM sxconstraint prop_delay  
+\i (00:00:07) FORM sxconstraint rel_prop_delay  
+\i (00:00:11) FORM sxconstraint cancel  
+\i (00:00:11) setwindow sigxp
+\i (00:00:11) sigxp background 
+\i (00:00:12) exit 
+\t (00:00:12)     Journal end - Wed Oct 14 16:22:37 2015

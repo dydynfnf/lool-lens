@@ -1,0 +1,92 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : test.brd                                      )
+(    Software Version : 16.6S049                                      )
+(    Date/Time        : Sun Sep 13 15:11:07 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'E:\MATERIAL\GLASS\PCB\SSD1963TEST\SCH\allegro'
+Design Directory:            '.'
+Old design name:             'E:/material/glass/pcb/ssd1963test/pcb/test.brd'
+New design name:             'E:/material/glass/pcb/ssd1963test/pcb/test.brd'
+
+CmdLine: netrev -$ -i E:\MATERIAL\GLASS\PCB\SSD1963TEST\SCH\allegro -y 1 -q netrev_constraint_report.xml E:/material/glass/pcb/ssd1963test/pcb/#Taaaaap07536.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/MATERIAL/GLASS/PCB/SSD1963TEST/SCH/allegro/pstchip.dat 
+   Finished reading E:/MATERIAL/GLASS/PCB/SSD1963TEST/SCH/allegro/pstchip.dat (00:00:00.06)
+Starting to read E:/MATERIAL/GLASS/PCB/SSD1963TEST/SCH/allegro/pstxprt.dat 
+   Finished reading E:/MATERIAL/GLASS/PCB/SSD1963TEST/SCH/allegro/pstxprt.dat (00:00:00.00)
+Starting to read E:/MATERIAL/GLASS/PCB/SSD1963TEST/SCH/allegro/pstxnet.dat 
+   Finished reading E:/MATERIAL/GLASS/PCB/SSD1963TEST/SCH/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           d:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/candence lib/PSM/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/CANDENCE LIB/PAD/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Sep 13 15:11:07 2015
+   DESIGN NAME : 'TEST'
+   PACKAGING ON Oct 15 2014 05:53:32
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:30
+elapsed time  0:00:01
+

@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Automatic B/B Via Creation                               )
+(                                                                     )
+(    Software Version : 16.6S049                                      )
+(    Date/Time        : Wed Oct 07 11:43:16 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Via to be copied: Via-8-12
+Start subclass: TOP
+End subclass: TOP
+Old drawing: E:/material/glass/pcb/test-stm32f429/pcb/#Taaaacb06940.tmp
+New drawing: E:/material/glass/pcb/test-stm32f429/pcb/#Taaaacb06940.tmp
+Vias added to physical constraint set: DEFAULT
+
+*ERROR: Start and end layers cannot be the same.
+
+bbvia failed.

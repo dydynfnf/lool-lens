@@ -1,0 +1,32 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : test-bluetooth.brd                            )
+(    Software Version : 16.6S049                                      )
+(    Date/Time        : Tue Dec 29 15:48:06 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / CC2540-MODULE_CC2540-MODULE_CC2 / CC2540-MODULE at (21.97 1527.19)
+         Placed symbol:  J2 / 8 HEADER_H-8_8 HEADER / H-8 at (612.15 1571.18)
+         Placed symbol:  J1 / 8 HEADER_H-8_8 HEADER / H-8 at (1571.18 1428.82)
+         Placed symbol:  J3 / 8 HEADER_H-8_8 HEADER / H-8 at (1571.18 1306.46)
+         Placed symbol:  D1 / LED_0805_LED / 0805 at (1586.93 1197.88)
+         Placed symbol:  R1 / R_0805_1K / 0805 at (1586.93 1103.08)
+         Placed symbol:  R6 / R_0805_1K / 0805 at (1586.93 1008.28)
+         Placed symbol:  R2 / R_0805_10K / 0805 at (1586.93 913.48)
+         Placed symbol:  R4 / R_0805_10K / 0805 at (1586.93 818.68)
+         Placed symbol:  R3 / R_0805_22 / 0805 at (1586.93 723.88)
+         Placed symbol:  R5 / R_0805_2K / 0805 at (1586.93 629.08)
+         Placed symbol:  SW1 / SW PUSHBUTTON_KEY-3-6_SW PUSHBU / KEY-3-6 at (1559.37 528.37)
+         Placed symbol:  C1 / CAP NP_0805_0.1UF / 0805 at (1586.93 427.66)
+
+
+Placed 13 of 13 applicable (13 total) symbols.
+
+-----------------------------------------------------------------------
+

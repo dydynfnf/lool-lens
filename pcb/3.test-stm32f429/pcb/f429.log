@@ -1,0 +1,20 @@
+BRDExtractor Version 11.1.4
+From file : E:/material/glass/pcb/3.test-stm32f429/pcb/f429.brd
+To file : E:/material/glass/pcb/3.test-stm32f429/pcb/f429.spd
+Mar 20 22:37:23 2016
+
+Nets Translated :
+	All nets are selected
+
+Settings :
+	Translate power layer to : Plane or Signal
+	Allow patches on Signal layers
+	Distinguish shapes of different nets by color
+	Append net name to objects
+	Include elements with no net names
+	Treat pad on dielectric layer as drill
+	Union traces shorter than 0 mm
+	Maximum arc length replaced by line segment 0.2 mm
+	Name affix : 
+	Extract Location : D:/Cadence/SPB_16.6/tools/pcb/bin/extracta.exe
+	ENV Install Path : D:/Cadence/SPB_16.6/share/pcb/text/env

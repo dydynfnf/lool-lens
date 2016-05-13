@@ -1,0 +1,140 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Dec-29-2015 at 13:13:31 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TEST-BULETOOTH';
+ POST_TIME='Oct 15 2014 05:53:32';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS173@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins173@discrete.\cap np.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins173@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_0805_LED':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS198@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins198@discrete.\led.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins198@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 '8 HEADER_H-8_8 HEADER':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS355@CONNECTOR.8 HEADER.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins355@connector.\8 header.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins355@connector.\8 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '8 HEADER_H-8_8 HEADER':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS299@CONNECTOR.8 HEADER.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins299@connector.\8 header.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins299@connector.\8 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '8 HEADER_H-8_8 HEADER':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS327@CONNECTOR.8 HEADER.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins327@connector.\8 header.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins327@connector.\8 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS612@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins612@discrete.\r.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins612@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS139@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins139@discrete.\r.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins139@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_0805_22':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS638@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins638@discrete.\r.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins638@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS509@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins509@discrete.\r.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins509@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_0805_2K':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS664@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins664@discrete.\r.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins664@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS393@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins393@discrete.\r.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins393@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW PUSHBUTTON_KEY-3-6_SW PUSHBU':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS262@DISCRETE.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins262@discrete.\sw pushbutton.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins262@discrete.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'CC2540-MODULE_CC2540-MODULE_CC2':;
+
+SECTION_NUMBER 1
+ '@TEST-BULETOOTH.SCHEMATIC1(SCH_1):INS70@MYLIBRARY.CC2540-MODULE.NORMAL(CHIPS)':
+ C_PATH='@\test-buletooth\.schematic1(sch_1):ins70@mylibrary.\cc2540-module.normal\(chips)',
+ P_PATH='@\test-buletooth\.schematic1(sch_1):page1_ins70@mylibrary.\cc2540-module.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

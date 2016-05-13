@@ -1,0 +1,993 @@
+# Cadence Design Systems, Inc.
+# Allegro PCB Router Automatic Router
+# Allegro PCB Router v16-6-112 made 2015/02/02 at 11:09:05
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Initialization options:
+#   -do pasde.do
+# Status File Name : E:/material/glass/pcb/test-stm32f429/pcb\monitor.sts
+# -nog specified. Graphics not utilized.
+# -sim specified. Polygons simplified.
+# Use Colormap In Design File.
+#
+#
+#
+#
+# do $/f429_rules.do
+define (class _netgrp_FLASH_ADD_BUS PD12 PD11 )
+define (class _netgrp_DATA_BUS PE15 PE14 PE13 PE12 
+  PE11 PE10 PE9 PE8 
+  PE7 PD15 PD14 PD10 
+  PD9 PD8 PD1 PD0 )
+define (class _netgrp_SDRAM_ADD_BUS PG5 PG4 PG2 PG1 
+  PG0 PF15 PF14 PF13 
+  PF12 PF5 PF4 PF3 
+  PF2 PF1 PF0 )
+define (class _netgrp_CTL PG15 PG9 PG8 PF11 
+  PE1 PE0 PD6 PD5 
+  PD4 PC0 PB6 PB5 )
+define (class _netgrp_POWER 5V 3.3V 2.5V VSYS 
+  VCHG VBAT PA11 PA8 
+  PA3 PA2 PA1 PA0 
+  N64376 N64320 N55342 N49830 
+  N48977 N47223 N43466 N43458 
+  N43434 N43394 N43250 N43226 
+  N42120 N42113 N42064 N41859 
+  N41478 N41471 N38673 N38635 
+  N38609 N38309 N38208 N38204 
+  GND )
+define (class _netgrp_LCD_BUS PI10 PI9 PI7 PI6 
+  PI5 PI4 PI2 PI1 
+  PI0 PH15 PH14 PH13 
+  PH12 PH11 PH10 PH9 
+  PH8 PH3 PH2 PG12 
+  PG11 PG10 PG7 PG6 
+  PF10 PE6 PE5 PE4 )
+define (group _REL_DELAY_M3_PE4
+  (fromto F1-15 (virtual_pin T1_PE4)  (type soft))
+  (fromto (virtual_pin T1_PE4) P2-21  (type soft))
+ )
+define (group _REL_DELAY_M3_PI4
+  (fromto (virtual_pin T1_PI4) F1-10  (type soft))
+  (fromto (virtual_pin T1_PI4) P2-25  (type soft))
+ )
+define (group _REL_DELAY_M3_PI5
+  (fromto (virtual_pin T1_PI5) F1-9  (type soft))
+  (fromto (virtual_pin T1_PI5) P2-26  (type soft))
+ )
+define (group _REL_DELAY_M3_PG7
+  (fromto (virtual_pin T1_PG7) F1-19  (type soft))
+  (fromto (virtual_pin T1_PG7) P2-30  (type soft))
+ )
+define (group _REL_DELAY_M3_PI6
+  (fromto (virtual_pin T1_PI6) F1-8  (type soft))
+  (fromto (virtual_pin T1_PI6) P2-27  (type soft))
+ )
+define (group _REL_DELAY_M3_PI7
+  (fromto (virtual_pin T1_PI7) F1-7  (type soft))
+  (fromto (virtual_pin T1_PI7) P2-28  (type soft))
+ )
+define (group _REL_DELAY_M3_PI9
+  (fromto (virtual_pin T1_PI9) F1-17  (type soft))
+  (fromto (virtual_pin T1_PI9) P2-32  (type soft))
+ )
+define (group _REL_DELAY_M3_PF10
+  (fromto (virtual_pin T1_PF10) F1-16  (type soft))
+  (fromto (virtual_pin T1_PF10) P2-33  (type soft))
+ )
+define (group _REL_DELAY_M3_PG10
+  (fromto (virtual_pin T1_PG10) F1-13  (type soft))
+  (fromto (virtual_pin T1_PG10) P2-23  (type soft))
+ )
+define (group _REL_DELAY_M3_PG11
+  (fromto (virtual_pin T1_PG11) F1-12  (type soft))
+  (fromto (virtual_pin T1_PG11) P2-24  (type soft))
+ )
+define (group _REL_DELAY_M3_PI10
+  (fromto (virtual_pin T1_PI10) F1-18  (type soft))
+  (fromto (virtual_pin T1_PI10) P2-31  (type soft))
+ )
+define (group _REL_DELAY_M3_PG12
+  (fromto (virtual_pin T1_PG12) F1-14  (type soft))
+  (fromto (virtual_pin T1_PG12) P2-22  (type soft))
+ )
+define (group _REL_DELAY_M1
+  (fromto U7-D5 U1-N13  )
+  (fromto U1-M14 U7-H4  (type soft))
+  (fromto U1-L14 U7-J4  (type soft))
+  (fromto U1-B12 U7-K4  (type soft))
+  (fromto U1-C12 U7-K5  (type soft))
+  (fromto U1-R8 U7-K6  (type soft))
+  (fromto U1-P8 U7-J7  (type soft))
+  (fromto U1-P9 U7-K7  (type soft))
+  (fromto U1-R9 U7-J8  (type soft))
+  (fromto U1-B10 F1-13  (type soft))
+  (fromto U1-B8 F1-14  (type soft))
+  (fromto U1-D4 F1-10  (type soft))
+  (fromto U1-C4 F1-9  (type soft))
+  (fromto U1-C3 F1-8  (type soft))
+  (fromto U1-C2 F1-7  (type soft))
+  (fromto U1-J14 F1-19  (type soft))
+  (fromto F1-17 U1-D3  (type soft))
+  (fromto F1-18 U1-E3  (type soft))
+  (fromto U1-L1 F1-16  (type soft))
+  (fromto F1-15 U1-B1  (type soft))
+  (fromto U1-B9 F1-12  (type soft))
+  (fromto U1-E2 U8-H7  )
+  (fromto U1-H3 U8-H8  )
+  (fromto U1-H2 U8-J8  )
+  (fromto U7-C4 U1-N14  )
+  (fromto U1-P6 U8-H3  )
+  (fromto U1-N6 U8-H2  )
+  (fromto U1-P7 U8-G3  )
+  (fromto U1-N7 U8-H9  )
+  (fromto U1-M7 U8-G2  )
+  (fromto U1-L15 U8-G1  )
+  (fromto U1-K14 U8-G7  )
+  (fromto U1-J2 U8-J7  )
+  (fromto U1-K13 U8-G8  )
+  (fromto U1-R7 U8-H1  )
+  (fromto U1-K3 U8-J2  )
+  (fromto U1-J3 U8-J3  )
+ )
+define (group _REL_DELAY_M2
+  (fromto P2-25 U1-D4  (type soft))
+  (fromto P2-26 U1-C4  (type soft))
+  (fromto P2-27 U1-C3  (type soft))
+  (fromto P2-28 U1-C2  (type soft))
+  (fromto P2-30 U1-J14  (type soft))
+  (fromto U1-D3 P2-32  (type soft))
+  (fromto U1-E3 P2-31  (type soft))
+  (fromto P2-33 U1-L1  (type soft))
+  (fromto P2-3 U1-F4  )
+  (fromto P2-4 U1-G4  )
+  (fromto P2-10 U1-J15  )
+  (fromto P2-12 U1-B2  )
+  (fromto P2-13 U1-B3  )
+  (fromto P2-17 U1-E14  )
+  (fromto P2-18 U1-D14  )
+  (fromto P2-19 U1-C14  )
+  (fromto U1-B1 P2-21  (type soft))
+  (fromto P2-24 U1-B9  (type soft))
+  (fromto P2-22 U1-B8  (type soft))
+  (fromto U8-A8 U1-M14  (type soft))
+  (fromto U8-B9 U1-L14  (type soft))
+  (fromto U1-P15 U8-B2  )
+  (fromto U8-B8 U1-B12  (type soft))
+  (fromto U8-C9 U1-C12  (type soft))
+  (fromto U8-C8 U1-R8  (type soft))
+  (fromto U8-D9 U1-P8  (type soft))
+  (fromto U8-D8 U1-P9  (type soft))
+  (fromto U8-E9 U1-R9  (type soft))
+  (fromto U1-P10 U8-E1  )
+  (fromto U1-R10 U8-D2  )
+  (fromto U1-N11 U8-D1  )
+  (fromto U1-P11 U8-C2  )
+  (fromto U1-R11 U8-C1  )
+  (fromto U1-P14 U8-B1  )
+  (fromto U1-N15 U8-A2  )
+  (fromto P2-5 U1-M12  )
+  (fromto P2-6 U1-M13  )
+  (fromto P2-7 U1-L13  )
+  (fromto P2-8 U1-L12  )
+  (fromto P2-9 U1-K12  )
+  (fromto P2-16 U1-D13  )
+  (fromto P2-23 U1-B10  (type soft))
+  (fromto P2-14 U1-E12  )
+  (fromto P2-15 U1-E13  )
+ )
+define (region RGN_3 (polygon signal 0 1085 1050 1445 1050 1445 615 1085 615 1085 1050 ))
+define (region RGN_2 (polygon signal 0 755 990 1070 990 1070 670 755 670 755 990 ))
+define (region RGN_1 (polygon signal 0 335 1030 735 1030 735 630 335 630 335 1030 ))
+rule PCB (width 7)
+rule PCB (clearance 7 (type buried_via_gap))
+rule PCB (clearance 7 (type wire_wire))
+rule PCB (clearance 7 (type wire_smd))
+rule PCB (clearance 7 (type wire_pin))
+rule PCB (clearance 7 (type wire_via))
+rule PCB (clearance 7 (type smd_smd))
+rule PCB (clearance 7 (type smd_pin))
+rule PCB (clearance 7 (type smd_via))
+rule PCB (clearance 7 (type pin_pin))
+rule PCB (clearance 7 (type pin_via))
+rule PCB (clearance 7 (type via_via))
+rule PCB (clearance 7 (type test_test))
+rule PCB (clearance 7 (type test_wire))
+rule PCB (clearance 7 (type test_smd))
+rule PCB (clearance 7 (type test_pin))
+rule PCB (clearance 7 (type test_via))
+rule PCB (clearance 0 (type area_wire))
+rule PCB (clearance 0 (type area_smd))
+rule PCB (clearance 0 (type area_area))
+rule PCB (clearance 0 (type area_pin))
+rule PCB (clearance 0 (type area_via))
+rule PCB (clearance 0 (type area_test))
+rule PCB (clearance 7 (type microvia_microvia))
+set microvia_microvia on
+rule PCB (clearance 7 (type microvia_thrupin))
+set microvia_thrupin on
+rule PCB (clearance 7 (type microvia_smdpin))
+set microvia_smdpin on
+rule PCB (clearance 7 (type microvia_thruvia))
+set microvia_thruvia on
+rule PCB (clearance 7 (type microvia_bbvia))
+set microvia_bbvia on
+rule PCB (clearance 7 (type microvia_wire))
+set microvia_wire on
+rule PCB (clearance 7 (type bbvia_bbvia))
+set bbvia_bbvia on
+rule PCB (clearance 7 (type microvia_testpin))
+set microvia_testpin on
+rule PCB (clearance 7 (type bbvia_thrupin))
+set bbvia_thrupin on
+rule PCB (clearance 7 (type microvia_testvia))
+set microvia_testvia on
+rule PCB (clearance 7 (type bbvia_smdpin))
+set bbvia_smdpin on
+rule PCB (clearance 7 (type microvia_bondpad))
+set microvia_bondpad on
+rule PCB (clearance 7 (type bbvia_thruvia))
+set bbvia_thruvia on
+rule PCB (clearance 7 (type microvia_area))
+set microvia_area on
+rule PCB (clearance 7 (type bbvia_wire))
+set bbvia_wire on
+rule PCB (clearance 7 (type nhole_pin))
+set nhole_pin off
+rule PCB (clearance 7 (type nhole_via))
+set nhole_via off
+rule PCB (clearance 7 (type bbvia_area))
+set bbvia_area on
+rule PCB (clearance 7 (type nhole_wire))
+set nhole_wire off
+rule PCB (clearance 7 (type nhole_area))
+set nhole_area off
+rule PCB (clearance 7 (type nhole_nhole))
+set nhole_nhole off
+rule PCB (clearance 0 (type mhole_pin))
+set mhole_pin off
+rule PCB (clearance 7 (type bbvia_testpin))
+set bbvia_testpin on
+rule PCB (clearance 0 (type mhole_via))
+set mhole_via off
+rule PCB (clearance 7 (type bbvia_testvia))
+set bbvia_testvia on
+rule PCB (clearance 0 (type mhole_wire))
+set mhole_wire off
+rule PCB (clearance 0 (type mhole_area))
+set mhole_area off
+rule PCB (clearance 0 (type mhole_nhole))
+set mhole_nhole off
+rule PCB (clearance 0 (type mhole_mhole))
+set mhole_mhole off
+rule PCB (clearance 7 (type bbvia_bondpad))
+set bbvia_bondpad on
+rule class _netgrp_FLASH_ADD_BUS (width 5)
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type buried_via_gap))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type wire_wire))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type wire_smd))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type wire_pin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type wire_via))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type smd_smd))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type smd_pin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type smd_via))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type pin_pin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type pin_via))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type via_via))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type test_test))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type test_wire))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type test_smd))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type test_pin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type test_via))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_microvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_thrupin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_smdpin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_thruvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_bbvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_wire))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_bbvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_testpin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_thrupin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_testvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_smdpin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_bondpad))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_thruvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type microvia_area))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_wire))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type nhole_pin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type nhole_via))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_area))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type nhole_wire))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type nhole_area))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type nhole_nhole))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_testpin))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_testvia))
+rule class _netgrp_FLASH_ADD_BUS (clearance 10 (type bbvia_bondpad))
+rule class _netgrp_DATA_BUS (width 5)
+rule class _netgrp_DATA_BUS (clearance 10 (type buried_via_gap))
+rule class _netgrp_DATA_BUS (clearance 10 (type wire_wire))
+rule class _netgrp_DATA_BUS (clearance 10 (type wire_smd))
+rule class _netgrp_DATA_BUS (clearance 10 (type wire_pin))
+rule class _netgrp_DATA_BUS (clearance 10 (type wire_via))
+rule class _netgrp_DATA_BUS (clearance 10 (type smd_smd))
+rule class _netgrp_DATA_BUS (clearance 10 (type smd_pin))
+rule class _netgrp_DATA_BUS (clearance 10 (type smd_via))
+rule class _netgrp_DATA_BUS (clearance 10 (type pin_pin))
+rule class _netgrp_DATA_BUS (clearance 10 (type pin_via))
+rule class _netgrp_DATA_BUS (clearance 10 (type via_via))
+rule class _netgrp_DATA_BUS (clearance 10 (type test_test))
+rule class _netgrp_DATA_BUS (clearance 10 (type test_wire))
+rule class _netgrp_DATA_BUS (clearance 10 (type test_smd))
+rule class _netgrp_DATA_BUS (clearance 10 (type test_pin))
+rule class _netgrp_DATA_BUS (clearance 10 (type test_via))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_microvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_thrupin))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_smdpin))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_thruvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_bbvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_wire))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_bbvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_testpin))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_thrupin))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_testvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_smdpin))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_bondpad))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_thruvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type microvia_area))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_wire))
+rule class _netgrp_DATA_BUS (clearance 10 (type nhole_pin))
+rule class _netgrp_DATA_BUS (clearance 10 (type nhole_via))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_area))
+rule class _netgrp_DATA_BUS (clearance 10 (type nhole_wire))
+rule class _netgrp_DATA_BUS (clearance 10 (type nhole_area))
+rule class _netgrp_DATA_BUS (clearance 10 (type nhole_nhole))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_testpin))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_testvia))
+rule class _netgrp_DATA_BUS (clearance 10 (type bbvia_bondpad))
+rule class _netgrp_SDRAM_ADD_BUS (width 5)
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type buried_via_gap))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type wire_wire))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type wire_smd))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type wire_pin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type wire_via))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type smd_smd))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type smd_pin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type smd_via))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type pin_pin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type pin_via))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type via_via))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type test_test))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type test_wire))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type test_smd))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type test_pin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type test_via))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_microvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_thrupin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_smdpin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_thruvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_bbvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_wire))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_bbvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_testpin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_thrupin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_testvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_smdpin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_bondpad))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_thruvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type microvia_area))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_wire))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type nhole_pin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type nhole_via))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_area))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type nhole_wire))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type nhole_area))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type nhole_nhole))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_testpin))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_testvia))
+rule class _netgrp_SDRAM_ADD_BUS (clearance 10 (type bbvia_bondpad))
+rule class _netgrp_CTL (width 5)
+rule class _netgrp_CTL (clearance 10 (type buried_via_gap))
+rule class _netgrp_CTL (clearance 10 (type wire_wire))
+rule class _netgrp_CTL (clearance 10 (type wire_smd))
+rule class _netgrp_CTL (clearance 10 (type wire_pin))
+rule class _netgrp_CTL (clearance 10 (type wire_via))
+rule class _netgrp_CTL (clearance 10 (type smd_smd))
+rule class _netgrp_CTL (clearance 10 (type smd_pin))
+rule class _netgrp_CTL (clearance 10 (type smd_via))
+rule class _netgrp_CTL (clearance 10 (type pin_pin))
+rule class _netgrp_CTL (clearance 10 (type pin_via))
+rule class _netgrp_CTL (clearance 10 (type via_via))
+rule class _netgrp_CTL (clearance 10 (type test_test))
+rule class _netgrp_CTL (clearance 10 (type test_wire))
+rule class _netgrp_CTL (clearance 10 (type test_smd))
+rule class _netgrp_CTL (clearance 10 (type test_pin))
+rule class _netgrp_CTL (clearance 10 (type test_via))
+rule class _netgrp_CTL (clearance 10 (type microvia_microvia))
+rule class _netgrp_CTL (clearance 10 (type microvia_thrupin))
+rule class _netgrp_CTL (clearance 10 (type microvia_smdpin))
+rule class _netgrp_CTL (clearance 10 (type microvia_thruvia))
+rule class _netgrp_CTL (clearance 10 (type microvia_bbvia))
+rule class _netgrp_CTL (clearance 10 (type microvia_wire))
+rule class _netgrp_CTL (clearance 10 (type bbvia_bbvia))
+rule class _netgrp_CTL (clearance 10 (type microvia_testpin))
+rule class _netgrp_CTL (clearance 10 (type bbvia_thrupin))
+rule class _netgrp_CTL (clearance 10 (type microvia_testvia))
+rule class _netgrp_CTL (clearance 10 (type bbvia_smdpin))
+rule class _netgrp_CTL (clearance 10 (type microvia_bondpad))
+rule class _netgrp_CTL (clearance 10 (type bbvia_thruvia))
+rule class _netgrp_CTL (clearance 10 (type microvia_area))
+rule class _netgrp_CTL (clearance 10 (type bbvia_wire))
+rule class _netgrp_CTL (clearance 10 (type nhole_pin))
+rule class _netgrp_CTL (clearance 10 (type nhole_via))
+rule class _netgrp_CTL (clearance 10 (type bbvia_area))
+rule class _netgrp_CTL (clearance 10 (type nhole_wire))
+rule class _netgrp_CTL (clearance 10 (type nhole_area))
+rule class _netgrp_CTL (clearance 10 (type nhole_nhole))
+rule class _netgrp_CTL (clearance 10 (type bbvia_testpin))
+rule class _netgrp_CTL (clearance 10 (type bbvia_testvia))
+rule class _netgrp_CTL (clearance 10 (type bbvia_bondpad))
+rule class _netgrp_POWER (width 20)
+rule class _netgrp_LCD_BUS (width 5)
+rule class _netgrp_LCD_BUS (clearance 10 (type buried_via_gap))
+rule class _netgrp_LCD_BUS (clearance 10 (type wire_wire))
+rule class _netgrp_LCD_BUS (clearance 10 (type wire_smd))
+rule class _netgrp_LCD_BUS (clearance 10 (type wire_pin))
+rule class _netgrp_LCD_BUS (clearance 10 (type wire_via))
+rule class _netgrp_LCD_BUS (clearance 10 (type smd_smd))
+rule class _netgrp_LCD_BUS (clearance 10 (type smd_pin))
+rule class _netgrp_LCD_BUS (clearance 10 (type smd_via))
+rule class _netgrp_LCD_BUS (clearance 10 (type pin_pin))
+rule class _netgrp_LCD_BUS (clearance 10 (type pin_via))
+rule class _netgrp_LCD_BUS (clearance 10 (type via_via))
+rule class _netgrp_LCD_BUS (clearance 10 (type test_test))
+rule class _netgrp_LCD_BUS (clearance 10 (type test_wire))
+rule class _netgrp_LCD_BUS (clearance 10 (type test_smd))
+rule class _netgrp_LCD_BUS (clearance 10 (type test_pin))
+rule class _netgrp_LCD_BUS (clearance 10 (type test_via))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_microvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_thrupin))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_smdpin))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_thruvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_bbvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_wire))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_bbvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_testpin))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_thrupin))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_testvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_smdpin))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_bondpad))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_thruvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type microvia_area))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_wire))
+rule class _netgrp_LCD_BUS (clearance 10 (type nhole_pin))
+rule class _netgrp_LCD_BUS (clearance 10 (type nhole_via))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_area))
+rule class _netgrp_LCD_BUS (clearance 10 (type nhole_wire))
+rule class _netgrp_LCD_BUS (clearance 10 (type nhole_area))
+rule class _netgrp_LCD_BUS (clearance 10 (type nhole_nhole))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_testpin))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_testvia))
+rule class _netgrp_LCD_BUS (clearance 10 (type bbvia_bondpad))
+rule region RGN_3 (width 5)
+rule region RGN_3 (clearance 5 (type buried_via_gap))
+rule region RGN_3 (clearance 5 (type wire_wire))
+rule region RGN_3 (clearance 5 (type wire_smd))
+rule region RGN_3 (clearance 5 (type wire_pin))
+rule region RGN_3 (clearance 4 (type wire_via))
+rule region RGN_3 (clearance 5 (type smd_smd))
+rule region RGN_3 (clearance 5 (type smd_pin))
+rule region RGN_3 (clearance 5 (type smd_via))
+rule region RGN_3 (clearance 5 (type pin_pin))
+rule region RGN_3 (clearance 5 (type pin_via))
+rule region RGN_3 (clearance 5 (type via_via))
+rule region RGN_3 (clearance 5 (type test_test))
+rule region RGN_3 (clearance 5 (type test_wire))
+rule region RGN_3 (clearance 5 (type test_smd))
+rule region RGN_3 (clearance 5 (type test_pin))
+rule region RGN_3 (clearance 5 (type test_via))
+rule region RGN_3 (clearance 5 (type microvia_microvia))
+rule region RGN_3 (clearance 5 (type microvia_thrupin))
+rule region RGN_3 (clearance 5 (type microvia_smdpin))
+rule region RGN_3 (clearance 5 (type microvia_thruvia))
+rule region RGN_3 (clearance 5 (type microvia_bbvia))
+rule region RGN_3 (clearance 5 (type microvia_wire))
+rule region RGN_3 (clearance 5 (type bbvia_bbvia))
+rule region RGN_3 (clearance 5 (type microvia_testpin))
+rule region RGN_3 (clearance 5 (type bbvia_thrupin))
+rule region RGN_3 (clearance 5 (type microvia_testvia))
+rule region RGN_3 (clearance 5 (type bbvia_smdpin))
+rule region RGN_3 (clearance 5 (type microvia_bondpad))
+rule region RGN_3 (clearance 5 (type bbvia_thruvia))
+rule region RGN_3 (clearance 5 (type microvia_area))
+rule region RGN_3 (clearance 5 (type bbvia_wire))
+rule region RGN_3 (clearance 5 (type nhole_pin))
+rule region RGN_3 (clearance 5 (type nhole_via))
+rule region RGN_3 (clearance 5 (type bbvia_area))
+rule region RGN_3 (clearance 5 (type nhole_wire))
+rule region RGN_3 (clearance 5 (type nhole_area))
+rule region RGN_3 (clearance 5 (type nhole_nhole))
+rule region RGN_3 (clearance 5 (type bbvia_testpin))
+rule region RGN_3 (clearance 5 (type bbvia_testvia))
+rule region RGN_3 (clearance 5 (type bbvia_bondpad))
+rule region RGN_3 (diffpair_line_width 5)
+rule region RGN_3 (neck_down_width 0)
+rule region RGN_3 (edge_coupled_tolerance_plus 0)
+rule region RGN_3 (edge_coupled_tolerance_minus 0)
+rule region RGN_3 (min_line_spacing 0)
+rule region RGN_3 (edge_primary_gap 0)
+rule region RGN_3 (neck_down_gap 0)
+rule region RGN_2 (width 5)
+rule region RGN_2 (clearance 5 (type buried_via_gap))
+rule region RGN_2 (clearance 5 (type wire_wire))
+rule region RGN_2 (clearance 5 (type wire_smd))
+rule region RGN_2 (clearance 5 (type wire_pin))
+rule region RGN_2 (clearance 4 (type wire_via))
+rule region RGN_2 (clearance 5 (type smd_smd))
+rule region RGN_2 (clearance 5 (type smd_pin))
+rule region RGN_2 (clearance 5 (type smd_via))
+rule region RGN_2 (clearance 5 (type pin_pin))
+rule region RGN_2 (clearance 5 (type pin_via))
+rule region RGN_2 (clearance 5 (type via_via))
+rule region RGN_2 (clearance 5 (type test_test))
+rule region RGN_2 (clearance 5 (type test_wire))
+rule region RGN_2 (clearance 5 (type test_smd))
+rule region RGN_2 (clearance 5 (type test_pin))
+rule region RGN_2 (clearance 5 (type test_via))
+rule region RGN_2 (clearance 5 (type microvia_microvia))
+rule region RGN_2 (clearance 5 (type microvia_thrupin))
+rule region RGN_2 (clearance 5 (type microvia_smdpin))
+rule region RGN_2 (clearance 5 (type microvia_thruvia))
+rule region RGN_2 (clearance 5 (type microvia_bbvia))
+rule region RGN_2 (clearance 5 (type microvia_wire))
+rule region RGN_2 (clearance 5 (type bbvia_bbvia))
+rule region RGN_2 (clearance 5 (type microvia_testpin))
+rule region RGN_2 (clearance 5 (type bbvia_thrupin))
+rule region RGN_2 (clearance 5 (type microvia_testvia))
+rule region RGN_2 (clearance 5 (type bbvia_smdpin))
+rule region RGN_2 (clearance 5 (type microvia_bondpad))
+rule region RGN_2 (clearance 5 (type bbvia_thruvia))
+rule region RGN_2 (clearance 5 (type microvia_area))
+rule region RGN_2 (clearance 5 (type bbvia_wire))
+rule region RGN_2 (clearance 5 (type nhole_pin))
+rule region RGN_2 (clearance 5 (type nhole_via))
+rule region RGN_2 (clearance 5 (type bbvia_area))
+rule region RGN_2 (clearance 5 (type nhole_wire))
+rule region RGN_2 (clearance 5 (type nhole_area))
+rule region RGN_2 (clearance 5 (type nhole_nhole))
+rule region RGN_2 (clearance 5 (type bbvia_testpin))
+rule region RGN_2 (clearance 5 (type bbvia_testvia))
+rule region RGN_2 (clearance 5 (type bbvia_bondpad))
+rule region RGN_2 (diffpair_line_width 5)
+rule region RGN_2 (neck_down_width 0)
+rule region RGN_2 (edge_coupled_tolerance_plus 0)
+rule region RGN_2 (edge_coupled_tolerance_minus 0)
+rule region RGN_2 (min_line_spacing 0)
+rule region RGN_2 (edge_primary_gap 0)
+rule region RGN_2 (neck_down_gap 0)
+rule region RGN_1 (width 5)
+rule region RGN_1 (clearance 5 (type buried_via_gap))
+rule region RGN_1 (clearance 5 (type wire_wire))
+rule region RGN_1 (clearance 5 (type wire_smd))
+rule region RGN_1 (clearance 5 (type wire_pin))
+rule region RGN_1 (clearance 4 (type wire_via))
+rule region RGN_1 (clearance 5 (type smd_smd))
+rule region RGN_1 (clearance 5 (type smd_pin))
+rule region RGN_1 (clearance 5 (type smd_via))
+rule region RGN_1 (clearance 5 (type pin_pin))
+rule region RGN_1 (clearance 5 (type pin_via))
+rule region RGN_1 (clearance 5 (type via_via))
+rule region RGN_1 (clearance 5 (type test_test))
+rule region RGN_1 (clearance 5 (type test_wire))
+rule region RGN_1 (clearance 5 (type test_smd))
+rule region RGN_1 (clearance 5 (type test_pin))
+rule region RGN_1 (clearance 5 (type test_via))
+rule region RGN_1 (clearance 5 (type microvia_microvia))
+rule region RGN_1 (clearance 5 (type microvia_thrupin))
+rule region RGN_1 (clearance 5 (type microvia_smdpin))
+rule region RGN_1 (clearance 5 (type microvia_thruvia))
+rule region RGN_1 (clearance 5 (type microvia_bbvia))
+rule region RGN_1 (clearance 5 (type microvia_wire))
+rule region RGN_1 (clearance 5 (type bbvia_bbvia))
+rule region RGN_1 (clearance 5 (type microvia_testpin))
+rule region RGN_1 (clearance 5 (type bbvia_thrupin))
+rule region RGN_1 (clearance 5 (type microvia_testvia))
+rule region RGN_1 (clearance 5 (type bbvia_smdpin))
+rule region RGN_1 (clearance 5 (type microvia_bondpad))
+rule region RGN_1 (clearance 5 (type bbvia_thruvia))
+rule region RGN_1 (clearance 5 (type microvia_area))
+rule region RGN_1 (clearance 5 (type bbvia_wire))
+rule region RGN_1 (clearance 5 (type nhole_pin))
+rule region RGN_1 (clearance 5 (type nhole_via))
+rule region RGN_1 (clearance 5 (type bbvia_area))
+rule region RGN_1 (clearance 5 (type nhole_wire))
+rule region RGN_1 (clearance 5 (type nhole_area))
+rule region RGN_1 (clearance 5 (type nhole_nhole))
+rule region RGN_1 (clearance 5 (type bbvia_testpin))
+rule region RGN_1 (clearance 5 (type bbvia_testvia))
+rule region RGN_1 (clearance 5 (type bbvia_bondpad))
+rule region RGN_1 (diffpair_line_width 5)
+rule region RGN_1 (neck_down_width 0)
+rule region RGN_1 (edge_coupled_tolerance_plus 0)
+rule region RGN_1 (edge_coupled_tolerance_minus 0)
+rule region RGN_1 (min_line_spacing 0)
+rule region RGN_1 (edge_primary_gap 0)
+rule region RGN_1 (neck_down_gap 0)
+rule PCB (clearance -1 same_net (type wire_wire))
+rule PCB (clearance -1 same_net (type wire_smd))
+rule PCB (clearance -1 same_net (type wire_pin))
+rule PCB (clearance -1 same_net (type wire_via))
+rule PCB (clearance -1 same_net (type smd_smd))
+rule PCB (clearance -1 same_net (type smd_pin))
+rule PCB (clearance -1 same_net (type smd_via))
+rule PCB (clearance -1 same_net (type pin_pin))
+rule PCB (clearance -1 same_net (type pin_via))
+rule PCB (clearance -1 same_net (type via_via))
+rule PCB (clearance -1 same_net (type test_test))
+rule PCB (clearance -1 same_net (type test_wire))
+rule PCB (clearance -1 same_net (type test_smd))
+rule PCB (clearance -1 same_net (type test_pin))
+rule PCB (clearance -1 same_net (type test_via))
+rule PCB (clearance 0 same_net (type area_wire))
+rule PCB (clearance 0 same_net (type area_smd))
+rule PCB (clearance 0 same_net (type area_area))
+rule PCB (clearance 0 same_net (type area_pin))
+rule PCB (clearance 0 same_net (type area_via))
+rule PCB (clearance 0 same_net (type area_test))
+rule PCB (clearance 5 same_net (type microvia_microvia))
+set microvia_microvia same_net off
+rule PCB (clearance 5 same_net (type microvia_thrupin))
+set microvia_thrupin same_net off
+rule PCB (clearance 5 same_net (type microvia_smdpin))
+set microvia_smdpin same_net off
+rule PCB (clearance 5 same_net (type microvia_thruvia))
+set microvia_thruvia same_net off
+rule PCB (clearance 5 same_net (type microvia_bbvia))
+set microvia_bbvia same_net off
+rule PCB (clearance 5 same_net (type microvia_wire))
+set microvia_wire same_net off
+rule PCB (clearance 5 same_net (type microvia_testpin))
+set microvia_testpin same_net off
+rule PCB (clearance 5 same_net (type microvia_testvia))
+set microvia_testvia same_net off
+rule PCB (clearance 5 same_net (type microvia_bondpad))
+set microvia_bondpad same_net off
+rule PCB (clearance 5 same_net (type microvia_area))
+set microvia_area same_net off
+rule PCB (clearance 8 same_net (type nhole_pin))
+set nhole_pin same_net off
+rule PCB (clearance 8 same_net (type nhole_via))
+set nhole_via same_net off
+rule PCB (clearance 8 same_net (type nhole_wire))
+set nhole_wire same_net off
+rule PCB (clearance 8 same_net (type nhole_area))
+set nhole_area same_net off
+rule PCB (clearance 8 same_net (type nhole_nhole))
+set nhole_nhole same_net off
+rule PCB (clearance 5 same_net (type bbvia_bbvia))
+set bbvia_bbvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_thrupin))
+set bbvia_thrupin same_net off
+rule PCB (clearance 5 same_net (type bbvia_smdpin))
+set bbvia_smdpin same_net off
+rule PCB (clearance 5 same_net (type bbvia_thruvia))
+set bbvia_thruvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_wire))
+set bbvia_wire same_net off
+rule PCB (clearance 5 same_net (type bbvia_area))
+set bbvia_area same_net off
+rule PCB (clearance 5 same_net (type bbvia_testpin))
+set bbvia_testpin same_net off
+rule PCB (clearance 5 same_net (type bbvia_testvia))
+set bbvia_testvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_bondpad))
+set bbvia_bondpad same_net off
+rule pcb (tjunction on)(junction_type all)
+rule pcb (staggered_via on (min_gap 7))
+rule class _netgrp_FLASH_ADD_BUS (tjunction on)(junction_type all)
+rule class _netgrp_FLASH_ADD_BUS (staggered_via on (min_gap 5))
+circuit class _netgrp_FLASH_ADD_BUS (use_via 'VIA-8-11' )
+rule class _netgrp_DATA_BUS (tjunction on)(junction_type all)
+rule class _netgrp_DATA_BUS (staggered_via on (min_gap 5))
+circuit class _netgrp_DATA_BUS (use_via 'VIA-8-11' )
+rule class _netgrp_SDRAM_ADD_BUS (tjunction on)(junction_type all)
+rule class _netgrp_SDRAM_ADD_BUS (staggered_via on (min_gap 5))
+circuit class _netgrp_SDRAM_ADD_BUS (use_via 'VIA-8-11' )
+rule class _netgrp_CTL (tjunction on)(junction_type all)
+rule class _netgrp_CTL (staggered_via on (min_gap 5))
+circuit class _netgrp_CTL (use_via 'VIA-8-11' )
+rule class _netgrp_POWER (tjunction on)(junction_type all)
+rule class _netgrp_POWER (staggered_via on (min_gap 20))
+circuit class _netgrp_POWER (use_via 'VIA-8-11' )
+rule class _netgrp_LCD_BUS (tjunction on)(junction_type all)
+rule class _netgrp_LCD_BUS (staggered_via on (min_gap 5))
+circuit class _netgrp_LCD_BUS (use_via 'VIA-8-11' )
+circuit region RGN_3 (use_via 'VIA-8-11' )
+rule region RGN_3 (staggered_via on (min_gap 5))
+circuit region RGN_2 (use_via 'VIA-8-11' )
+rule region RGN_2 (staggered_via on (min_gap 5))
+circuit region RGN_1 (use_via 'VIA-8-11' )
+rule region RGN_1 (staggered_via on (min_gap 5))
+rule pcb (via_at_smd off)
+rule PCB (turn_under_pad off)
+rule layer TOP (restricted_layer_length_factor 1)
+rule layer BOTTOM (restricted_layer_length_factor 1)
+circuit group _REL_DELAY_M3_PE4 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PI4 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PI5 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PG7 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PI6 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PI7 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PI9 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PF10 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PG10 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PG11 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PI10 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M3_PG12 (match_fromto_length on (tolerance 1200.00000))
+circuit group _REL_DELAY_M1 (match_fromto_length on (tolerance 800.00000))
+circuit group _REL_DELAY_M2 (match_fromto_length on (tolerance 800.00000))
+define (net PG11 (fromto P2-24 U1-B9  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG11 (fromto U1-B9 F1-12  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PE4 (fromto F1-15 U1-B1  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PE4 (fromto U1-B1 P2-21  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI2 (fromto P2-19 U1-C14  (circuit (length 2400 0 (type actual)))))
+define (net PI1 (fromto P2-18 U1-D14  (circuit (length 2400 0 (type actual)))))
+define (net PI0 (fromto P2-17 U1-E14  (circuit (length 2400 0 (type actual)))))
+define (net PE6 (fromto P2-13 U1-B3  (circuit (length 2400 0 (type actual)))))
+define (net PE5 (fromto P2-12 U1-B2  (circuit (length 2400 0 (type actual)))))
+define (net PG6 (fromto P2-10 U1-J15  (circuit (length 2400 0 (type actual)))))
+define (net PH3 (fromto P2-4 U1-G4  (circuit (length 2400 0 (type actual)))))
+define (net PH2 (fromto P2-3 U1-F4  (circuit (length 2400 0 (type actual)))))
+define (net PF10 (fromto P2-33 U1-L1  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PF10 (fromto U1-L1 F1-16  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI10 (fromto F1-18 U1-E3  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI10 (fromto U1-E3 P2-31  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI9 (fromto F1-17 U1-D3  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI9 (fromto U1-D3 P2-32  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG7 (fromto P2-30 U1-J14  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG7 (fromto U1-J14 F1-19  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI7 (fromto P2-28 U1-C2  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI7 (fromto U1-C2 F1-7  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI6 (fromto P2-27 U1-C3  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI6 (fromto U1-C3 F1-8  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI5 (fromto P2-26 U1-C4  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI5 (fromto U1-C4 F1-9  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI4 (fromto P2-25 U1-D4  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PI4 (fromto U1-D4 F1-10  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG12 (fromto P2-22 U1-B8  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG12 (fromto U1-B8 F1-14  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG10 (fromto P2-23 U1-B10  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PG10 (fromto U1-B10 F1-13  (type soft)  (circuit (length 2400 0 (type actual)))))
+define (net PD8 (fromto U1-P15 U8-B2  (circuit (length 800 0 (type actual)))))
+define (net PH15 (fromto P2-16 U1-D13  (circuit (length 2400 0 (type actual)))))
+define (net PH14 (fromto P2-15 U1-E13  (circuit (length 2400 0 (type actual)))))
+define (net PH13 (fromto P2-14 U1-E12  (circuit (length 2400 0 (type actual)))))
+define (net PH12 (fromto P2-9 U1-K12  (circuit (length 2400 0 (type actual)))))
+define (net PH11 (fromto P2-8 U1-L12  (circuit (length 2400 0 (type actual)))))
+define (net PH10 (fromto P2-7 U1-L13  (circuit (length 2400 0 (type actual)))))
+define (net PH9 (fromto P2-6 U1-M13  (circuit (length 2400 0 (type actual)))))
+define (net PH8 (fromto P2-5 U1-M12  (circuit (length 2400 0 (type actual)))))
+define (net PD10 (fromto U1-N15 U8-A2  (circuit (length 800 0 (type actual)))))
+define (net PD9 (fromto U1-P14 U8-B1  (circuit (length 800 0 (type actual)))))
+define (net PE15 (fromto U1-R11 U8-C1  (circuit (length 800 0 (type actual)))))
+define (net PE14 (fromto U1-P11 U8-C2  (circuit (length 800 0 (type actual)))))
+define (net PE13 (fromto U1-N11 U8-D1  (circuit (length 800 0 (type actual)))))
+define (net PE12 (fromto U1-R10 U8-D2  (circuit (length 800 0 (type actual)))))
+define (net PE11 (fromto U1-P10 U8-E1  (circuit (length 800 0 (type actual)))))
+define (net PG5 (fromto U1-K13 U8-G8  (circuit (length 800 0 (type actual)))))
+define (net PG4 (fromto U1-K14 U8-G7  (circuit (length 800 0 (type actual)))))
+define (net PG2 (fromto U1-L15 U8-G1  (circuit (length 800 0 (type actual)))))
+define (net PG1 (fromto U1-M7 U8-G2  (circuit (length 800 0 (type actual)))))
+define (net PG0 (fromto U1-N7 U8-H9  (circuit (length 800 0 (type actual)))))
+define (net PF15 (fromto U1-P7 U8-G3  (circuit (length 800 0 (type actual)))))
+define (net PF14 (fromto U1-R7 U8-H1  (circuit (length 800 0 (type actual)))))
+define (net PF13 (fromto U1-N6 U8-H2  (circuit (length 800 0 (type actual)))))
+define (net PF12 (fromto U1-P6 U8-H3  (circuit (length 800 0 (type actual)))))
+define (net PF5 (fromto U1-K3 U8-J2  (circuit (length 800 0 (type actual)))))
+define (net PF4 (fromto U1-J3 U8-J3  (circuit (length 800 0 (type actual)))))
+define (net PF3 (fromto U1-J2 U8-J7  (circuit (length 800 0 (type actual)))))
+define (net PF2 (fromto U1-H2 U8-J8  (circuit (length 800 0 (type actual)))))
+define (net PF1 (fromto U1-H3 U8-H8  (circuit (length 800 0 (type actual)))))
+define (net PF0 (fromto U1-E2 U8-H7  (circuit (length 800 0 (type actual)))))
+define (net PE10 (fromto U8-E9 U1-R9  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PE10 (fromto U1-R9 U7-J8  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PE9 (fromto U8-D8 U1-P9  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PE9 (fromto U1-P9 U7-K7  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PE8 (fromto U8-D9 U1-P8  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PE8 (fromto U1-P8 U7-J7  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PE7 (fromto U8-C8 U1-R8  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PE7 (fromto U1-R8 U7-K6  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PD1 (fromto U8-C9 U1-C12  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PD1 (fromto U1-C12 U7-K5  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PD0 (fromto U8-B8 U1-B12  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PD0 (fromto U1-B12 U7-K4  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PD15 (fromto U8-B9 U1-L14  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PD15 (fromto U1-L14 U7-J4  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PD14 (fromto U8-A8 U1-M14  (type soft)  (circuit (length 800 0 (type actual)))))
+define (net PD14 (fromto U1-M14 U7-H4  (type soft)  (circuit (length 1200 0 (type actual)))))
+define (net PD12 (fromto U7-D5 U1-N13  (circuit (length 1200 0 (type actual)))))
+define (net PD11 (fromto U7-C4 U1-N14  (circuit (length 1200 0 (type actual)))))
+write colormap _notify.std
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaak13540.tmp
+unselect all routing
+select component U1
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+fanout 1 (direction Out) (location Inside) (pin_type power) (pin_type signal)
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaal13540.tmp
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaam13540.tmp
+unselect all routing
+select component U8
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+fanout 1 (direction Out) (location Inside) (pin_type power) (pin_type signal)
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaan13540.tmp
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaap13540.tmp
+unselect all objects
+select net 'OSC32-OUT'
+select net 'OSC32-IN'
+select net 'OSC-IN'
+select net 'OSC-OUT'
+select net PG11
+select net PE4
+select net PI2
+select net PI1
+select net PI0
+select net PE6
+select net PE5
+select net PG6
+select net PB8
+select net PB15
+select net PA10
+select net PA9
+select net PC6
+select net PF10
+select net PA8
+select net PG7
+select net PI7
+select net PA11
+select net PG12
+select net GND
+select net VDDA
+select net PB14
+select net PB13
+select net PB12
+select net PA5
+select net PA3
+select net PA2
+select net PA1
+select net PA6
+select net PA7
+select net PB7
+select net PG10
+select net RESET
+select net TDO
+select net TCK
+select net TMS
+select net TDI
+select net TRST
+select net PD8
+select net PE2
+select net PD10
+select net PD9
+select net PE15
+select net PE14
+select net PE13
+select net PE12
+select net PE11
+select net PE1
+select net PE0
+select net PG8
+select net PB5
+select net PF11
+select net PG15
+select net PC0
+select net PB6
+select net PG5
+select net PG4
+select net PG2
+select net PG1
+select net PG0
+select net PF15
+select net PF14
+select net PF13
+select net PF12
+select net PF5
+select net PF4
+select net PF3
+select net PF2
+select net PF1
+select net PF0
+select net PE10
+select net PE9
+select net PE8
+select net PE7
+select net PD1
+select net PD0
+select net PD15
+select net PD14
+select net PD11
+select net PD6
+select net 3.3V
+unprotect selected
+delete selected
+unprotect selected polygon
+delete selected polygon
+unselect all objects
+read route C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaao13540.tmp
+# do C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaaq13540.tmp
+unselect all routing
+select component U8
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+fanout 1 (direction In) (location Inside) (pin_type power) (pin_type signal)
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaar13540.tmp
+quit -c

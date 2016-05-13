@@ -1,0 +1,1062 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Oct-10-2015 at 09:11:14 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='GLASS';
+ POST_TIME='Oct 15 2014 05:53:32';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_0603_20PF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS19643@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins19643@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins19643@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS4194@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins4194@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins4194@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS6306@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins6306@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins6306@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_0603_12PF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS19002@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins19002@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins19002@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS6280@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins6280@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins6280@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS40109@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins40109@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins40109@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP NP_0603_33NF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS38496@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins38496@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins38496@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP NP_0603_1NF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS14894@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins14894@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins14894@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP NP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS39266@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins39266@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins39266@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP NP_0603_1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS39525@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins39525@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins39525@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS38814@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins38814@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins38814@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP NP_0603_560PF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43228@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43228@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43228@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_0603_10NF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43256@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43256@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43256@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS28470@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins28470@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins28470@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS46111@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins46111@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins46111@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43272@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43272@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43272@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43372@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43372@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43372@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS67509@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins67509@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins67509@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP NP_0603_560PF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41455@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41455@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41455@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP NP_0603_10NF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41515@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41515@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41515@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS46903@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins46903@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins46903@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C37 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS47207@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins47207@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins47207@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41541@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41541@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41541@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'CAP NP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41804@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41804@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41804@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS6911@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins6911@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins6911@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS1373@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins1373@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins1373@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C41 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS1415@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins1415@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins1415@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS1441@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins1441@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins1441@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C43 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS1467@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins1467@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins1467@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C44 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS4343@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins4343@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins4343@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C45 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS4359@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins4359@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins4359@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C46 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS4375@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins4375@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins4375@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C47 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS4399@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins4399@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins4399@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS4682@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins4682@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins4682@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS4698@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins4698@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins4698@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS4064@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins4064@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins4064@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C51 'CAP NP_0603_20PF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS115858@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins115858@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins115858@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP NP_0603_12PF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS115884@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins115884@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins115884@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS4090@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins4090@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins4090@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS4116@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins4116@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins4116@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS4142@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins4142@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins4142@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_0603_0.1UF':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS4168@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins4168@discrete.\cap np.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins4168@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 '1N5819_SOD323_1N5819':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS39431@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins39431@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins39431@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_0805_LED':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS63707@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins63707@discrete.\led.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins63707@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FPC-22_FPC-22_FPC-22':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):LCD@GLASS.LCD(SCH_1):INS53879@MYLIBRARY.FPC-22.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):lcd@glass.lcd(sch_1):ins53879@mylibrary.\fpc-22.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_lcd@glass.lcd(sch_1):page1_ins53879@mylibrary.\fpc-22.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON3_H-3_CON3':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS82242@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins82242@connector.\con3.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins82242@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON3_H-3_CON3':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS82260@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins82260@connector.\con3.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins82260@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON3_H-3_CON3':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS82278@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins82278@connector.\con3.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins82278@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON3_H-3_CON3':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS82296@CONNECTOR.CON3.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins82296@connector.\con3.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins82296@connector.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON4_H-4_CON4':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS67216@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins67216@connector.\con4.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins67216@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_0603_10UH':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS1319@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins1319@discrete.\inductor.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins1319@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_1008_1UH':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS38567@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins38567@discrete.\inductor.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins38567@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_1008_1UH':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43344@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43344@discrete.\inductor.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43344@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'INDUCTOR_1008_1UH':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41709@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41709@discrete.\inductor.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41709@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ O1 'OSC-CLK_OSC-3215_OSC-CLK':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS113600@MYLIBRARY.OSC-CLK.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins113600@mylibrary.\osc-clk.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins113600@mylibrary.\osc-clk.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ O2 'OSC-N_OSC-3225_25M':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS113571@MYLIBRARY.OSC-N.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins113571@mylibrary.\osc-n.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins113571@mylibrary.\osc-n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ P1 'JTAG_H-10-2_JTAG':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS10656@MYLIBRARY.JTAG.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins10656@mylibrary.\jtag.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins10656@mylibrary.\jtag.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ P2 'LCD_H-20-2_LCD':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):LCD@GLASS.LCD(SCH_1):INS69685@MYLIBRARY.LCD.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):lcd@glass.lcd(sch_1):ins69685@mylibrary.\lcd.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_lcd@glass.lcd(sch_1):page1_ins69685@mylibrary.\lcd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS27724@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins27724@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins27724@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS8366@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins8366@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins8366@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_0603_30K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS39668@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins39668@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins39668@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_0603_56K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS14870@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins14870@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins14870@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS38222@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins38222@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins38222@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_0603_10':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS38593@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins38593@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins38593@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_0603_0':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS46085@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins46085@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins46085@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_0603_22K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43312@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43312@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43312@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_0603_33K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43208@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43208@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43208@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_0603_100K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43492@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43492@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43492@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_0603_330K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43296@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43296@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43296@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS17171@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins17171@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins17171@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_0603_68K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43328@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43328@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43328@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_0603_100K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS47576@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins47576@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins47576@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_0603_2K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS47602@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins47602@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins47602@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_0603_0':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS49295@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins49295@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins49295@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_0603_22K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41429@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41429@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41429@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_0603_22K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41657@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41657@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41657@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_0603_22K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS49395@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins49395@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins49395@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'R_0603_100K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS42394@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins42394@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins42394@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_0603_330K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41631@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41631@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41631@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'R_0603_47K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41683@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41683@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41683@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS17197@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins17197@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins17197@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):LCD@GLASS.LCD(SCH_1):INS70089@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):lcd@glass.lcd(sch_1):ins70089@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_lcd@glass.lcd(sch_1):page1_ins70089@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):LCD@GLASS.LCD(SCH_1):INS68566@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):lcd@glass.lcd(sch_1):ins68566@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_lcd@glass.lcd(sch_1):page1_ins68566@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):LCD@GLASS.LCD(SCH_1):INS68590@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):lcd@glass.lcd(sch_1):ins68590@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_lcd@glass.lcd(sch_1):page1_ins68590@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS2912@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins2912@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins2912@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS1102@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins1102@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins1102@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS6271@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins6271@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins6271@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS14794@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins14794@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins14794@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS14428@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins14428@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins14428@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS14766@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins14766@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins14766@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS14822@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins14822@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins14822@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS8340@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins8340@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins8340@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_0603_10K':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS14850@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins14850@discrete.\r.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins14850@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'STM32F429_STM32F429-UFBGA176_(S':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):INS74@MYLIBRARY.STM32F429A.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins74@mylibrary.\stm32f429a.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins74@mylibrary.\stm32f429a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@GLASS.TOP(SCH_1):INS276@MYLIBRARY.STM32F429B.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins276@mylibrary.\stm32f429b.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins276@mylibrary.\stm32f429b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@GLASS.TOP(SCH_1):INS421@MYLIBRARY.STM32F429C.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins421@mylibrary.\stm32f429c.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins421@mylibrary.\stm32f429c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@GLASS.TOP(SCH_1):INS558@MYLIBRARY.STM32F429D.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins558@mylibrary.\stm32f429d.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins558@mylibrary.\stm32f429d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@GLASS.TOP(SCH_1):INS12110@MYLIBRARY.STM32F429E.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins12110@mylibrary.\stm32f429e.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins12110@mylibrary.\stm32f429e.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@GLASS.TOP(SCH_1):INS862@MYLIBRARY.STM32F429F.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):ins862@mylibrary.\stm32f429f.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_ins862@mylibrary.\stm32f429f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+PART_NAME
+ U2 'RT8509_RT8509-DFN10_RT8509':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS105@MYLIBRARY.RT8509.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins105@mylibrary.\rt8509.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins105@mylibrary.\rt8509.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'MAX17048_MAX17048-TDFN8_MAX1704':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS46008@MYLIBRARY.MAX17048.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins46008@mylibrary.\max17048.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins46008@mylibrary.\max17048.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'RT8065_RT8065-DFN8_RT8065':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS43178@MYLIBRARY.RT8065.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins43178@mylibrary.\rt8065.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins43178@mylibrary.\rt8065.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'MAX8856_MAX8856-TDFN14_MAX8856':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS46596@MYLIBRARY.MAX8856.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins46596@mylibrary.\max8856.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins46596@mylibrary.\max8856.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'RT8065_RT8065-DFN8_RT8065':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):POWER@GLASS.POWER(SCH_1):INS41373@MYLIBRARY.RT8065.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):power@glass.power(sch_1):ins41373@mylibrary.\rt8065.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_power@glass.power(sch_1):page1_ins41373@mylibrary.\rt8065.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'MT29F4G08ABAEAH4_MT29F4G08ABAEA':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS641@MYLIBRARY.MT29F4G08ABAEAH4A.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins641@mylibrary.\mt29f4g08abaeah4a.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins641@mylibrary.\mt29f4g08abaeah4a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS1720@MYLIBRARY.MT29F4G08ABAEAH4B.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins1720@mylibrary.\mt29f4g08abaeah4b.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins1720@mylibrary.\mt29f4g08abaeah4b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U8 'MT48LC8M16A2_MT48LC8M16A2-VFBGA':;
+
+SECTION_NUMBER 1
+ '@GLASS.TOP(SCH_1):BLOCK@GLASS.NANDFLASH&SDRAM(SCH_1):INS2508@MYLIBRARY.MT48LC8M16A2.NORMAL(CHIPS)':
+ C_PATH='@glass.top(sch_1):\block\@glass.\nandflash&sdram\(sch_1):ins2508@mylibrary.\mt48lc8m16a2.normal\(chips)',
+ P_PATH='@glass.top(sch_1):page1_block@glass.\nandflash&sdram\(sch_1):page1_ins2508@mylibrary.\mt48lc8m16a2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

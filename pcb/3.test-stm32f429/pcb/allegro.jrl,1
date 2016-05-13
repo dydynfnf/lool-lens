@@ -1,0 +1,12 @@
+\t (00:03:06) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:03:06)     Journal start - Fri May 06 00:03:11 2016
+\t (00:03:06)         Host=PSAI-PC User=psai Pid=984 CPUs=4
+\t (00:03:06) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:03:06) 
+\d (00:03:06) Design opened: E:/material/glass/pcb/3.test-stm32f429/pcb/f429.brd
+\i (00:04:21) open 
+\i (00:04:30) fillin "E:\material\lool Inds Vibration\hardware\v1.0\pcb\vibration.brd"
+\i (00:04:30) cd "E:\material\lool Inds Vibration\hardware\v1.0\pcb"
+\t (00:04:30) Opening existing design...
+\i (00:04:31) trapsize 672
+\t (00:04:31)     Journal end - Fri May 06 00:04:36 2016

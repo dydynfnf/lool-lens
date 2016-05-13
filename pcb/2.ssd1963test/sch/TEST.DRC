@@ -1,0 +1,135 @@
+Date and Time : 09/13/15 15:10:40
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Compatibility with SDT
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    1.2
+    5
+    3.3
+    2.5
+    GND
+
+Reporting Net Names
+    RD
+    LD10
+    LD16
+    D3
+    D10
+    LD11
+    D7
+    D1
+    N24542
+    N21532
+    LFRAME
+    D0
+    LD4
+    DEN
+    1.2
+    LD3
+    LD14
+    D12
+    D8
+    LD9
+    RS
+    LD5
+    5
+    SPI_CS
+    LD0
+    D5
+    2.5
+    D9
+    D6
+    LD17
+    LD13
+    D2
+    LED-
+    N01093
+    LED+
+    D4
+    PB6
+    LCD_RST
+    SPI_SCK
+    D14
+    MOSI
+    LD6
+    SHIFT
+    MISO
+    LD7
+    CS
+    LD12
+    GAMAS0
+    GND
+    D11
+    LLINE
+    LD1
+    LD2
+    D15
+    LD15
+    D13
+    LD8
+    N11014
+    3.3
+    PWM
+    WR
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: TEST 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

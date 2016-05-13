@@ -1,0 +1,54 @@
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\c#pro\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form7.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form8.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\material\GUI\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form7.resources
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form9.resources
+E:\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\Administrator\Desktop\17.STM32429+lcos+demo\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Desktop\17.STM32429+lcos+demo\0.gui design\GUIBuilder\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

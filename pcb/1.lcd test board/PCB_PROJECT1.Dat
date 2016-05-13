@@ -1,0 +1,21 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_PROJECT1.PRJPCB|ReportField=ProjectFullPath~E:\material\vbration-fpga\pcb\5.pxi test\PCB_PROJECT1.PRJPCB|ReportField=Title~Bill of Materials For Project [PCB_PROJECT1.PRJPCB] (No PCB Document Selected)|ReportField=TotalQuantity~205|ReportField=ReportTime~23:57:50|ReportField=ReportDate~2015/4/8|ReportField=ReportDateTime~2015/4/8 23:57:50|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2015/4/8|ReportField=CurrentTime~23:57:44|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\material\vbration-fpga\pcb\5.pxi test\TOP.SchDoc|ReportField=DocumentName~TOP.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2015/4/8|ReportField=Organization~|ReportField=ProjectName~PCB_PROJECT1.PRJPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_PROJECT1.PRJPCB|ReportField=DataSourceFullPath~E:\material\vbration-fpga\pcb\5.pxi test\PCB_PROJECT1.PRJPCB
+Cap|Capacitor|C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C80|0402|Cap|60
+Cap|Capacitor|C43, C75, C76, C77, C78, C79|0805|Cap|6
+Cap Pol1|Polarized Capacitor (Radial)|C61, C63, C65, C67, C69, C71, C73|3216|Cap Pol1|7
+Cap|Capacitor|C62, C64, C66, C68, C70, C72, C74|0603|Cap|7
+KEY||K1|KEY(3*6*2.5)|KEY|1
+L||L1|0402|BEAD|1
+LED||L2|LED(SMD)|LED|1
+AS|Header, 5-Pin, Dual row|P1|HDR2X5|Header 5X2|1
+JTAG|Header, 5-Pin, Dual row|P2|HDR2X5|Header 5X2|1
+PXI-J1||PXI1|PXI-J1|PXI-J1|1
+Res2|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R63, R64, R65, R66, R67, R68, R69, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, R100, R101, R102, R103, R104, R105, R106, R107, R108, R109, R110, R111|0402|Res2|110
+Res2|Resistor|R62|0603|Res2|1
+EP4CE15F17C8||U1|EP4CE15F17C8(BGA)|EP4CE15F17C8|1
+M25P64||U2|M25P64(SOP16)|M25P64|1
+PCI9054||U3|PCI9054(BGA)|PCI9054|1
+93LC56B||U4|93LC56B(SOIC)|93LC56B|1
+SPX3819M5-L-1-2||U5|SPX3819M5-L-1-2(SOT23)|SPX3819M5-L-1-2|1
+LT1963-2.5||U6|LT1963(SOP8)|LT1963|1
+LT1963-3.3||U7|LT1963(SOP8)|LT1963|1
+XTL||X1|XTL(7050)|XTL|1

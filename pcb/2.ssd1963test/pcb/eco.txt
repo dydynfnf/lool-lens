@@ -1,0 +1,397 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  5            pins ADDED TO this new net
+                                 C14.1          F1.1           F1.11          
+                                 H1.37          H1.39          J1.1           
+                                 L1.2           U4.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  1.2          pins ADDED TO this new net
+                                 C2.1           C7.2           C8.2           
+                                 C12.1          C17.1          C19.1          
+                                 U2.2           U3.1           U3.6           
+                                 U3.14          U3.18          U3.21          
+                                 U3.25          U3.32          U3.40          
+                                 U3.46          U3.56          U3.64          
+                                 U3.73          U3.82          U3.93          
+                                 U3.102         U3.110         U3.119         
+                                 U3.126         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  2.5          pins ADDED TO this new net
+                                 C5.2           C6.2           F1.22          
+                                 U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  3.3          pins ADDED TO this new net
+                                 C1.1           C3.2           C4.2           
+                                 C9.2           C10.2          C11.1          
+                                 C13.2          C16.1          C18.1          
+                                 F2.4           H1.1           J1.2           
+                                 O1.4           R1.2           U1.3           
+                                 U2.3           U3.4           U3.12          
+                                 U3.16          U3.27          U3.34          
+                                 U3.42          U3.48          U3.54          
+                                 U3.58          U3.66          U3.75          
+                                 U3.84          U3.95          U3.97          
+                                 U3.100         U3.108         U3.117         
+                                 U3.124         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CS           pins ADDED TO this new net
+                                 H1.11          U3.123         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D0           pins ADDED TO this new net
+                                 H1.31          U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D1           pins ADDED TO this new net
+                                 H1.29          U3.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D2           pins ADDED TO this new net
+                                 H1.27          U3.9           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  D3           pins ADDED TO this new net
+                                 H1.19          U3.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D4           pins ADDED TO this new net
+                                 H1.23          U3.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D5           pins ADDED TO this new net
+                                 H1.21          U3.116         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D6           pins ADDED TO this new net
+                                 H1.17          U3.115         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D7           pins ADDED TO this new net
+                                 H1.15          U3.114         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D8           pins ADDED TO this new net
+                                 H1.34          U3.113         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D9           pins ADDED TO this new net
+                                 H1.30          U3.112         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D10          pins ADDED TO this new net
+                                 H1.28          U3.111         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D11          pins ADDED TO this new net
+                                 H1.26          U3.107         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D12          pins ADDED TO this new net
+                                 H1.22          U3.106         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D13          pins ADDED TO this new net
+                                 H1.20          U3.105         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D14          pins ADDED TO this new net
+                                 H1.32          U3.104         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D15          pins ADDED TO this new net
+                                 H1.40          U3.103         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DEN          pins ADDED TO this new net
+                                 F1.16          F2.34          U3.49          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GAMAS0       pins ADDED TO this new net
+                                 F2.31          U3.52          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C3.1           
+                                 C4.1           C5.1           C6.1           
+                                 C7.1           C8.1           C9.1           
+                                 C10.1          C11.2          C12.2          
+                                 C13.1          C14.2          C15.2          
+                                 C16.2          C17.2          C18.2          
+                                 C19.2          F1.2           F1.21          
+                                 F1.23          F1.24          F2.3           
+                                 F2.5           F2.6           F2.13          
+                                 F2.14          F2.21          F2.22          
+                                 F2.29          F2.36          F2.41          
+                                 F2.42          H1.3           H1.24          
+                                 H1.35          H1.36          J1.3           
+                                 O1.2           R3.2           U1.1           
+                                 U2.1           U3.2           U3.3           
+                                 U3.5           U3.13          U3.17          
+                                 U3.19          U3.20          U3.22          
+                                 U3.23          U3.26          U3.33          
+                                 U3.41          U3.47          U3.55          
+                                 U3.57          U3.65          U3.74          
+                                 U3.83          U3.94          U3.96          
+                                 U3.101         U3.109         U3.118         
+                                 U3.125         U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LCD_RST      pins ADDED TO this new net
+                                 H1.5           U3.127         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD0          pins ADDED TO this new net
+                                 F1.15          F2.23          U3.81          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD1          pins ADDED TO this new net
+                                 F1.14          F2.24          U3.80          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD2          pins ADDED TO this new net
+                                 F1.13          F2.25          U3.79          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD3          pins ADDED TO this new net
+                                 F1.12          F2.26          U3.78          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD4          pins ADDED TO this new net
+                                 F1.10          F2.27          U3.77          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD5          pins ADDED TO this new net
+                                 F1.9           F2.28          U3.76          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  LD6          pins ADDED TO this new net
+                                 F1.8           F2.15          U3.72          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD7          pins ADDED TO this new net
+                                 F1.7           F2.16          U3.71          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD8          pins ADDED TO this new net
+                                 F2.17          U3.70          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD9          pins ADDED TO this new net
+                                 F2.18          U3.69          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD10         pins ADDED TO this new net
+                                 F2.19          U3.68          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD11         pins ADDED TO this new net
+                                 F2.20          U3.67          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD12         pins ADDED TO this new net
+                                 F2.7           U3.63          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD13         pins ADDED TO this new net
+                                 F2.8           U3.62          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD14         pins ADDED TO this new net
+                                 F2.9           U3.61          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD15         pins ADDED TO this new net
+                                 F2.10          U3.60          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD16         pins ADDED TO this new net
+                                 F2.11          U3.59          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LD17         pins ADDED TO this new net
+                                 F2.12          U3.35          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED+         pins ADDED TO this new net
+                                 C15.1          D1.1           F2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED-         pins ADDED TO this new net
+                                 F2.1           R3.1           U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LFRAME       pins ADDED TO this new net
+                                 F1.17          F2.33          U3.43          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  LLINE        pins ADDED TO this new net
+                                 F1.18          F2.32          U3.44          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MISO         pins ADDED TO this new net
+                                 F1.5           H1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOSI         pins ADDED TO this new net
+                                 F1.6           H1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01093       pins ADDED TO this new net
+                                 D1.2           L1.1           U4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11014       pins ADDED TO this new net
+                                 R2.2           U3.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N21532       pins ADDED TO this new net
+                                 R1.1           U3.128         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24542       pins ADDED TO this new net
+                                 O1.3           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PB6          pins ADDED TO this new net
+                                 F1.20          H1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PWM          pins ADDED TO this new net
+                                 U3.51          U4.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD           pins ADDED TO this new net
+                                 H1.7           U3.121         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RS           pins ADDED TO this new net
+                                 H1.13          U3.122         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SHIFT        pins ADDED TO this new net
+                                 F1.19          F2.30          U3.45          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_CS       pins ADDED TO this new net
+                                 F1.3           H1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_SCK      pins ADDED TO this new net
+                                 F1.4           H1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  WR           pins ADDED TO this new net
+                                 H1.9           U3.120         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N5819_SOD323_1N5819
+ AS1117_AS1117-SOT223_AS1117-1.2
+ AS1117_AS1117-SOT223_AS1117-2.5
+ CAP NP_0603_0.1UF
+ CAP NP_0805_10UF
+ CAT4238_CAT4238-TSOT23_CAT4238
+ CON3_H-3_CON3
+ FPC-22_FPC-22_FPC-22
+ FPC-40_FPC-40_FPC-40
+ HEADER20*2_H-20-2_HEADER20*2
+ INDUCTOR_L-6-6-3_10UH
+ OSC_OSC-3225_OSC
+ R_0603_10
+ R_0603_33
+ R_0603_4.7K
+ SSD1963_SSD1963-LQFP_SSD1963
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_0603_0.1UF     
+ C2                  CAP NP_0603_0.1UF     
+ C3                  CAP NP_0805_10UF      
+ C4                  CAP NP_0603_0.1UF     
+ C5                  CAP NP_0805_10UF      
+ C6                  CAP NP_0603_0.1UF     
+ C7                  CAP NP_0805_10UF      
+ C8                  CAP NP_0603_0.1UF     
+ C9                  CAP NP_0805_10UF      
+ C10                 CAP NP_0603_0.1UF     
+ C11                 CAP NP_0603_0.1UF     
+ C12                 CAP NP_0603_0.1UF     
+ C13                 CAP NP_0603_0.1UF     
+ C14                 CAP NP_0805_10UF      
+ C15                 CAP NP_0603_0.1UF     
+ C16                 CAP NP_0603_0.1UF     
+ C17                 CAP NP_0603_0.1UF     
+ C18                 CAP NP_0603_0.1UF     
+ C19                 CAP NP_0603_0.1UF     
+ D1                  1N5819_SOD323_1N5819  
+ F1                  FPC-22_FPC-22_FPC-22  
+ F2                  FPC-40_FPC-40_FPC-40  
+ H1                  HEADER20*2_H-20-2_HEADER20*2 
+ J1                  CON3_H-3_CON3         
+ L1                  INDUCTOR_L-6-6-3_10UH 
+ O1                  OSC_OSC-3225_OSC      
+ R1                  R_0603_4.7K           
+ R2                  R_0603_33             
+ R3                  R_0603_10             
+ U1                  AS1117_AS1117-SOT223_AS1117-2.5 
+ U2                  AS1117_AS1117-SOT223_AS1117-1.2 
+ U3                  SSD1963_SSD1963-LQFP_SSD1963 
+ U4                  CAT4238_CAT4238-TSOT23_CAT4238 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  E:/material/glass/pcb/ssd1963test/pcb/test.brd                              |
+|                                                    Sun Sep 13 15:11:07 2015  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C19.2                          PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ F1.9                           PRIM_FILE      .\pstchip.dat
+ F2.9                           PRIM_FILE      .\pstchip.dat
+ H1.9                           PRIM_FILE      .\pstchip.dat
+ J1.3                           PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ O1.4                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ U1.2                           PRIM_FILE      .\pstchip.dat
+ U2.2                           PRIM_FILE      .\pstchip.dat
+ U3.24                          PRIM_FILE      .\pstchip.dat
+ U4.5                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  348                                            |
+|------------------------------------------------------------------------------|

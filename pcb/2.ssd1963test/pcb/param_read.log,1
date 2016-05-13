@@ -1,0 +1,21 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : test.brd                                      )
+(    Software Version : 16.6S049                                      )
+(    Date/Time        : Sun Sep 13 14:53:37 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : E:/candence lib/colorconfig.prm
+	Layout Name   : test.brd
+
+Reading...parameter_header:
+Reading...color_table_table:
+Reading...ColorParmType:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 0.

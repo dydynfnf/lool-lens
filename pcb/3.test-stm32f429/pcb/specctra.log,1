@@ -1,0 +1,1190 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Wed Oct 07 16:28:23 2015
+# 
+# Allegro PCB Router v16-6-112 made 2015/02/02 at 11:09:05
+# Running on: hfp-20120615tne, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Batch File Name: pasde.do
+# Did File Name: E:/material/glass/pcb/test-stm32f429/pcb/specctra.did
+# Current time = Wed Oct 07 16:28:24 2015
+# PCB E:/material/glass/pcb/test-stm32f429/pcb
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-100.0500 ylo=-85.0000 xhi=2101.0500 yhi=1785.0000
+# Total 83 Images Consolidated.
+# Via 'VIA-8-12' z=1, 2 xlo= -6.0000 ylo= -6.0000 xhi=  6.0000 yhi=  6.0000
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# Wires Processed 0, Vias Processed 0
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Layers Processed: Power Layers 2
+# Components Placed 101, Images Processed 119, Padstacks Processed 32
+# Nets Processed 153, Net Terminals 573
+# PCB Area=3401700.000  EIC=45  Area/EIC=75593.333  SMDs=94
+# Total Pin Count: 643
+# Signal Connections Created 199
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 153 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133741.5200 Horizontal 79539.7510 Vertical 54201.7690
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133741.5200 Horizontal 78999.4900 Vertical 54742.0300
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:02
+# Loading Do File pasde.do ...
+# Loading Do File E:/material/glass/pcb/test-stm32f429/pcb\f429_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaay13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U1 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction Out) (location Outside) (pin_type power) (pin_type signal)
+# Fanout away from the component center.
+# Fanout outside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Current time = Wed Oct 07 16:28:39 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 153 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133741.5200 Horizontal 79539.7510 Vertical 54201.7690
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Start Fanout Pass 1 of 1
+# Attempts 170 Successes 51 Failures 119 Vias 51
+# 5 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 1 of 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 153 Connections 397 Unroutes 407
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 15, at vias 3 Total Vias 51
+# Percent Connected    0.00
+# Manhattan Length 133741.5200 Horizontal 79457.8440 Vertical 54283.6760
+# Routed Length 3941.9900 Horizontal 1460.2000 Vertical 2481.7900
+# Ratio Actual / Manhattan   0.0295
+# Unconnected Length 133250.8200 Horizontal 79071.3000 Vertical 54179.5200
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaaz13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaaz13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabb13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net VDDA Selected.
+# Net PC6 Selected.
+# Net PG6 Selected.
+# Net PE4 Selected.
+# Net 'OSC32-IN' Selected.
+# Net 'OSC32-OUT' Selected.
+# Net 'OSC-OUT' Selected.
+# Net 'OSC-IN' Selected.
+# Net PE6 Selected.
+# Net PI2 Selected.
+# Net PE5 Selected.
+# Net PB15 Selected.
+# Net PB8 Selected.
+# Net PA10 Selected.
+# Net PA9 Selected.
+# Net PI6 Selected.
+# Net PA8 Selected.
+# Net PF10 Selected.
+# Net PI7 Selected.
+# Net PA11 Selected.
+# Net PI5 Selected.
+# Net PG12 Selected.
+# Net GND Selected.
+# Net PE12 Selected.
+# Net TRST Selected.
+# Net PA6 Selected.
+# Net PB13 Selected.
+# Net PB14 Selected.
+# Net PA2 Selected.
+# Net PA3 Selected.
+# Net PA1 Selected.
+# Net TDO Selected.
+# Net PA7 Selected.
+# Net RESET Selected.
+# Net TMS Selected.
+# Net TCK Selected.
+# Net TDI Selected.
+# Net PD10 Selected.
+# Net PE2 Selected.
+# Net PD8 Selected.
+# Net PE15 Selected.
+# Net PD9 Selected.
+# Net PG2 Selected.
+# Net PB5 Selected.
+# Net PE1 Selected.
+# Net PF11 Selected.
+# Net PE7 Selected.
+# Net PF0 Selected.
+# Net PF14 Selected.
+# Net PE10 Selected.
+# Net PD12 Selected.
+# Net PD0 Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Wed Oct 07 16:29:44 2015
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 153 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Wed Oct 07 16:29:45 2015
+# Nets Processed 154, Net Terminals 655
+# Signal Connections Created 199
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 154 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabc13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U1 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction In) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout towards the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:34:49 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 154 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Start Fanout Pass 1 of 1
+# Attempts 182 Successes 150 Failures 32 Vias 150
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 1 of 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 154 Connections 397 Unroutes 383
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 24, at vias 12 Total Vias 150
+# Percent Connected    3.53
+# Manhattan Length 133312.5200 Horizontal 79166.6060 Vertical 54145.9140
+# Routed Length 2330.7410 Horizontal 1617.8200 Vertical 1640.0100
+# Ratio Actual / Manhattan   0.0175
+# Unconnected Length 133367.1300 Horizontal 78971.6100 Vertical 54395.5200
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabd13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabd13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabf13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net PH14 Selected.
+# Net PH5 Selected.
+# Net PI0 Selected.
+# Net PG11 Selected.
+# Net 'OSC32-IN' Selected.
+# Net 'OSC32-OUT' Selected.
+# Net 'OSC-IN' Selected.
+# Net PI2 Selected.
+# Net PE4 Selected.
+# Net PI1 Selected.
+# Net PB8 Selected.
+# Net PH3 Selected.
+# Net PE5 Selected.
+# Net PE6 Selected.
+# Net PG6 Selected.
+# Net PH2 Selected.
+# Net PC3 Selected.
+# Net PA10 Selected.
+# Net PB15 Selected.
+# Net PA9 Selected.
+# Net PC1 Selected.
+# Net PC2 Selected.
+# Net PF8 Selected.
+# Net VDDA Selected.
+# Net PI7 Selected.
+# Net PI10 Selected.
+# Net PC6 Selected.
+# Net PH4 Selected.
+# Net PF10 Selected.
+# Net PA8 Selected.
+# Net PI9 Selected.
+# Net PG7 Selected.
+# Net PI4 Selected.
+# Net PI5 Selected.
+# Net PI6 Selected.
+# Net VCAP_1 Selected.
+# Net PG12 Selected.
+# Net PA11 Selected.
+# Net GND Selected.
+# Net VCAP_2 Selected.
+# Net PA7 Selected.
+# Net PB12 Selected.
+# Net PB13 Selected.
+# Net PB14 Selected.
+# Net BYPASS Selected.
+# Net PDR_ON Selected.
+# Net PA2 Selected.
+# Net PA4 Selected.
+# Net PA5 Selected.
+# Net PA3 Selected.
+# Net PA1 Selected.
+# Net PA0 Selected.
+# Net PA6 Selected.
+# Net TMS Selected.
+# Net PG10 Selected.
+# Net BOOT1 Selected.
+# Net BOOT0 Selected.
+# Net PB7 Selected.
+# Net TDO Selected.
+# Net RESET Selected.
+# Net TCK Selected.
+# Net TRST Selected.
+# Net TDI Selected.
+# Net PE2 Selected.
+# Net PD8 Selected.
+# Net PH15 Selected.
+# Net PG15 Selected.
+# Net PE15 Selected.
+# Net PH10 Selected.
+# Net PH12 Selected.
+# Net PH13 Selected.
+# Net PH11 Selected.
+# Net PH8 Selected.
+# Net PH9 Selected.
+# Net PD10 Selected.
+# Net PD9 Selected.
+# Net PE12 Selected.
+# Net PE13 Selected.
+# Net PE14 Selected.
+# Net PG8 Selected.
+# Net PE1 Selected.
+# Net PE11 Selected.
+# Net PE0 Selected.
+# Net PF11 Selected.
+# Net PB5 Selected.
+# Net PF3 Selected.
+# Net PG1 Selected.
+# Net PG4 Selected.
+# Net PB6 Selected.
+# Net PC0 Selected.
+# Net PG5 Selected.
+# Net PG2 Selected.
+# Net PF13 Selected.
+# Net PF15 Selected.
+# Net PG0 Selected.
+# Net PF14 Selected.
+# Net PF5 Selected.
+# Net PF12 Selected.
+# Net PF4 Selected.
+# Net PD15 Selected.
+# Net PE10 Selected.
+# Net PF0 Selected.
+# Net PD1 Selected.
+# Net PE9 Selected.
+# Net PD0 Selected.
+# Net PG9 Selected.
+# Net PD12 Selected.
+# Net PD14 Selected.
+# Net PD11 Selected.
+# Net PD4 Selected.
+# Net PD5 Selected.
+# Net PD6 Selected.
+# Net 3.3V Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Wed Oct 07 16:35:30 2015
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 154 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Wed Oct 07 16:35:31 2015
+# Nets Processed 155, Net Terminals 655
+# Signal Connections Created 199
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabg13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U1 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction In) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout towards the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:35:56 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Start Fanout Pass 1 of 1
+# Attempts 182 Successes 150 Failures 32 Vias 150
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 1
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 383
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 24, at vias 12 Total Vias 150
+# Percent Connected    3.53
+# Manhattan Length 133312.5200 Horizontal 79166.6060 Vertical 54145.9140
+# Routed Length 2330.7410 Horizontal 1617.8200 Vertical 1640.0100
+# Ratio Actual / Manhattan   0.0175
+# Unconnected Length 133367.1300 Horizontal 78971.6100 Vertical 54395.5200
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabh13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabh13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabi13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U8 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction In) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout towards the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:36:28 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 383
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 24, at vias 12 Total Vias 150
+# Percent Connected    3.53
+# Manhattan Length 133312.5200 Horizontal 79166.6060 Vertical 54145.9140
+# Routed Length 2330.7410 Horizontal 1617.8200 Vertical 1640.0100
+# Ratio Actual / Manhattan   0.0175
+# Unconnected Length 133697.1300 Horizontal 78971.6100 Vertical 54725.5200
+# Start Fanout Pass 1 of 1
+# Attempts 57 Successes 49 Failures 8 Vias 199
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 377
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 37, at vias 25 Total Vias 199
+# Percent Connected    5.04
+# Manhattan Length 133312.5200 Horizontal 79058.4400 Vertical 54254.0800
+# Routed Length 3265.1690 Horizontal 2286.8200 Vertical 2280.8100
+# Ratio Actual / Manhattan   0.0245
+# Unconnected Length 133761.5900 Horizontal 79117.5400 Vertical 54644.0500
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabj13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabj13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabl13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net PG10 Selected.
+# Net PI9 Selected.
+# Net PH3 Selected.
+# Net PI0 Selected.
+# Net PG11 Selected.
+# Net 'OSC32-IN' Selected.
+# Net 'OSC32-OUT' Selected.
+# Net 'OSC-IN' Selected.
+# Net PI2 Selected.
+# Net PE4 Selected.
+# Net PI1 Selected.
+# Net PE5 Selected.
+# Net PE6 Selected.
+# Net PG6 Selected.
+# Net PH5 Selected.
+# Net PC3 Selected.
+# Net PB8 Selected.
+# Net PH2 Selected.
+# Net PA10 Selected.
+# Net PB15 Selected.
+# Net PA9 Selected.
+# Net PC1 Selected.
+# Net PC2 Selected.
+# Net PF8 Selected.
+# Net PF10 Selected.
+# Net PH4 Selected.
+# Net PC6 Selected.
+# Net PI10 Selected.
+# Net PA8 Selected.
+# Net GND Selected.
+# Net PI6 Selected.
+# Net PI7 Selected.
+# Net PG7 Selected.
+# Net PI4 Selected.
+# Net PI5 Selected.
+# Net PG12 Selected.
+# Net PA11 Selected.
+# Net PB12 Selected.
+# Net PB14 Selected.
+# Net VCAP_2 Selected.
+# Net VCAP_1 Selected.
+# Net VDDA Selected.
+# Net PB13 Selected.
+# Net BYPASS Selected.
+# Net PDR_ON Selected.
+# Net PA6 Selected.
+# Net PA2 Selected.
+# Net PA4 Selected.
+# Net PA5 Selected.
+# Net PA3 Selected.
+# Net PA1 Selected.
+# Net PA0 Selected.
+# Net BOOT1 Selected.
+# Net PA7 Selected.
+# Net BOOT0 Selected.
+# Net PB7 Selected.
+# Net PE12 Selected.
+# Net PH11 Selected.
+# Net TRST Selected.
+# Net TMS Selected.
+# Net TDO Selected.
+# Net RESET Selected.
+# Net TCK Selected.
+# Net TDI Selected.
+# Net PH15 Selected.
+# Net PD8 Selected.
+# Net PE2 Selected.
+# Net PH13 Selected.
+# Net PH14 Selected.
+# Net PH12 Selected.
+# Net PD9 Selected.
+# Net PH9 Selected.
+# Net PH10 Selected.
+# Net PD10 Selected.
+# Net PH8 Selected.
+# Net PE14 Selected.
+# Net PE15 Selected.
+# Net PE13 Selected.
+# Net PG4 Selected.
+# Net PG8 Selected.
+# Net PE1 Selected.
+# Net PE11 Selected.
+# Net PE0 Selected.
+# Net PG15 Selected.
+# Net PF11 Selected.
+# Net PB5 Selected.
+# Net PB6 Selected.
+# Net PC0 Selected.
+# Net PG5 Selected.
+# Net PE8 Selected.
+# Net PF5 Selected.
+# Net PF15 Selected.
+# Net PG1 Selected.
+# Net PG2 Selected.
+# Net PG0 Selected.
+# Net PF13 Selected.
+# Net PF14 Selected.
+# Net PF12 Selected.
+# Net PF1 Selected.
+# Net PF3 Selected.
+# Net PF4 Selected.
+# Net PF2 Selected.
+# Net PE10 Selected.
+# Net PF0 Selected.
+# Net PE9 Selected.
+# Net PG9 Selected.
+# Net PD15 Selected.
+# Net PD1 Selected.
+# Net PE7 Selected.
+# Net PD0 Selected.
+# Net PD12 Selected.
+# Net PD14 Selected.
+# Net PD11 Selected.
+# Net PD6 Selected.
+# Net PD5 Selected.
+# Net PD4 Selected.
+# Net 3.3V Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Wed Oct 07 16:37:49 2015
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133642.5200 Horizontal 79483.4230 Vertical 54159.0970
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133642.5200 Horizontal 78900.4900 Vertical 54742.0300
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Wed Oct 07 16:37:49 2015
+# Nets Processed 155, Net Terminals 655
+# Signal Connections Created 199
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabm13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U1 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction Out) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout away from the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:38:01 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 12, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 133312.5200 Horizontal 79290.3980 Vertical 54022.1220
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 133312.5200 Horizontal 78900.4900 Vertical 54412.0300
+# Start Fanout Pass 1 of 1
+# Attempts 170 Successes 170 Failures 0 Vias 170
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 371
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 27, at vias 15 Total Vias 170
+# Percent Connected    6.55
+# Manhattan Length 133312.5200 Horizontal 79106.6670 Vertical 54205.8530
+# Routed Length 2606.1128 Horizontal 1842.8000 Vertical 1842.8000
+# Ratio Actual / Manhattan   0.0195
+# Unconnected Length 133488.4200 Horizontal 78981.7700 Vertical 54506.6500
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabn13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabn13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabo13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U8 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction Out) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout away from the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:38:12 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 371
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 27, at vias 15 Total Vias 170
+# Percent Connected    6.55
+# Manhattan Length 133312.5200 Horizontal 79106.6670 Vertical 54205.8530
+# Routed Length 2606.1128 Horizontal 1842.8000 Vertical 1842.8000
+# Ratio Actual / Manhattan   0.0195
+# Unconnected Length 133455.4200 Horizontal 78948.7700 Vertical 54506.6500
+# Start Fanout Pass 1 of 1
+# Attempts 53 Successes 53 Failures 0 Vias 223
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 364
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 41, at vias 29 Total Vias 223
+# Percent Connected    8.31
+# Manhattan Length 133312.5200 Horizontal 78997.1390 Vertical 54315.3810
+# Routed Length 3606.7396 Horizontal 2550.3500 Vertical 2550.3500
+# Ratio Actual / Manhattan   0.0271
+# Unconnected Length 133401.3000 Horizontal 78882.0200 Vertical 54519.2800
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabp13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabp13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabq13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U7 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction Out) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout away from the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:38:20 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 364
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 41, at vias 29 Total Vias 223
+# Percent Connected    8.31
+# Manhattan Length 133312.5200 Horizontal 78997.1390 Vertical 54315.3810
+# Routed Length 3606.7396 Horizontal 2550.3500 Vertical 2550.3500
+# Ratio Actual / Manhattan   0.0271
+# Unconnected Length 133401.3000 Horizontal 78882.0200 Vertical 54519.2800
+# Start Fanout Pass 1 of 1
+# Attempts 23 Successes 23 Failures 0 Vias 246
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 360
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 45, at vias 33 Total Vias 246
+# Percent Connected    9.32
+# Manhattan Length 133312.5200 Horizontal 78838.0870 Vertical 54474.4330
+# Routed Length 4294.9296 Horizontal 2807.9100 Vertical 2980.9800
+# Ratio Actual / Manhattan   0.0322
+# Unconnected Length 133661.4300 Horizontal 78881.7000 Vertical 54779.7300
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabr13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabr13696.tmp
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabt13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net PI6 Selected.
+# Net PI9 Selected.
+# Net PF10 Selected.
+# Net PG11 Selected.
+# Net PE4 Selected.
+# Net PI10 Selected.
+# Net PI7 Selected.
+# Net PG7 Selected.
+# Net PE7 Selected.
+# Net PG10 Selected.
+# Net PI4 Selected.
+# Net PI5 Selected.
+# Net PG12 Selected.
+# Net GND Selected.
+# Net PE9 Selected.
+# Net PE10 Selected.
+# Net N01118 Selected.
+# Net PE8 Selected.
+# Net PD11 Selected.
+# Net PD14 Selected.
+# Net PD0 Selected.
+# Net PD1 Selected.
+# Net PD15 Selected.
+# Net PD12 Selected.
+# Net PD5 Selected.
+# Net PG9 Selected.
+# Net PD6 Selected.
+# Net PD4 Selected.
+# Net 3.3V Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Wed Oct 07 16:38:39 2015
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 409
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 16, at vias 4 Total Vias 123
+# Percent Connected    0.00
+# Manhattan Length 133279.5200 Horizontal 79125.8160 Vertical 54153.7040
+# Routed Length 1995.6392 Horizontal 1411.1300 Vertical 1411.1300
+# Ratio Actual / Manhattan   0.0150
+# Unconnected Length 133094.3600 Horizontal 78771.1100 Vertical 54323.2500
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Wed Oct 07 16:38:40 2015
+# Nets Processed 155, Net Terminals 878
+# Signal Connections Created 199
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 364
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 47, at vias 35 Total Vias 223
+# Percent Connected    8.31
+# Manhattan Length 133734.4400 Horizontal 79330.9870 Vertical 54403.4530
+# Routed Length 3606.7396 Horizontal 2550.3500 Vertical 2550.3500
+# Ratio Actual / Manhattan   0.0270
+# Unconnected Length 133581.5600 Horizontal 78271.8500 Vertical 55309.7100
+# Loading Do File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabu13696.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Component U7 Selected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 1 (direction Out) (location Inside) (pin_type power) (pin_type signal) (pin_type single)
+# Fanout away from the component center.
+# Fanout inside component outline only.
+# Fanout..Signal Nets.
+# Fanout..Power Nets.
+# Fanout..Single Pin Nets.
+# Current time = Wed Oct 07 16:39:14 2015
+# 
+#    VIA       TOP      BOTTOM  
+# 
+#    TOP  ----------  'VIA-8-12'
+# BOTTOM  'VIA-8-12'  ----------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 7.0000
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 364
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 47, at vias 35 Total Vias 223
+# Percent Connected    8.31
+# Manhattan Length 133734.4400 Horizontal 79330.9870 Vertical 54403.4530
+# Routed Length 3606.7396 Horizontal 2550.3500 Vertical 2550.3500
+# Ratio Actual / Manhattan   0.0270
+# Unconnected Length 133581.5600 Horizontal 78271.8500 Vertical 55309.7100
+# Start Fanout Pass 1 of 1
+# Attempts 23 Successes 23 Failures 0 Vias 246
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:02
+# 
+# Wiring Statistics ----------------- E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn
+# Nets 155 Connections 397 Unroutes 360
+# Signal Layers 2 Power Layers 2
+# Wire Junctions 51, at vias 39 Total Vias 246
+# Percent Connected    9.32
+# Manhattan Length 133734.4400 Horizontal 79171.9350 Vertical 54562.5050
+# Routed Length 4294.9296 Horizontal 2807.9100 Vertical 2980.9800
+# Ratio Actual / Manhattan   0.0321
+# Unconnected Length 133841.6900 Horizontal 78271.5300 Vertical 55570.1600
+write routes (changed_only) (reset_changed) C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabv13696.tmp
+# Routing Written to File C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabv13696.tmp
+quit

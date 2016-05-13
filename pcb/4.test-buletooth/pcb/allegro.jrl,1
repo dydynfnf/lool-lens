@@ -1,0 +1,158 @@
+\t (00:06:57) allegro 16.6-2015 S064 (v16-6-112FD) Windows 32
+\t (00:06:57)     Journal start - Fri Feb 26 15:07:32 2016
+\t (00:06:57)         Host=HFP-20120615TNE User=Administrator Pid=5648 CPUs=4
+\t (00:06:57) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:06:57) 
+\d (00:06:57) Design opened: E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd
+\i (00:06:57) generaledit 
+\i (00:06:58) roam start
+\i (00:06:58) roam x 48
+\i (00:06:58) roam y -112
+\i (00:06:58) roam x 16
+\i (00:06:58) roam y -48
+\i (00:06:58) roam x 48
+\i (00:06:58) roam y -64
+\i (00:06:58) roam x 16
+\i (00:06:58) roam y -48
+\i (00:06:58) roam x 32
+\i (00:06:58) roam y -48
+\i (00:06:58) roam x 48
+\i (00:06:58) roam y -32
+\i (00:06:58) roam x 16
+\i (00:06:58) roam y -32
+\i (00:06:58) roam x 16
+\i (00:06:58) roam y -16
+\i (00:06:58) roam end
+\i (00:06:59) zoom out 1 
+\i (00:06:59) setwindow pcb
+\i (00:06:59) zoom out 132.71 99.32
+\i (00:06:59) trapsize 213
+\i (00:06:59) zoom out 1 
+\i (00:06:59) setwindow pcb
+\i (00:06:59) zoom out 131.86 96.35
+\i (00:06:59) trapsize 425
+\i (00:06:59) zoom out 1 
+\i (00:06:59) setwindow pcb
+\i (00:06:59) zoom out 131.85 95.49
+\i (00:06:59) trapsize 851
+\i (00:07:00) roam start
+\i (00:07:00) roam x 32
+\i (00:07:00) roam y -48
+\i (00:07:00) roam x 16
+\i (00:07:00) roam y -16
+\i (00:07:00) roam x 48
+\i (00:07:00) roam y -64
+\i (00:07:00) roam x 64
+\i (00:07:00) roam y -80
+\i (00:07:00) roam x 64
+\i (00:07:00) roam y -64
+\i (00:07:00) roam x 48
+\i (00:07:00) roam y -48
+\i (00:07:00) roam x 32
+\i (00:07:00) roam y -48
+\i (00:07:00) roam x 32
+\i (00:07:00) roam y -32
+\i (00:07:00) roam x 32
+\i (00:07:00) roam y -16
+\i (00:07:00) roam x 48
+\i (00:07:00) roam y -32
+\i (00:07:00) roam x 48
+\i (00:07:00) roam y -32
+\i (00:07:00) roam x 48
+\i (00:07:00) roam y -48
+\i (00:07:00) roam x 48
+\i (00:07:00) roam y -32
+\i (00:07:00) roam x -16
+\i (00:07:00) roam y 16
+\i (00:07:00) roam x -32
+\i (00:07:00) roam y 16
+\i (00:07:00) roam x -16
+\i (00:07:00) roam y 16
+\i (00:07:01) roam x -16
+\i (00:07:01) roam y 16
+\i (00:07:01) roam x -16
+\i (00:07:01) roam y 32
+\i (00:07:01) roam x -16
+\i (00:07:01) roam y 48
+\i (00:07:01) roam end
+\i (00:07:07) param in 
+\i (00:07:08) setwindow form.parm_in
+\i (00:07:08) FORM parm_in browse  
+\i (00:07:18) fillin "E:\candence lib\parameters.prm"
+\i (00:07:20) FORM parm_in execute  
+\t (00:07:20) Starting Importing parameter file...
+\w (00:07:20) WARNING(SPMHGE-269): param in had warnings, use Viewlog to review the log file.
+\t (00:07:20) Opening existing design...
+\i (00:07:20) setwindow pcb
+\i (00:07:20) trapsize 851
+\i (00:07:25) setwindow text
+\i (00:07:25) close 
+\i (00:07:26) setwindow form.parm_in
+\i (00:07:26) FORM parm_in cancel  
+\i (00:07:26) setwindow pcb
+\i (00:07:26) generaledit 
+\i (00:07:27) color192 
+\i (00:07:27) setwindow cvf.dialog
+\i (00:07:27) cvf layer_mode
+\i (00:07:27) setwindow pcb
+\i (00:07:27) generaledit 
+\i (00:07:30) setwindow cvf.dialog
+\i (00:07:30) cvf layer_tree_item 'Display'
+\i (00:07:31) cvf cancel
+\i (00:07:32) setwindow pcb
+\i (00:07:32) roam start
+\i (00:07:32) roam x 16
+\i (00:07:32) roam y 48
+\i (00:07:32) roam x 16
+\i (00:07:32) roam y 48
+\i (00:07:32) roam y 16
+\i (00:07:32) roam y 48
+\i (00:07:32) roam x 16
+\i (00:07:32) roam y 64
+\i (00:07:32) roam y 32
+\i (00:07:32) roam y 16
+\i (00:07:32) roam end
+\i (00:07:32) zoom out 1 
+\i (00:07:32) setwindow pcb
+\i (00:07:32) zoom out 657.77 -26.15
+\i (00:07:32) trapsize 1701
+\i (00:07:33) zoom out 1 
+\i (00:07:33) setwindow pcb
+\i (00:07:33) zoom out 715.61 -29.54
+\i (00:07:33) trapsize 3403
+\i (00:07:33) zoom in 1 
+\i (00:07:33) setwindow pcb
+\i (00:07:33) zoom in 586.32 188.22
+\i (00:07:33) trapsize 1701
+\i (00:07:34) zoom in 1 
+\i (00:07:34) setwindow pcb
+\i (00:07:34) zoom in 586.32 188.22
+\i (00:07:34) trapsize 851
+\i (00:07:34) roam start
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam y -48
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -64
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:34) roam y -16
+\i (00:07:34) roam x 16
+\i (00:07:34) roam y -48
+\i (00:07:35) roam y -32
+\i (00:07:35) roam end
+\i (00:07:36) color192 
+\i (00:07:36) generaledit 
+\i (00:07:38) setwindow cvf.dialog
+\i (00:07:38) cvf layer_tree_item 'Areas'
+\i (00:07:41) cvf cancel
+\i (00:07:42) setwindow pcb
+\i (00:07:42) prmed 
+\i (00:07:43) setwindow form.prmedit
+\i (00:07:43) FORM prmedit cancel  
+\i (00:07:43) setwindow pcb
+\i (00:07:43) generaledit 
+\i (00:07:45) exit 
+\e (00:07:45) Do you want to save the changes you made to E:/material/glass/pcb/4.test-buletooth/pcb/test-bluetooth.brd?
+\i (00:07:47) fillin no 
+\t (00:07:50)     Journal end - Fri Feb 26 15:08:25 2016

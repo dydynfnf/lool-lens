@@ -1,0 +1,44 @@
+\t (00:00:00) sigxp 16.6 S049 (v16-6-112DU) Windows 32
+\t (00:00:00)     Journal start - Mon Sep 14 13:23:27 2015
+\t (00:00:00)         Host=HFP-20120615TNE User=Administrator Pid=9604 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\pcb\ssd1963test\pcb C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabo09580.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1189
+\i (00:00:00) trapsize 1150
+\i (00:00:00) trapsize 1196
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 6634
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 6634
+\i (00:00:00) trapsize 6634
+\i (00:00:01) trapsize 6634
+   (00:00:01) Loading signal.cxt 
+   (00:00:01) Loading sigxp.cxt 
+   (00:00:01) Loading sxutil.cxt 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) Loading fputil.cxt 
+   (00:00:01) Already Placed Circuit
+\i (00:00:01) trapsize 25
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:01) sigxp background 
+\i (00:00:03) sxconstraints 
+\i (00:00:04) setwindow form.sxconstraint
+\i (00:00:04) FORM sxconstraint impedance  
+\i (00:00:05) FORM sxconstraint prop_delay  
+\i (00:00:07) FORM sxconstraint rel_prop_delay  
+\i (00:00:09) FORM sxconstraint mdrules 'LCD_DATABUS_M1 T.1        F1.15      LOCAL               100.00 mil' 
+\i (00:00:12) FORM sxconstraint mdtolerance '200.00 mil' 
+\i (00:00:12) FORM sxconstraint mdmodify  
+\i (00:00:13) FORM sxconstraint mdrules 'LCD_DATABUS_M1 T.1        F2.23      LOCAL               100.00 mil' 
+\i (00:00:15) FORM sxconstraint mdtolerance '200.00 mil' 
+\i (00:00:15) FORM sxconstraint mdmodify  
+\i (00:00:16) FORM sxconstraint apply  
+\i (00:00:17) FORM sxconstraint done  
+\i (00:00:17) setwindow sigxp
+\i (00:00:17) sigxp background 
+\i (00:00:18) update cm 
+\i (00:00:19) sigxp background 
+\i (00:00:23) exit 
+\t (00:00:23)     Journal end - Mon Sep 14 13:23:50 2015

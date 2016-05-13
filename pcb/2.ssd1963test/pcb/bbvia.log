@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Automatic B/B Via Creation                               )
+(                                                                     )
+(    Software Version : 16.6S049                                      )
+(    Date/Time        : Sun Sep 13 17:20:20 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Via to be copied: Via-12-16
+Start subclass: TOP
+End subclass: BOTTOM
+Old drawing: E:/material/glass/pcb/ssd1963test/pcb/#Taaaabl00976.tmp
+New drawing: E:/material/glass/pcb/ssd1963test/pcb/#Taaaabl00976.tmp
+Vias added to physical constraint set: DEFAULT
+
+B/B Via TOP-BOTTOM created
+
+Number of padstacks created 1
+Number of existing padstacks that did not need to be modified: 0
+Number of existing padstacks that were modified: 0
+Number of existing padstacks that could not be modified: 0
+
+bbvia is complete.

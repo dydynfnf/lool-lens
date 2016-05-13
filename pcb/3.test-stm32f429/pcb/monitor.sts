@@ -1,0 +1,15 @@
+#Allegro PCB Router v16-6-112 made 2015/02/02 at 11:09:05
+#Host 
+#ROUTING STATUS <<< E:/material/glass/pcb/test-stm32f429/pcb\f429.dsn >>>
+Start  Time: Report Time: Wed Oct 07 20:08:37 2015
+
+Nets         =      153   Connections         =      397
+Current Wire =       57   Reroute wires       =       57
+Completion   =   11.08%   Unconnections       =      353
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Fanout   |  1|     0|     0|   0|  371|  170|    0|   0|   |  0:00:00|  0:00:00|
+| Fanout   |  2|     0|     0|   8|  353|  219|    0|   0|   |  0:00:00|  0:00:00|
+| Conflicts between polygon wires and fixed objects:   0

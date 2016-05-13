@@ -1,0 +1,4 @@
+INFO: Loaded existing device file 'E:\material\glass\pcb\ssd1963test\pcb\devices.dml'
+INFO: Loaded existing device file 'E:\material\glass\pcb\ssd1963test\pcb\sigxp.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: sigxp.dml added to device model library list

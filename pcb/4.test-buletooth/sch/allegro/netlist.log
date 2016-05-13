@@ -1,0 +1,14 @@
+{ Using PSTWRITER 16.6.0 d001Dec-29-2015 at 13:13:29 }
+
+#1 WARNING(ORCAP-36006): Part Name "SW PUSHBUTTON_KEY-3-6_SW PUSHBUTTON" is renamed to "SW PUSHBUTTON_KEY-3-6_SW PUSHBU".
+#2 WARNING(ORCAP-36006): Part Name "CC2540-MODULE_CC2540-MODULE_CC2540-MODULE" is renamed to "CC2540-MODULE_CC2540-MODULE_CC2".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... E:\MATERIAL\GLASS\PCB\4.TEST-BULETOOTH\SCH\allegro/pstchip.dat
+
+Loading... E:\MATERIAL\GLASS\PCB\4.TEST-BULETOOTH\SCH\allegro/pstchip.dat
+
+Loading... E:\MATERIAL\GLASS\PCB\4.TEST-BULETOOTH\SCH\allegro/pstxprt.dat
+
+Loading... E:\MATERIAL\GLASS\PCB\4.TEST-BULETOOTH\SCH\allegro/pstxnet.dat
+packaging the design view...

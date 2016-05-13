@@ -1,0 +1,1063 @@
+("interconn.iml" 
+ (Trace 
+  (STL_1S_1R_1 
+   (IDL ".subckt STL_1S_1R_1 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Bottom MicroStrip
+*EMIinfo Plane Z=0.000575818
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Conductor Width=500 topDist=0.00054102
+
+.layerstack Layerstack1
++dielectric( 3.4798e-005 4.5 0 )
++dielectric( 0.00054102 4.5 0.035 )
++shield( 1.7526e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0 0.000127 3.4798e-005 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabz13696.in 0.00127 
+.rlgc RLGCSTL_1S_1R_1 ( Length=length N=1 )
+.C 0
++ 5.568900e-011 
+.L 0
++ 6.425200e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 3.797200e+000 
+.C INF
++ 5.568900e-011 
+.L INF
++ 6.425200e-007 
+.Td INF
++ 5.981700e-009 
+.Yc INF
++ 9.309800e-003 
+.Zc INF
++ 1.074100e+002 
+
+.endrlgc RLGCSTL_1S_1R_1
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  5.981700e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 9.309800e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.074100e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.823700e-001 
+.ends STL_1S_1R_1
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_1
+FREQUENCY=0
+CMATRIX
+ 5.568900e-011
+LMATRIX
+ 6.425200e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 3.797200e+000
+FREQUENCY=INF
+CMATRIX
+ 5.568900e-011
+LMATRIX
+ 6.425200e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_2 
+   (IDL ".subckt STL_1S_1R_2 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=500 botDist=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Plane Z=0.00115189
+
+.layerstack Layerstack3
++shield( 1.7526e-005 1 0.035)
++dielectric( 0.00054102 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00054102 0.000127 0.000575818 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaca13696.in 0.00127 
+.rlgc RLGCSTL_1S_1R_2 ( Length=length N=1 )
+.C 0
++ 5.568900e-011 
+.L 0
++ 6.425200e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 3.797200e+000 
+.C INF
++ 5.568900e-011 
+.L INF
++ 6.425200e-007 
+.Td INF
++ 5.981700e-009 
+.Yc INF
++ 9.309800e-003 
+.Zc INF
++ 1.074100e+002 
+
+.endrlgc RLGCSTL_1S_1R_2
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  5.981700e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 9.309800e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.074100e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.823700e-001 
+.ends STL_1S_1R_2
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_2
+FREQUENCY=0
+CMATRIX
+ 5.568900e-011
+LMATRIX
+ 6.425200e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 3.797200e+000
+FREQUENCY=INF
+CMATRIX
+ 5.568900e-011
+LMATRIX
+ 6.425200e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_3 
+   (IDL ".subckt STL_1S_1R_3 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Conductor Width=500 topDist=0.000575818 botDist=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Plane Z=0.000593344
+
+.layerstack T_0_5
++shield( 1.7526e-005 1 0.035)
++dielectric( 0.00054102 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.00054102 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00054102 0.000127 0.000558546 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaab13540.in 0.00127 
+.rlgc RLGCSTL_1S_1R_3 ( Length=length N=1 )
+.C 0
++ 7.170200e-011 
+.L 0
++ 6.683000e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 7.539500e+000 
+.C INF
++ 7.170200e-011 
+.L INF
++ 6.683000e-007 
+.Td INF
++ 6.922300e-009 
+.Yc INF
++ 1.035800e-002 
+.Zc INF
++ 9.654300e+001 
+
+.endrlgc RLGCSTL_1S_1R_3
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.922300e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.035800e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  9.654300e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.588000e-001 
+.ends STL_1S_1R_3
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_3
+FREQUENCY=0
+CMATRIX
+ 7.170200e-011
+LMATRIX
+ 6.683000e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 7.539500e+000
+FREQUENCY=INF
+CMATRIX
+ 7.170200e-011
+LMATRIX
+ 6.683000e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_4 
+   (IDL ".subckt STL_1S_1R_4 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Bottom MicroStrip
+*EMIinfo Plane Z=0.000575818
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Conductor Width=400 topDist=0.00054102
+
+.layerstack Layerstack1
++dielectric( 3.4798e-005 4.5 0 )
++dielectric( 0.00054102 4.5 0.035 )
++shield( 1.7526e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0 0.0001016 3.4798e-005 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabc13540.in 0.00127 
+.rlgc RLGCSTL_1S_1R_4 ( Length=length N=1 )
+.C 0
++ 5.305100e-011 
+.L 0
++ 6.739300e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 4.746600e+000 
+.C INF
++ 5.305100e-011 
+.L INF
++ 6.739300e-007 
+.Td INF
++ 5.979400e-009 
+.Yc INF
++ 8.872400e-003 
+.Zc INF
++ 1.127100e+002 
+
+.endrlgc RLGCSTL_1S_1R_4
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  5.979400e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 8.872400e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.127100e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.927000e-001 
+.ends STL_1S_1R_4
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_4
+FREQUENCY=0
+CMATRIX
+ 5.305100e-011
+LMATRIX
+ 6.739300e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 4.746600e+000
+FREQUENCY=INF
+CMATRIX
+ 5.305100e-011
+LMATRIX
+ 6.739300e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_5 
+   (IDL ".subckt STL_1S_1R_5 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Conductor Width=400 topDist=0.000575818 botDist=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Plane Z=0.000593344
+
+.layerstack T_0_5
++shield( 1.7526e-005 1 0.035)
++dielectric( 0.00054102 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.00054102 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00054102 0.0001016 0.000558546 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabd13540.in 0.00127 
+.rlgc RLGCSTL_1S_1R_5 ( Length=length N=1 )
+.C 0
++ 6.806400e-011 
+.L 0
++ 7.055900e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 9.424300e+000 
+.C INF
++ 6.806400e-011 
+.L INF
++ 7.055900e-007 
+.Td INF
++ 6.930000e-009 
+.Yc INF
++ 9.821600e-003 
+.Zc INF
++ 1.018200e+002 
+
+.endrlgc RLGCSTL_1S_1R_5
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.930000e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 9.821600e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.018200e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.706500e-001 
+.ends STL_1S_1R_5
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_5
+FREQUENCY=0
+CMATRIX
+ 6.806400e-011
+LMATRIX
+ 7.055900e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 9.424300e+000
+FREQUENCY=INF
+CMATRIX
+ 6.806400e-011
+LMATRIX
+ 7.055900e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_6 
+   (IDL ".subckt STL_1S_1R_6 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=400 botDist=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Plane Z=0.00115189
+
+.layerstack Layerstack3
++shield( 1.7526e-005 1 0.035)
++dielectric( 0.00054102 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.00054102 0.0001016 0.000575818 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabq13540.in 0.00127 
+.rlgc RLGCSTL_1S_1R_6 ( Length=length N=1 )
+.C 0
++ 5.305100e-011 
+.L 0
++ 6.739300e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 4.746600e+000 
+.C INF
++ 5.305100e-011 
+.L INF
++ 6.739300e-007 
+.Td INF
++ 5.979400e-009 
+.Yc INF
++ 8.872400e-003 
+.Zc INF
++ 1.127100e+002 
+
+.endrlgc RLGCSTL_1S_1R_6
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  5.979400e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 8.872400e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.127100e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.927000e-001 
+.ends STL_1S_1R_6
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_6
+FREQUENCY=0
+CMATRIX
+ 5.305100e-011
+LMATRIX
+ 6.739300e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 4.746600e+000
+FREQUENCY=INF
+CMATRIX
+ 5.305100e-011
+LMATRIX
+ 6.739300e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_7 
+   (IDL ".subckt STL_1S_1R_7 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=400 botDist=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Plane Z=0.00195707
+
+.layerstack Layerstack4
++shield( 3.048e-005 1 0.035)
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.0002032 0.0001016 0.000237998 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabb11352.in 0.00127 
+.rlgc RLGCSTL_1S_1R_7 ( Length=length N=1 )
+.C 0
++ 7.696700e-011 
+.L 0
++ 4.886300e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 4.746600e+000 
+.C INF
++ 7.696700e-011 
+.L INF
++ 4.886300e-007 
+.Td INF
++ 6.132600e-009 
+.Yc INF
++ 1.255100e-002 
+.Zc INF
++ 7.967800e+001 
+
+.endrlgc RLGCSTL_1S_1R_7
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.132600e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.255100e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  7.967800e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.144300e-001 
+.ends STL_1S_1R_7
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_7
+FREQUENCY=0
+CMATRIX
+ 7.696700e-011
+LMATRIX
+ 4.886300e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 4.746600e+000
+FREQUENCY=INF
+CMATRIX
+ 7.696700e-011
+LMATRIX
+ 4.886300e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_2S_1R_8 
+   (IDL ".subckt STL_2S_1R_8 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type StripLine
+*EMIinfo Plane Z=0.00192659
+*EMIinfo Dielectric Eps=4.5 Thick=0.00054102
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Conductor Width=400 topDist=0.00054102 botDist=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Plane Z=0.00116484
+
+.layerstack Layerstack3
++shield( 3.048e-005 1 0.035)
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.00054102 4.5 0.035 )
++shield( 3.048e-005 1 0.035)
+.crosssection
++rectangle ( 5.959e+007 0 0.0002032 0.0001016 0.000220726 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaabc11352.in 0.00127 
+.rlgc RLGCSTL_2S_1R_8 ( Length=length N=1 )
+.C 0
++ 1.021700e-010 
+.L 0
++ 4.900500e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 9.424300e+000 
+.C INF
++ 1.021700e-010 
+.L INF
++ 4.900500e-007 
+.Td INF
++ 7.075900e-009 
+.Yc INF
++ 1.443900e-002 
+.Zc INF
++ 6.925600e+001 
+
+.endrlgc RLGCSTL_2S_1R_8
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  7.075900e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.443900e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  6.925600e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.807300e-001 
+.ends STL_2S_1R_8
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_2S_1R_8
+FREQUENCY=0
+CMATRIX
+ 1.021700e-010
+LMATRIX
+ 4.900500e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 9.424300e+000
+FREQUENCY=INF
+CMATRIX
+ 1.021700e-010
+LMATRIX
+ 4.900500e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_9 
+   (IDL ".subckt STL_1S_1R_9 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=400 botDist=0.000423926
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Plane Z=0.000606298
+
+.layerstack Layerstack2
++shield( 3.048e-005 1 0.035)
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.000423926 0.0001016 0.000458724 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaad08716.in 0.00127 
+.rlgc RLGCSTL_1S_1R_9 ( Length=length N=1 )
+.C 0
++ 5.764500e-011 
+.L 0
++ 6.269200e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 4.746600e+000 
+.C INF
++ 5.764500e-011 
+.L INF
++ 6.269200e-007 
+.Td INF
++ 6.011600e-009 
+.Yc INF
++ 9.589000e-003 
+.Zc INF
++ 1.042900e+002 
+
+.endrlgc RLGCSTL_1S_1R_9
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.011600e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 9.589000e-003 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  1.042900e+002 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.759300e-001 
+.ends STL_1S_1R_9
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_9
+FREQUENCY=0
+CMATRIX
+ 5.764500e-011
+LMATRIX
+ 6.269200e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 4.746600e+000
+FREQUENCY=INF
+CMATRIX
+ 5.764500e-011
+LMATRIX
+ 6.269200e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_10 
+   (IDL ".subckt STL_1S_1R_10 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Conductor Width=400 topDist=0.000237998 botDist=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Plane Z=0.000606298
+
+.layerstack Layerstack2
++shield( 3.048e-005 1 0.035)
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.0002032 0.0001016 0.000220726 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/ADMINI~1/AppData/Local/Temp/#Taaaaae08716.in 0.00127 
+.rlgc RLGCSTL_1S_1R_10 ( Length=length N=1 )
+.C 0
++ 9.232000e-011 
+.L 0
++ 5.159500e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 9.424300e+000 
+.C INF
++ 9.232000e-011 
+.L INF
++ 5.159500e-007 
+.Td INF
++ 6.901600e-009 
+.Yc INF
++ 1.337700e-002 
+.Zc INF
++ 7.475800e+001 
+
+.endrlgc RLGCSTL_1S_1R_10
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.901600e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.337700e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  7.475800e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.992200e-001 
+.ends STL_1S_1R_10
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_10
+FREQUENCY=0
+CMATRIX
+ 9.232000e-011
+LMATRIX
+ 5.159500e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 9.424300e+000
+FREQUENCY=INF
+CMATRIX
+ 9.232000e-011
+LMATRIX
+ 5.159500e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_11 
+   (IDL ".subckt STL_1S_1R_11 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Conductor Width=500 botDist=0.000423926
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Plane Z=0.000606298
+
+.layerstack Layerstack2
++shield( 3.048e-005 1 0.035)
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.000423926 0.000127 0.000458724 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/psai/AppData/Local/Temp/#Taaaaac06760.in 0.00127 
+.rlgc RLGCSTL_1S_1R_11 ( Length=length N=1 )
+.C 0
++ 6.076100e-011 
+.L 0
++ 5.955700e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 3.797200e+000 
+.C INF
++ 6.076100e-011 
+.L INF
++ 5.955700e-007 
+.Td INF
++ 6.015600e-009 
+.Yc INF
++ 1.010100e-002 
+.Zc INF
++ 9.900400e+001 
+
+.endrlgc RLGCSTL_1S_1R_11
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.015600e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.010100e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  9.900400e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  6.644400e-001 
+.ends STL_1S_1R_11
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_11
+FREQUENCY=0
+CMATRIX
+ 6.076100e-011
+LMATRIX
+ 5.955700e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 3.797200e+000
+FREQUENCY=INF
+CMATRIX
+ 6.076100e-011
+LMATRIX
+ 5.955700e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) 
+  (STL_1S_1R_12 
+   (IDL ".subckt STL_1S_1R_12 
++X1 0
++X2 0
+*MaxTraceWidthLimit = 0
+*MeshSize = 0.00127
+*CutoffFrequency = 0
+*Trapezoidal_Angle_in_Degree = 90.000000
+*EMIinfo Type Top MicroStrip
+*EMIinfo Dielectric Eps=4.5 Thick=3.4798e-005
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=1.7526e-005
+*EMIinfo Conductor Width=500 topDist=0.000237998 botDist=0.0002032
+*EMIinfo Dielectric Eps=4.5 Thick=0.0002032
+*EMIinfo Plane Z=0.000606298
+
+.layerstack Layerstack2
++shield( 3.048e-005 1 0.035)
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 1.7526e-005 4.5 0.035 )
++dielectric( 0.0002032 4.5 0.035 )
++dielectric( 3.4798e-005 4.5 0 )
+.crosssection
++rectangle ( 5.959e+007 0 0.0002032 0.000127 0.000220726 )
++Length=length
+*FieldSolver: bem2d 0 C:/Users/psai/AppData/Local/Temp/#Taaaaad06760.in 0.00127 
+.rlgc RLGCSTL_1S_1R_12 ( Length=length N=1 )
+.C 0
++ 9.905800e-011 
+.L 0
++ 4.793200e-007 
+.G 0
++ 0.000000e+000 
+.R 0
++ 7.539500e+000 
+.C INF
++ 9.905800e-011 
+.L INF
++ 4.793200e-007 
+.Td INF
++ 6.890600e-009 
+.Yc INF
++ 1.437600e-002 
+.Zc INF
++ 6.956100e+001 
+
+.endrlgc RLGCSTL_1S_1R_12
+
+**The Characteristic Modal Delay, Admittance and
+**Impedance Matrices of these Transmission Lines:
+
+*Delay Matrix.
+*Td 0 (n=1)
+*  6.890600e-009 
+
+*Admittance Matrix.
+*Y 0 (n=1)
+* 1.437600e-002 
+
+*Impedance Matrix.
+*Z 0 (n=1)
+*  6.956100e+001 
+
+
+**The Near-End Crosstalk Coefficent of these Transmission
+**Lines based on Near-End Resistance=50 ohm assumption:
+
+*Near-End Crosstalk Coefficent Matrix, Z0*Inv(R+Z0).
+*  0 (n=1)
+*  5.818000e-001 
+.ends STL_1S_1R_12
+" ) 
+   (KSPICE "DATAPOINTS RLGC STL_1S_1R_12
+FREQUENCY=0
+CMATRIX
+ 9.905800e-011
+LMATRIX
+ 4.793200e-007
+GMATRIX
+ 0.000000e+000
+RMATRIX
+ 7.539500e+000
+FREQUENCY=INF
+CMATRIX
+ 9.905800e-011
+LMATRIX
+ 4.793200e-007
+END RLGC
+" ) 
+   (Frequency 0 ) ) ) 
+ (LibraryVersion 136.2 ) ) 

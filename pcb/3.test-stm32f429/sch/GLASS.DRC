@@ -1,0 +1,535 @@
+Date and Time : 03/15/16 11:59:19
+
+--------------------------------------------------
+Checking Schematic:  Top
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    3.3V
+
+Reporting Net Names
+    PE2
+    PA11
+    PH12
+    PE7
+    PA3
+    PA5
+    PH2
+    PB5
+    PC1
+    PE1
+    PF12
+    VCAP_2
+    PD11
+    PD6
+    PH13
+    TCK
+    VDDA
+    PB12
+    PI6
+    PA0
+    PE14
+    PD10
+    PG8
+    OSC-IN
+    PE11
+    PB8
+    PH14
+    PA7
+    PF11
+    OSC32-OUT
+    PA9
+    PA2
+    BOOT0
+    PG10
+    PF1
+    PF10
+    PH9
+    OSC-OUT
+    PG4
+    PH15
+    PI1
+    PI9
+    PF13
+    PD1
+    PH10
+    PB13
+    3.3V
+    PG1
+    PI0
+    PA1
+    PE0
+    PE5
+    PE6
+    PG5
+    PD5
+    PF0
+    PB7
+    PH11
+    OSC32-IN
+    PF5
+    PE12
+    PD12
+    PG2
+    PE15
+    PF2
+    PF8
+    PH8
+    PB6
+    PB14
+    TRST
+    PG9
+    PD8
+    PI2
+    PE9
+    PI4
+    PI5
+    PC6
+    BYPASS
+    PF3
+    VCAP_1
+    PG6
+    PE10
+    BOOT1
+    GND
+    PG15
+    PI7
+    PD0
+    PF15
+    PH5
+    PD4
+    PE13
+    TDO
+    TDI
+    PH3
+    PF14
+    PI10
+    PA8
+    RESET
+    PB15
+    PE4
+    PG7
+    PC2
+    PE8
+    PF4
+    PG12
+    PA6
+    PG0
+    PC3
+    PA4
+    PD14
+    PC0
+    PD9
+    TMS
+    PD15
+    PH4
+    PA10
+    PG11
+    PDR_ON
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: NandFlash&SDRAM1 NandFlash&SDRAM
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    PF13_FMC_A7
+    PF3_FMC_A3
+    PG2_FMC_A12
+    PG5_FMC_A15
+    PE15_FMC_D12
+    PB6_FMC_NE1
+    PE10_FMC_D7
+    PD11_FMC_A16
+    PB5_FMC_CKE1
+    PF14_FMC_A8
+    PF4_FMC_A4
+    PD10_FMC_D15
+    PC0_FMC_WE
+    PE13_FMC_D10
+    PE11_FMC_D8
+    PF15_FMC_A9
+    PF5_FMC_A5
+    PD4_FSMC_NOE
+    PD14_FMC_D0
+    PE12_FMC_D9
+    PE7_FMC_D4
+    PG1_FMC_A11
+    PF0_FMC_A0
+    PD8_FMC_D13
+    PE14_FMC_D11
+    PE0_FMC_NBL0
+    PD15_FMC_D1
+    PG9_FSMC_NCE3
+    PE8_FMC_D5
+    PD6_FMC_NWAIT
+    PD12_FMC_A17
+    PF1_FMC_A1
+    PG8_FMC_CLK
+    PD0_FMC_D2
+    PD9_FMC_D14
+    PG15_FMC_CAS
+    PD5_FSMC_NWE
+    PG4_FMC_A14
+    PF11_FMC_RAS
+    PE9_FMC_D6
+    PF12_FMC_A6
+    PF2_FMC_A2
+    PD1_FMC_D3
+    PE1_FMC_NBL1
+    PG0_FMC_A10
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    3.3V
+
+Reporting Net Names
+    PF13_FMC_A7
+    PD1_FMC_D3
+    PE8_FMC_D5
+    PF0_FMC_A0
+    PF11_FMC_RAS
+    PF2_FMC_A2
+    PG0_FMC_A10
+    PG1_FMC_A11
+    GND
+    PD8_FMC_D13
+    PB6_FMC_NE1
+    PE9_FMC_D6
+    PG5_FMC_A15
+    PF12_FMC_A6
+    PD4_FSMC_NOE
+    PD0_FMC_D2
+    PE15_FMC_D12
+    PG15_FMC_CAS
+    PF1_FMC_A1
+    PF15_FMC_A9
+    PD14_FMC_D0
+    PD12_FMC_A17
+    PE12_FMC_D9
+    PD9_FMC_D14
+    PG8_FMC_CLK
+    PF4_FMC_A4
+    PE1_FMC_NBL1
+    PE13_FMC_D10
+    PG4_FMC_A14
+    PF5_FMC_A5
+    PD6_FMC_NWAIT
+    PD15_FMC_D1
+    PE10_FMC_D7
+    N01118
+    PF14_FMC_A8
+    PD5_FSMC_NWE
+    PD11_FMC_A16
+    PE11_FMC_D8
+    PD10_FMC_D15
+    PB5_FMC_CKE1
+    PF3_FMC_A3
+    PE0_FMC_NBL0
+    PE7_FMC_D4
+    PG2_FMC_A12
+    3.3V
+    PG9_FSMC_NCE3
+    PE14_FMC_D11
+    PC0_FMC_WE
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: POWER1 POWER
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    EN_2.5V
+    COU-ALRT
+    COU-SCL
+    COU-SDA
+    EN_5V
+    POK
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VSYS
+    GND
+    2.5V
+    3.3V
+    VCHG
+    5V
+    VBAT
+
+Reporting Net Names
+    COU-SDA
+    N72052
+    N64320
+    GND
+    EN_2.5V
+    N43434
+    N43466
+    EN_5V
+    3.3V
+    VCHG
+    N42064
+    N49830
+    N38673
+    N43250
+    N41471
+    N38609
+    N38635
+    N43458
+    N38309
+    N41478
+    N38204
+    N55342
+    VSYS
+    N42120
+    2.5V
+    POK
+    COU-SCL
+    N72374
+    COU-ALRT
+    N43394
+    N48977
+    N47223
+    5V
+    VBAT
+    N42113
+    N64376
+    N38208
+    N43226
+    N41859
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: LCD1 LCD
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    PH12_LCD_R6
+    PH2_LCD_R0
+    PI5_LCD_B5
+    PG7_LCD_CLK
+    PH4_IIC_SCL
+    PH13_LCD_G2
+    PH3_LCD_R1
+    PI6_LCD_B6
+    LCD_MISO
+    PG10_LCD_B2
+    PE4_LCD_B0
+    PH14_LCD_G3
+    PH8_LCD_R2
+    PI1_LCD_G6
+    PI7_LCD_B7
+    PH5_IIC_SDA
+    PG11_LCD_B3
+    PG6_LCD_R7
+    PE5_LCD_G0
+    PH15_LCD_G4
+    PH9_LCD_R3
+    PI2_LCD_G7
+    PG12_LCD_B1
+    PI10_LCD_HSYNC
+    PE6_LCD_G1
+    PH10_LCD_R4
+    PC6_USART_TX
+    PE2_INT
+    LCD_SCK
+    RESET
+    LCD_CS
+    PF10_LCD_DE
+    PH11_LCD_R5
+    PI4_LCD_B4
+    PI9_LCD_VSYNC
+    LCD_MOSI
+    PI0_LCD_G5
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    2.5V
+    3.3V
+    5V
+
+Reporting Net Names
+    PH11_LCD_R5
+    PH2_LCD_R0
+    LCD_SCK
+    5V
+    PG12_LCD_B1
+    PH13_LCD_G2
+    PI4_LCD_B4
+    PH5_IIC_SDA
+    PI6_LCD_B6
+    LCD_MISO
+    PI9_LCD_VSYNC
+    PF10_LCD_DE
+    PH9_LCD_R3
+    PH4_IIC_SCL
+    N66109
+    PI2_LCD_G7
+    PI1_LCD_G6
+    PE5_LCD_G0
+    PH10_LCD_R4
+    PC6_USART_TX
+    2.5V
+    RESET
+    PG11_LCD_B3
+    LCD_CS
+    PH14_LCD_G3
+    PG10_LCD_B2
+    3.3V
+    PE2_INT
+    PI0_LCD_G5
+    PH15_LCD_G4
+    PG6_LCD_R7
+    PH8_LCD_R2
+    N58225
+    PI10_LCD_HSYNC
+    LCD_MOSI
+    GND
+    PE6_LCD_G1
+    PH12_LCD_R6
+    PH3_LCD_R1
+    PI7_LCD_B7
+    PI5_LCD_B5
+    PG7_LCD_CLK
+    PE4_LCD_B0
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic:  Top
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: NandFlash&SDRAM1 NandFlash&SDRAM
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: POWER1 POWER
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: LCD1 LCD
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: GLASS 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
