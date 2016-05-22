@@ -1,0 +1,49 @@
+\t (00:00:36) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:36)     Journal start - Sat May 21 13:23:48 2016
+\t (00:00:36)         Host=PSAI-PC User=psai Pid=9244 CPUs=4
+\t (00:00:36) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:36) 
+\d (00:00:36) Design opened: E:/material/glass/workspace/pcb/4.test-buletooth/pcb/test-bluetooth.brd
+\i (00:00:36) generaledit 
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 78.76 4.18
+\i (00:00:37) trapsize 213
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 78.77 4.18
+\i (00:00:37) trapsize 425
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 78.77 4.18
+\i (00:00:37) trapsize 851
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 94.08 16.09
+\i (00:00:37) trapsize 1701
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 104.28 19.49
+\i (00:00:37) trapsize 3403
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 1899.81 252.93
+\i (00:00:37) trapsize 6805
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 144.04 538.75
+\i (00:00:38) trapsize 3403
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 171.26 531.95
+\i (00:00:38) trapsize 1701
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 171.26 531.95
+\i (00:00:38) trapsize 851
+\i (00:00:40) open 
+\i (00:00:45) fillin "E:\material\glass\workspace\pcb\3.test-stm32f429\pcb\f429.brd"
+\i (00:00:45) cd "E:\material\glass\workspace\pcb\3.test-stm32f429\pcb"
+\t (00:00:45) Opening existing design...
+\i (00:00:45) trapsize 1469
+\t (00:00:45)     Journal end - Sat May 21 13:23:58 2016

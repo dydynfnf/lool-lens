@@ -1,0 +1,16 @@
+\t (00:06:26) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:06:26)     Journal start - Sat May 21 18:46:23 2016
+\t (00:06:26)         Host=PSAI-PC User=psai Pid=10220 CPUs=4
+\t (00:06:26) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:06:26) 
+\t (00:06:27) Opening existing design...
+\d (00:06:27) Design opened: E:/material/glass/workspace/pcb/3.test-stm32f429/pcb/f429.brd
+\i (00:06:28) trapsize 1482
+\i (00:06:28) trapsize 1438
+\i (00:06:28) trapsize 1489
+\i (00:06:28) trapsize 1223
+\i (00:06:28) trapsize 1469
+\i (00:06:29) generaledit 
+\i (00:06:32) new 
+\i (00:07:53) newdrawfillin "molex-boardconnector-16p.dra" "Package Symbol"
+\t (00:07:53)     Journal end - Sat May 21 18:47:49 2016
