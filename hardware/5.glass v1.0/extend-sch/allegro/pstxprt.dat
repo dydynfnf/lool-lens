@@ -1,0 +1,210 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001May-23-2016 at 15:55:44 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='EXTEND';
+ POST_TIME='Aug  3 2015 18:16:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101926@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101926@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101926@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102328@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102328@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102328@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102014@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102014@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102014@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102450@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102450@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102450@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101954@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101954@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101954@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102434@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102434@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102434@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102466@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102466@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102466@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102312@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102312@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102312@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102482@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102482@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102482@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101982@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101982@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101982@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102222@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102222@mylibrary.\cap.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102222@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'PHONEJACK STEREO_PHONEJACK-3P_P':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101840@CONNECTOR.PHONEJACK STEREO.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101840@connector.\phonejack stereo.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101840@connector.\phonejack stereo.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CONN RECT 11X2_MOLEX-BTB-18P-B_':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS104593@CONNECTOR.CONN RECT 11X2.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins104593@connector.\conn rect 11x2.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins104593@connector.\conn rect 11x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102514@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102514@mylibrary.\res.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102514@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RES_0402_3.3K':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS102296@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins102296@mylibrary.\res.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins102296@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101866@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101866@mylibrary.\res.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101866@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101882@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101882@mylibrary.\res.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101882@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'BK8000L-MODULE_BK8000L-MODULE_B':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101718@MYLIBRARY.BK8000L-MODULE.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101718@mylibrary.\bk8000l-module.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101718@mylibrary.\bk8000l-module.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TPA6132A2_TPA6132A2-QFN_TPA6132':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101794@MYLIBRARY.TPA6132A2.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101794@mylibrary.\tpa6132a2.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101794@mylibrary.\tpa6132a2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'SPU0410HR5H-PB_SPU0410HR5H-PB_S':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS101698@MYLIBRARY.SPU0410HR5H-PB.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins101698@mylibrary.\spu0410hr5h-pb.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins101698@mylibrary.\spu0410hr5h-pb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
