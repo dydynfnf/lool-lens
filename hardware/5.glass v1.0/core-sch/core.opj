@@ -104,82 +104,77 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\core.dsn")
+      (Path "Design Resources" ".\core.dsn" "Top")
       (Path "Design Resources" ".\core.dsn" "CONNECTOR")
       (Path "Design Resources" ".\core.dsn" "FLASH&SDRAM")
       (Path "Design Resources" ".\core.dsn" "MCU")
       (Path "Design Resources" ".\core.dsn" "POWER")
-      (Select "Design Resources" ".\core.dsn"))
+      (Select "Design Resources" ".\core.dsn" "Top" "TOP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 600"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 821"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 567 125 690")
-        (Scroll "463 0")
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "618 210")
         (Zoom "100")
         (Occurrence "/"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Path "E:\MATERIAL\GLASS\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
       (Schematic "Top")
       (Page "TOP"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 773 75 640")
-        (Scroll "140 69")
-        (Zoom "93")
-        (Occurrence "/POWER1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "POWER")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 873 125 579")
-        (Scroll "130 168")
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "438 320")
         (Zoom "100")
         (Occurrence "/FLASH&SDRAM1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Path "E:\MATERIAL\GLASS\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
       (Schematic "FLASH&SDRAM")
       (Page "FLASH&SDRAM"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 898 150 604")
-        (Scroll "-6 0")
-        (Zoom "72")
-        (Occurrence "/CONNECTOR1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "CONNECTOR")
-      (Page "CONNECTOR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 923 175 629")
-        (Scroll "469 469")
-        (Zoom "186")
+        (Placement "44 2 3 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "44 119")
+        (Zoom "100")
         (Occurrence "/STM32F1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Path "E:\MATERIAL\GLASS\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
       (Schematic "MCU")
       (Page "MCU"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 150 898 150 604")
-        (Scroll "-16 40")
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "418 335")
+        (Zoom "100")
+        (Occurrence "/CONNECTOR1"))
+      (Path "E:\MATERIAL\GLASS\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Schematic "CONNECTOR")
+      (Page "CONNECTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "458 340")
+        (Zoom "100")
+        (Occurrence "/POWER1"))
+      (Path "E:\MATERIAL\GLASS\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Schematic "POWER")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "418 275")
         (Zoom "100")
         (Occurrence "/SENSOR1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Path "E:\MATERIAL\GLASS\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
       (Schematic "SENSOR")
       (Page "SENSOR")))
-  (MPSSessionName "psai")
+  (MPSSessionName "Psai")
   (ISPCBBASICLICENSE "false"))
