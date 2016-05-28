@@ -1,0 +1,92 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Wed May 25 10:35:59 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro'
+Design Directory:            '.'
+Old design name:             'E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd'
+New design name:             'E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd'
+
+CmdLine: netrev -$ -i E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro -y 1 -q netrev_constraint_report.xml E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/#Taaaaax06288.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro/pstchip.dat 
+   Finished reading E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro/pstchip.dat (00:00:00.04)
+Starting to read E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro/pstxprt.dat 
+   Finished reading E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro/pstxprt.dat (00:00:00.00)
+Starting to read E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro/pstxnet.dat 
+   Finished reading E:/material/glass/workspace/hardware/5.glass v1.0/core-sch/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           d:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/cadence lib/PSM/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           d:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           d:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/cadence lib/PAD/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 25 10:35:59 2016
+   DESIGN NAME : 'CORE'
+   PACKAGING ON Aug  3 2015 18:16:55
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:44
+elapsed time  0:00:00
+

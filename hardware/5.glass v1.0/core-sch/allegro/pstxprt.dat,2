@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001May-23-2016 at 15:44:18 }
+{ Using PSTWRITER 16.6.0 d001May-25-2016 at 10:13:41 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='CORE';
@@ -408,6 +408,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C46 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS269683@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins269683@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins269683@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  C5 'CAP_0402_12PF':;
 
 SECTION_NUMBER 1
@@ -544,6 +554,26 @@ SECTION_NUMBER 1
  '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256726@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
  C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256726@mylibrary.\inductor.normal\(chips)',
  P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256726@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M1 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):INS222420@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):ins222420@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_ins222420@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M2 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):INS222434@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):ins222434@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_ins222434@mylibrary.\mtg.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -694,16 +724,6 @@ SECTION_NUMBER 1
  '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256438@MYLIBRARY.RES.NORMAL(CHIPS)':
  C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256438@mylibrary.\res.normal\(chips)',
  P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256438@mylibrary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R21 'RES_0402_0':;
-
-SECTION_NUMBER 1
- '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256318@MYLIBRARY.RES.NORMAL(CHIPS)':
- C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256318@mylibrary.\res.normal\(chips)',
- P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256318@mylibrary.\res.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

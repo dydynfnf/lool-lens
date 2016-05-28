@@ -1,4 +1,4 @@
-Date and Time : 05/23/16 15:56:10
+Date and Time : 05/25/16 10:35:42
 
 --------------------------------------------------
 Checking Schematic:  Top
@@ -22,82 +22,82 @@ Reporting Off-Page Connections
 Reporting Globals
 
 Reporting Net Names
-    FMC_D0
-    LCD_B0
-    N209598
-    FMC_D7
-    LCD_B7
-    N209550
-    N192990
-    N209454
-    N193004
-    FMC_D14
-    FMC_A10
-    FMC_A6
-    N192986
-    N209616
-    FMC_D4
-    LCD_B4
-    N193010
-    N209458
-    FMC_D11
-    FMC_A3
-    N209430
-    FMC_D1
+    FMC_D3
     LCD_B1
-    N206148
-    N193002
-    FMC_D8
-    FMC_A0
-    N209530
-    N192988
-    N192996
-    FMC_D15
-    FMC_A11
-    FMC_A7
-    N209502
     N206152
-    FMC_D5
+    N193002
+    FMC_D10
     LCD_B5
     N209574
-    N193000
-    FMC_A[0..12]
+    N192996
+    FMC_D0
     FMC_A4
+    N209502
     N209412
-    FMC_D12
-    FMC_D2
+    N209628
+    FMC_D[0..15]
+    FMC_D7
     LCD_B2
     N209578
-    N209434
-    FMC_D9
+    N193000
+    FMC_D14
+    FMC_A10
+    FMC_A8
     FMC_A1
     N209526
-    N209640
-    N209506
-    FMC_A12
-    FMC_A8
-    N209482
+    N192990
+    FMC_D4
     N209602
-    FMC_D6
+    N209434
+    LCD_B[0..7]
+    FMC_D11
     LCD_B6
     N209554
-    N192992
-    N192998
-    FMC_D13
-    FMC_A9
+    N209506
+    FMC_D1
     FMC_A5
-    N219356
+    N209482
     N209400
-    LCD_B[0..7]
-    FMC_D3
+    N209430
+    FMC_D8
     LCD_B3
     N206144
-    N209478
-    FMC_D10
+    N192998
+    FMC_D15
+    FMC_A11
+    FMC_A9
     FMC_A2
-    N209628
+    N219356
+    N192988
+    FMC_D5
+    N209598
+    N209478
+    N193004
+    FMC_D12
+    LCD_B7
+    N209550
     N192994
-    FMC_D[0..15]
+    FMC_D2
+    FMC_A6
+    LCD_B0
+    N209616
+    FMC_D9
+    LCD_B4
+    N193010
+    N209454
+    FMC_A12
+    FMC_A3
+    N192986
+    N209640
+    FMC_A[0..12]
+    FMC_D6
+    N206148
+    N209458
+    FMC_D13
+    FMC_A7
+    FMC_A0
+    N209530
+    N192992
 
 Checking Misleading Tap connection
 
@@ -133,42 +133,42 @@ Reporting Globals
     VRTC
     3.3V
     VCHG
-    5V
     VBAT
+    5V
 
 Reporting Net Names
-    N94775
-    VRTC
-    2.5V
-    N92103
-    COU-SCL
-    N76476
-    N108232
-    COU-ALRT
-    N92575
-    N86348
-    GND
-    N86193
     N85062
-    N92645
+    N86681
     N84564
-    N108220
     OTG-FS-DM
-    VBAT
     N87122
     VCHG
-    COU-SDA
+    N86348
     N85526
+    COU-SCL
     N94612
-    5V
+    N108232
+    N92645
+    GND
     SYS
-    N86197
     N94238
-    N95538
     N85983
     N93770
-    3.3V
+    COU-SDA
     OTG-FS-DP
+    N94775
+    N108220
+    5V
+    2.5V
+    N95538
+    N92103
+    VBAT
+    3.3V
+    COU-ALRT
+    N92575
+    N86197
+    VRTC
+    N86193
 
 Checking Misleading Tap connection
 
@@ -201,14 +201,14 @@ Reporting Globals
     3.3V
 
 Reporting Net Names
-    3.3V
-    N76702
-    3D-SCL
-    N76608
-    3D_INT
     3D-SDA
+    N76702
+    N76608
     N76822
+    3D_INT
     GND
+    3D-SCL
+    3.3V
 
 Checking Misleading Tap connection
 
@@ -311,103 +311,103 @@ Reporting Off-Page Connections
 
 Reporting Globals
     GND
-    VRTC
     3.3V
+    VRTC
 
 Reporting Net Names
-    FMC_CLK
-    FMC_D11
+    BOOT1
+    LCD_B1
     NAV_SCK
     FMC_D5
-    FMC_A10
-    FLS_CS
-    FMC_D13
-    FMC_NBL0
-    FMC_NE1
-    COU-ALRT
-    LCD_B5
-    FMC_BA1
-    FMC_RAS
-    FMC_BA0
-    FMC_D14
-    NAV_MISO
     LCD_MOSI
-    FMC_A11
-    FMC_NBL1
-    FMC_D10
-    FMC_D6
+    FMC_CLK
+    LCD_CLK
+    FMC_NE1
+    FMC_D9
+    NAV_MOSI
     LCD_B6
-    FMC_D0
-    FLS_MISO
-    FMC_A5
-    VDDA
-    3D_INT
+    BOOT0
+    FMC_RAS
+    FMC_D14
+    OSC-IN
     FMC_D2
-    LCD_B4
-    FMC_D15
-    VCAP_1
-    VCAP_2
+    FMC_D[0..15]
+    FMC_BA1
+    FMC_NBL0
+    LCD_B2
+    COU-ALRT
     FMC_D7
     FMC_A7
-    LCD_B[0..7]
-    GND
-    FMC_D8
-    NAV_NSS
-    NAV_INT
-    LCD_DE
-    FMC_A3
-    LCD_B1
-    FMC_A4
-    VRTC
     BT_RX
-    LCD_HSYNC
-    FMC_D9
+    FMC_A[0..12]
+    FLS_MISO
+    NAV_MISO
+    FMC_A12
+    NAV_INT
+    FMC_NBL1
+    FMC_CKE1
+    FMC_D15
+    VCAP_1
+    VRTC
+    FMC_D0
+    FMC_D8
+    OSC32-OUT
+    FMC_A5
     FLS_SCK
-    FMC_CAS
-    LCD_CS
-    BT_TX
-    PDR_ON
+    FMC_A8
+    FMC_A3
+    FMC_D12
+    SDA
     SWDIO
-    LCD_B2
-    OSC-OUT
-    FMC_A9
+    LCD_DE
+    GND
+    OSC32-IN
+    NAV_NSS
     LCD_MISO
     FMC_D3
-    FMC_A8
-    FMC_A[0..12]
-    FMC_WE
-    3.3V
-    BYPASS
-    OSC-IN
-    FLS_MOSI
-    FMC_D[0..15]
-    FMC_D1
-    LCD_SCK
-    FMC_CKE1
-    LCD_B3
-    OTG-FS-DM
-    BOOT0
     LCD_B7
-    FMC_A2
-    OSC32-OUT
-    FMC_D4
-    FMC_A6
-    LCD_VSYNC
-    SCL
-    FMC_D12
-    RESET
-    SWCLK
-    HE_ADC
+    LCD_CS
+    BT_TX
+    FMC_A4
+    FMC_D6
+    FLS_MOSI
+    LCD_HSYNC
+    FMC_D11
+    OSC-OUT
+    OTG-FS-DM
     FMC_A1
-    BOOT1
-    OSC32-IN
-    FMC_A12
+    LCD_B[0..7]
+    FMC_CAS
+    3.3V
+    PDR_ON
+    FMC_A6
+    LCD_SCK
+    FMC_BA0
+    VDDA
+    HE_ADC
+    FMC_D1
+    FMC_WE
+    FMC_D10
+    BYPASS
+    VCAP_2
     FMC_A0
-    LCD_CLK
-    LCD_B0
-    NAV_MOSI
-    SDA
+    FMC_D13
+    SCL
+    RESET
+    LCD_B3
+    3D_INT
     OTG-FS-DP
+    FMC_A2
+    LCD_B4
+    FMC_D4
+    FMC_A10
+    FLS_CS
+    FMC_A11
+    LCD_VSYNC
+    LCD_B0
+    SWCLK
+    FMC_A9
+    LCD_B5
 
 Checking Misleading Tap connection
 
@@ -467,39 +467,39 @@ Reporting Globals
     5V
 
 Reporting Net Names
+    LCD_B2
+    NAV_SCK
+    GND
+    LCD_B3
+    LCD_B[0..7]
+    LCD_VSYNC
+    LCD_B6
+    HE-ADC
+    LCD_B4
+    LCD_B7
+    LCD_HSYNC
+    5V
+    LCD_B1
+    NAV_MOSI
     NAV_INT
     LCD_B0
-    LCD_MISO
-    LCD_DE
-    NAV_NSS
-    LCD_B5
-    LCD_B[0..7]
-    3.3V
-    GND
-    N58225
-    BT_RX
-    ILLU-SCL
-    LCD_VSYNC
-    ILLU-SDA
-    LCD_MOSI
-    LCD_HSYNC
-    LCD_SCK
-    LCD_B1
-    BT_TX
-    NAV_SCK
-    NAV_MISO
-    LCD_B3
     VBAT
-    LCD_B6
-    LCD_B4
+    LCD_MISO
     LCD_CLK
-    LCD_B7
+    NAV_NSS
+    N58225
+    LCD_B5
     LCD_CS
-    HE-ADC
-    5V
-    LCD_B2
-    NAV_MOSI
+    NAV_MISO
+    BT_RX
+    3.3V
+    ILLU-SCL
     2.5V
+    LCD_DE
+    ILLU-SDA
+    BT_TX
+    LCD_MOSI
+    LCD_SCK
 
 Checking Misleading Tap connection
 
@@ -574,53 +574,53 @@ Reporting Globals
     3.3V
 
 Reporting Net Names
-    FMC_D1
-    FMC_NE1
-    FMC_D5
-    FMC_A7
-    FMC_D11
-    FMC_D15
-    FMC_A3
-    GND
-    FMC_A[0..12]
-    FMC_D13
-    FMC_CAS
     FMC_D12
     FMC_A5
-    FMC_D4
-    FLS_MOSI
-    FMC_A11
-    FLS_CS
-    FMC_RAS
-    FMC_BA0
-    FMC_D7
-    FMC_D2
-    FMC_D14
+    FMC_D11
     FMC_BA1
+    FMC_D5
+    FLS_MOSI
+    FMC_D3
+    FMC_A11
+    FMC_RAS
+    3.3V
+    FMC_D7
+    FMC_D4
+    FMC_D14
     FMC_A8
     FMC_A4
-    FMC_CKE1
-    FMC_A1
+    FMC_BA0
+    FLS_CS
     FMC_D0
-    3.3V
+    GND
+    FMC_D[0..15]
     FMC_A10
     FMC_A6
-    FMC_NBL1
+    FMC_WE
+    FMC_A2
     FMC_A0
+    FMC_A1
     FMC_A12
-    FMC_D6
     FLS_MISO
     FMC_NBL0
     FMC_D8
-    FMC_D3
-    FMC_CLK
-    FMC_D[0..15]
+    FMC_NBL1
     FLS_SCK
-    FMC_WE
+    FMC_D2
+    FMC_A[0..12]
     FMC_A9
-    FMC_A2
     FMC_D9
+    FMC_CAS
+    FMC_D6
+    FMC_D1
+    FMC_CKE1
+    FMC_CLK
+    FMC_NE1
+    FMC_A7
+    FMC_D15
+    FMC_A3
     FMC_D10
+    FMC_D13
 
 Checking Misleading Tap connection
 

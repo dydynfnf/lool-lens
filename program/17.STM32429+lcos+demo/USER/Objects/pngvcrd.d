@@ -1,0 +1,10 @@
+.\objects\pngvcrd.o: ..\PNG\pngvcrd.c
+.\objects\pngvcrd.o: ..\PNG\png.h
+.\objects\pngvcrd.o: ..\PNG\zlib.h
+.\objects\pngvcrd.o: ..\PNG\zconf.h
+.\objects\pngvcrd.o: ..\PNG\pngconf.h
+.\objects\pngvcrd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\setjmp.h
+.\objects\pngvcrd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pngvcrd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pngvcrd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\pngvcrd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

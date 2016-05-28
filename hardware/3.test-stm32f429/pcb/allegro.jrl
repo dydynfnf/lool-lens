@@ -1,16 +1,36 @@
-\t (00:06:26) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:06:26)     Journal start - Sat May 21 18:46:23 2016
-\t (00:06:26)         Host=PSAI-PC User=psai Pid=10220 CPUs=4
-\t (00:06:26) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:06:26) 
-\t (00:06:27) Opening existing design...
-\d (00:06:27) Design opened: E:/material/glass/workspace/pcb/3.test-stm32f429/pcb/f429.brd
-\i (00:06:28) trapsize 1482
-\i (00:06:28) trapsize 1438
-\i (00:06:28) trapsize 1489
-\i (00:06:28) trapsize 1223
-\i (00:06:28) trapsize 1469
-\i (00:06:29) generaledit 
-\i (00:06:32) new 
-\i (00:07:53) newdrawfillin "molex-boardconnector-16p.dra" "Package Symbol"
-\t (00:07:53)     Journal end - Sat May 21 18:47:49 2016
+\t (00:00:13) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:13)     Journal start - Tue May 24 13:30:31 2016
+\t (00:00:13)         Host=PSAI-PC User=psai Pid=8424 CPUs=4
+\t (00:00:13) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:13) 
+\d (00:00:13) Design opened: E:/material/glass/workspace/hardware/3.test-stm32f429/pcb/f429.brd
+\i (00:00:13) generaledit 
+\i (00:00:18) cmgr 
+\i (00:00:19) generaledit 
+\i (00:00:20) setwindow cmgr
+\i (00:00:20) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" "2:Signal Integrity" "3:Reflection/Edge Distortions" )
+\i (00:00:27) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 5:Timing "6:Switch/Settle Delays" )
+\i (00:00:36) cm newView ( worksheet 53:Electrical 66:Net 22:Timing "23:Switch/Settle Delays" )
+\i (00:00:41) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
+\i (00:00:44) cm newView ( worksheet 53:Electrical 66:Net "15:Signal Integrity" "16:Electrical Properties" )
+\i (00:00:44) cm select ( frame ( workbook 53:Electrical 66:Net 22:Timing ) )
+\i (00:02:03) setwindow pcb
+\i (00:02:03) xhilite 
+\i (00:02:03) xname_flush 
+\i (00:02:03) done 
+\i (00:02:03) generaledit 
+\i (00:02:06) setwindow cmgr
+\i (00:02:06) cm exit
+\i (00:02:09) setwindow pcb
+\i (00:02:09) xdehilite 
+\i (00:02:09) xname_flush 
+\i (00:02:09) done 
+\i (00:02:09) generaledit 
+\i (00:02:11) open 
+\e (00:02:11) Do you want to save the changes you made to f429.brd?
+\i (00:02:12) fillin no 
+\i (00:02:17) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\core.brd"
+\i (00:02:17) cd "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb"
+\t (00:02:17) Opening existing design...
+\i (00:02:17) trapsize 14636
+\t (00:02:18)     Journal end - Tue May 24 13:32:35 2016

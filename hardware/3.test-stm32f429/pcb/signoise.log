@@ -1,2 +1,4 @@
-INFO: Loaded existing device file 'E:\material\glass\workspace\pcb\3.test-stm32f429\pcb\devices.dml'
-INFO: Finished loading SigNoise device libraries
+INFO: Reading report definition file 'D:/Cadence/SPB_16.6/share/pcb/signal/reports.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Reading report definition file 'D:/Cadence/SPB_16.6/share/pcb/signal/custom_rep.dat'.
+INFO: Finished reading report definition file successfully.

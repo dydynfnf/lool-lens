@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001May-23-2016 at 15:39:26 }
+{ Using PSTWRITER 16.6.0 d001May-25-2016 at 09:44:33 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='CORE';
@@ -548,6 +548,26 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ M1 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):INS222420@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):ins222420@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_ins222420@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M2 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):INS222434@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):ins222434@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_ins222434@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  O1 'OSC-N_OSC-2016_25M':;
 
 SECTION_NUMBER 1
@@ -694,16 +714,6 @@ SECTION_NUMBER 1
  '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256438@MYLIBRARY.RES.NORMAL(CHIPS)':
  C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256438@mylibrary.\res.normal\(chips)',
  P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256438@mylibrary.\res.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R21 'RES_0402_0':;
-
-SECTION_NUMBER 1
- '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256318@MYLIBRARY.RES.NORMAL(CHIPS)':
- C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256318@mylibrary.\res.normal\(chips)',
- P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256318@mylibrary.\res.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

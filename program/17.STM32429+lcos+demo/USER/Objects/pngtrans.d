@@ -1,0 +1,10 @@
+.\objects\pngtrans.o: ..\PNG\pngtrans.c
+.\objects\pngtrans.o: ..\PNG\png.h
+.\objects\pngtrans.o: ..\PNG\zlib.h
+.\objects\pngtrans.o: ..\PNG\zconf.h
+.\objects\pngtrans.o: ..\PNG\pngconf.h
+.\objects\pngtrans.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\setjmp.h
+.\objects\pngtrans.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pngtrans.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pngtrans.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\pngtrans.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

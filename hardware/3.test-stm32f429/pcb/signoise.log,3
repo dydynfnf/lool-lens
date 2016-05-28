@@ -1,3 +1,2 @@
-WARNING: Using Default Impedance and Default PropVelocity for segment on layer BOTTOM
-WARNING: Using Default Impedance and Default PropVelocity for segment on layer TOP
-WARNING: Using Default Impedance and Default PropVelocity for segment on layer SIG
+INFO: Loaded existing device file 'E:\material\glass\workspace\pcb\3.test-stm32f429\pcb\devices.dml'
+INFO: Finished loading SigNoise device libraries

@@ -1,0 +1,225 @@
+\t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:02)     Journal start - Sat May 28 01:22:03 2016
+\t (00:00:02)         Host=PSAI-PC User=psai Pid=16916 CPUs=4
+\t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (00:00:04) trapsize 9321
+\i (00:00:04) trapsize 9071
+\i (00:00:04) trapsize 9364
+\i (00:00:04) trapsize 9364
+\i (00:00:05) ifp 
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 937.217 129.879
+\i (00:00:07) trapsize 4682
+\i (00:00:08) roam start
+\i (00:00:08) roam x -64
+\i (00:00:08) roam x -48
+\i (00:00:08) roam x -16
+\i (00:00:08) roam x -16
+\i (00:00:08) roam end
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 647.705 343.389
+\i (00:00:08) trapsize 2341
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 647.705 343.389
+\i (00:00:08) trapsize 1171
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 648.408 344.091
+\i (00:00:09) trapsize 585
+\i (00:00:09) roam start
+\i (00:00:09) roam y -96
+\i (00:00:09) roam y -64
+\i (00:00:09) roam y -48
+\i (00:00:09) roam y -32
+\i (00:00:09) roam x 16
+\i (00:00:09) roam y -32
+\i (00:00:09) roam y -32
+\i (00:00:10) roam x 16
+\i (00:00:10) roam y -48
+\i (00:00:10) roam x 16
+\i (00:00:10) roam y -32
+\i (00:00:10) roam y -32
+\i (00:00:10) roam x 16
+\i (00:00:10) roam y -64
+\i (00:00:10) roam y -32
+\i (00:00:10) roam y -16
+\i (00:00:10) roam y -32
+\i (00:00:10) roam y -32
+\i (00:00:10) roam y -16
+\i (00:00:10) roam y -32
+\i (00:00:10) roam y -32
+\i (00:00:10) roam end
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 666.978 415.776
+\i (00:00:11) trapsize 1171
+\i (00:00:15) show measure 
+\i (00:00:16) pick grid 693.432 437.081
+\t (00:00:16) last pick:  695.000 435.000
+\i (00:00:18) pick grid 717.077 439.188
+\t (00:00:18) last pick:  715.000 440.000
+\i (00:00:39) setwindow text
+\i (00:00:39) close 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) prepopup 714.970 430.292
+\i (00:00:40) done 
+\i (00:00:40) ifp 
+\i (00:53:10) zoom out 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom out 680.087 389.790
+\i (00:53:10) trapsize 2341
+\i (00:53:10) zoom out 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom out 680.088 390.259
+\i (00:53:10) trapsize 4682
+\i (00:53:10) zoom out 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom out 680.088 390.259
+\i (00:53:10) trapsize 9364
+\i (00:53:10) zoom out 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom out 680.089 390.259
+\i (00:53:10) trapsize 18729
+\i (00:53:10) zoom out 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom out 680.089 390.260
+\i (00:53:10) trapsize 37458
+\i (00:53:10) zoom in 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom in 680.088 397.751
+\i (00:53:10) trapsize 18729
+\i (00:53:10) zoom in 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom in 676.343 397.751
+\i (00:53:10) trapsize 9364
+\i (00:53:12) zoom in 1 
+\i (00:53:12) setwindow pcb
+\i (00:53:12) zoom in 1030.320 202.970
+\i (00:53:12) trapsize 4682
+\i (00:53:15) zoom out 1 
+\i (00:53:15) setwindow pcb
+\i (00:53:15) zoom out 1123.965 268.521
+\i (00:53:15) trapsize 9364
+\i (00:53:16) roam start
+\i (00:53:16) roam y 48
+\i (00:53:16) roam y 16
+\i (00:53:16) roam y 16
+\i (00:53:16) roam y 48
+\i (00:53:16) roam end
+\i (00:53:17) zoom in 1 
+\i (00:53:17) setwindow pcb
+\i (00:53:17) zoom in 972.261 142.960
+\i (00:53:17) trapsize 4682
+\i (00:53:17) zoom in 1 
+\i (00:53:17) setwindow pcb
+\i (00:53:17) zoom in 970.388 152.325
+\i (00:53:17) trapsize 2341
+\i (00:53:18) zoom out 1 
+\i (00:53:18) setwindow pcb
+\i (00:53:18) zoom out 969.920 152.326
+\i (00:53:18) trapsize 4682
+\i (00:57:21) reports 
+\i (00:57:33) reports "Component Pin Report"
+\i (00:57:44) setwindow text
+\i (00:57:44) close 
+\i (00:58:58) setwindow pcb
+\i (00:58:58) reports "Summary Drawing Report"
+\i (01:00:12) setwindow text
+\i (01:00:12) close 
+\i (01:00:13) setwindow pcb
+\i (01:00:13) ifp 
+\i (01:00:14) zoom out 1 
+\i (01:00:14) setwindow pcb
+\i (01:00:14) zoom out 809.787 216.003
+\i (01:00:14) trapsize 9364
+\i (01:00:14) zoom out 1 
+\i (01:00:14) setwindow pcb
+\i (01:00:14) zoom out 809.787 216.004
+\i (01:00:14) trapsize 18729
+\i (01:00:14) roam start
+\i (01:00:14) roam y -48
+\i (01:00:15) roam y -16
+\i (01:00:15) roam x -16
+\i (01:00:15) roam end
+\i (01:00:17) show measure 
+\i (01:00:17) zoom in 1 
+\i (01:00:17) setwindow pcb
+\i (01:00:17) zoom in 260.952 287.173
+\i (01:00:17) trapsize 9364
+\i (01:00:18) zoom in 1 
+\i (01:00:18) setwindow pcb
+\i (01:00:18) zoom in 260.952 287.173
+\i (01:00:18) trapsize 4682
+\i (01:00:18) zoom out 1 
+\i (01:00:18) setwindow pcb
+\i (01:00:18) zoom out 240.350 320.885
+\i (01:00:18) trapsize 9364
+\i (01:00:20) pick grid 0.620 628.040
+\t (01:00:20) last pick:  0.000 630.000
+\i (01:00:21) roam start
+\i (01:00:21) roam x 48
+\i (01:00:21) roam y 16
+\i (01:00:21) roam x 64
+\i (01:00:21) roam y 32
+\i (01:00:22) roam x 128
+\i (01:00:22) roam y 64
+\i (01:00:22) roam x 80
+\i (01:00:22) roam y 32
+\i (01:00:22) roam x 32
+\i (01:00:22) roam y 16
+\i (01:00:22) roam x 16
+\i (01:00:22) roam y 16
+\i (01:00:22) roam x 16
+\i (01:00:22) roam x -48
+\i (01:00:22) roam y -16
+\i (01:00:22) roam x -64
+\i (01:00:22) roam x -32
+\i (01:00:22) roam x -16
+\i (01:00:22) roam x 16
+\i (01:00:22) roam y -16
+\i (01:00:23) roam end
+\i (01:00:24) pick grid 1766.758 6.238
+\t (01:00:24) last pick:  1765.000 5.000
+\i (01:00:28) pick grid 1768.631 0.620
+\t (01:00:28) last pick:  1770.000 0.000
+\i (01:00:29) pick grid 1772.376 -3.126
+\t (01:00:29) last pick:  1770.000 -5.000
+\i (01:00:30) roam start
+\i (01:00:30) roam x -48
+\i (01:00:30) roam y -32
+\i (01:00:30) roam x -96
+\i (01:00:30) roam y -32
+\i (01:00:30) roam x -96
+\i (01:00:30) roam y -32
+\i (01:00:30) roam x -64
+\i (01:00:30) roam y -16
+\i (01:00:30) roam x -80
+\i (01:00:30) roam y -16
+\i (01:00:30) roam x -80
+\i (01:00:30) roam y -16
+\i (01:00:30) roam x -64
+\i (01:00:30) roam y -16
+\i (01:00:30) roam x -16
+\i (01:00:30) roam y -16
+\i (01:00:31) roam x -48
+\i (01:00:31) roam y -16
+\i (01:00:31) roam end
+\i (01:00:32) pick grid 0.620 618.675
+\t (01:00:32) last pick:  0.000 620.000
+\i (01:03:34) setwindow text
+\i (01:03:34) close 
+\i (01:03:35) setwindow pcb
+\i (01:03:35) open 
+\e (01:03:35) Do you want to save the changes you made to core.brd?
+\i (01:03:36) fillin no 
+\i (01:03:56) fillin "E:\material\lool Inds Vibration\hardware\v1.0\pcb\vibration.brd"
+\i (01:03:56) cd "E:\material\lool Inds Vibration\hardware\v1.0\pcb"
+\t (01:03:56) Opening existing design...
+\i (01:03:56) trapsize 49801
+\t (01:03:56)     Journal end - Sat May 28 02:25:58 2016

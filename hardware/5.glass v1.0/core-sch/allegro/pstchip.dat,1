@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001May-23-2016 at 15:39:26}
+{ Using PSTWRITER 16.6.0 d001May-25-2016 at 09:44:33}
 primitive 'CAP_0402_1UF';
   pin
     '1':
@@ -357,6 +357,18 @@ primitive 'INDUCTOR_0806_2.2UH';
     VALUE='2.2uH';
   end_body;
 end_primitive;
+primitive 'MTG_MTG-100_MTG';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MTG';
+    JEDEC_TYPE='MTG-100';
+    VALUE='MTG';
+  end_body;
+end_primitive;
 primitive 'OSC-N_OSC-2016_25M';
   pin
     'X1':
@@ -526,21 +538,6 @@ primitive 'RES_0402_10';
     PART_NAME='Res';
     JEDEC_TYPE='0402';
     VALUE='10';
-  end_body;
-end_primitive;
-primitive 'RES_0402_0';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Res';
-    JEDEC_TYPE='0402';
-    VALUE='0';
   end_body;
 end_primitive;
 primitive 'RES_0402_1.5K';

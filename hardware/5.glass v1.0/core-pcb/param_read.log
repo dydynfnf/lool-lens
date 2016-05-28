@@ -1,0 +1,36 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Tue May 24 09:29:17 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : E:/cadence lib/TOOLS/parameters.prm
+	Layout Name   : core.brd
+
+Reading...parameter_header:
+Reading...db_common_type:
+Reading...grid_parms_type:
+	WARNING: The value of element <etchcount> is not equal to the number of 
+		   user defined subclass under ETCH class. 
+
+Reading...UnusedPadsSuppressionSettings:
+Reading...color_table_table:
+Reading...ColorParmType:
+Reading...text_size_table:
+Reading...drf_parm_type:
+Reading...thieving_parm_type:
+Reading...ats_parm_type:
+Reading...ifp_parm_type:
+Reading...ministat_parm_type:
+	WARNING: Unmatched Data - Field Name: crfan_end_subclass , Value: "GND"
+Reading...dynfill_parm_type:
+Reading...placement_parameter_type:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 2.

@@ -1,0 +1,306 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Sat May 28 02:20:59 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  VDDA                 TOP                   17.922      (410.629 156.457) to *(397.956 143.784)
+  VDDA                 TOP                   17.922      (410.629 130.866) to *(397.956 118.193)
+  GND                  TOP                   17.922      (410.629 207.638) to *(397.956 194.965)
+  GND                  TOP                   17.922      (410.629 182.047) to *(397.956 169.374)
+  VRTC                 TOP                   41.249     *(386.000 469.000) to  (410.629 437.953)
+  N209598              TOP                   17.922      (461.810 156.457) to *(449.137 143.784)
+  N206144              TOP                   17.922      (436.220 258.819) to *(423.547 246.146)
+  N209526              TOP                   17.268      (743.306 284.409) to *(755.516 272.199)
+  N209602              TOP                   17.922      (461.810 130.866) to *(449.137 118.193)
+  N209578              TOP                   17.922      (487.401 156.457) to *(474.728 143.784)
+  N209478              SIG                  839.722     *(904.814 452.814) to  (392.000 414.000)
+  FMC_A5               SIG                    1.200     *(1005.100 239.100) to  (1003.900 239.100)
+  N206152              TOP                   17.922      (436.220 233.228) to *(423.547 220.555)
+  N192996              TOP                    2.454     *(1050.000 360.984) to  (1048.265 359.249)
+  N209412              BOTTOM                 0.401     *(474.327 297.327) to  (474.728 297.327)
+  RESET                TOP                   23.038      (410.629 284.409) to *(387.591 284.409)
+  N193010              TOP                   19.948      (410.629 258.819) to *(390.681 258.819)
+  Not a Net            BOTTOM                 2.000     *(321.000 71.000) to *(321.000 73.000)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  BYPASS               VIA-8-12             (474.728 220.555) TOP/BOTTOM 
+  BOOT1                VIA-8-12             (525.909 194.965) TOP/BOTTOM 
+  VCAP_1               VIA-8-12             (653.617 194.965) TOP/BOTTOM 
+  SWDIO                TESTPOINT            (810.315 547.000) TOP/TOP 
+  BOOT0                VIA-8-12             (525.909 425.035) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1205.745 109.255) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (953.777 109.255) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1111.257 298.231) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1174.249 298.231) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1142.753 201.769) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1078.000 201.769) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1205.745 201.769) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (653.617 169.374) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (628.027 169.374) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (577.090 169.374) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (449.137 373.854) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (449.137 348.264) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (474.728 246.146) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (628.027 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (577.090 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (551.499 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (500.318 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (730.389 348.264) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (730.389 297.327) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (704.798 271.736) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (730.389 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (1142.753 298.231) TOP/BOTTOM 
+  GND                  VIA-8-12             (1079.761 298.231) TOP/BOTTOM 
+  GND                  VIA-8-12             (1205.745 298.231) TOP/BOTTOM 
+  GND                  VIA-8-12             (1111.257 201.769) TOP/BOTTOM 
+  GND                  VIA-8-12             (1174.249 201.769) TOP/BOTTOM 
+  GND                  VIA-8-12             (1197.384 400.703) TOP/BOTTOM 
+  GND                  VIA-8-12             (954.919 388.307) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 194.965) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 194.965) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (423.547 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (423.547 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (500.318 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (704.798 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (704.798 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (704.798 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 246.146) TOP/BOTTOM 
+  N209430              VIA-8-12             (1240.074 351.498) TOP/BOTTOM 
+  N209458              VIA-8-12             (1231.247 367.186) TOP/BOTTOM 
+  N209502              VIA-8-12             (1269.091 380.918) TOP/BOTTOM 
+  FMC_A10              VIA-8-12             (985.273 110.000) TOP/BOTTOM 
+  N192990              VIA-8-12             (1048.265 201.769) TOP/BOTTOM 
+  N209400              VIA-8-12             (474.728 271.736) TOP/BOTTOM 
+  N219356              VIA-8-12             (500.318 169.374) TOP/BOTTOM 
+  N209454              VIA-8-12             (1224.000 341.000) TOP/BOTTOM 
+  FMC_A9               VIA-8-12             (1016.769 298.231) TOP/BOTTOM 
+  N209628              VIA-8-12             (449.137 194.965) TOP/BOTTOM 
+  N209506              VIA-8-12             (1277.500 364.500) TOP/BOTTOM 
+  N209574              VIA-8-12             (474.728 169.374) TOP/BOTTOM 
+  FMC_A8               VIA-8-12             (985.273 388.000) TOP/BOTTOM 
+  FMC_D5               VIA-8-12             (1110.968 112.158) TOP/BOTTOM 
+  N209482              VIA-8-12             (1256.036 393.311) TOP/BOTTOM 
+  N209640              VIA-8-12             (474.728 194.965) TOP/BOTTOM 
+  N209434              VIA-8-12             (1259.247 363.002) TOP/BOTTOM 
+  VCAP_2               VIA-8-12             (730.389 373.854) TOP/BOTTOM 
+  SWCLK                TESTPOINT            (704.685 543.465) TOP/TOP 
+  N206148              VIA-8-12             (449.137 220.555) TOP/BOTTOM 
+  N192994              VIA-8-12             (1049.000 298.231) TOP/BOTTOM 
+  PDR_ON               VIA-8-12             (525.909 450.626) TOP/BOTTOM 
+  N209616              VIA-8-12             (500.318 194.965) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  BYPASS               VIA-8-12             (474.728 220.555) TOP/BOTTOM 
+  BOOT1                VIA-8-12             (525.909 194.965) TOP/BOTTOM 
+  VCAP_1               VIA-8-12             (653.617 194.965) TOP/BOTTOM 
+  BOOT0                VIA-8-12             (525.909 425.035) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1205.745 109.255) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (953.777 109.255) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1111.257 298.231) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1174.249 298.231) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1142.753 201.769) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1078.000 201.769) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (1205.745 201.769) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (653.617 169.374) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (628.027 169.374) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (577.090 169.374) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (449.137 373.854) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (449.137 348.264) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (474.728 246.146) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (628.027 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (577.090 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (551.499 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (500.318 450.626) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (730.389 348.264) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (730.389 297.327) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (704.798 271.736) TOP/BOTTOM 
+  3.3V                 VIA-8-12             (730.389 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (1142.753 298.231) TOP/BOTTOM 
+  GND                  VIA-8-12             (1079.761 298.231) TOP/BOTTOM 
+  GND                  VIA-8-12             (1205.745 298.231) TOP/BOTTOM 
+  GND                  VIA-8-12             (1111.257 201.769) TOP/BOTTOM 
+  GND                  VIA-8-12             (1174.249 201.769) TOP/BOTTOM 
+  GND                  VIA-8-12             (1197.384 400.703) TOP/BOTTOM 
+  GND                  VIA-8-12             (954.919 388.307) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 194.965) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 194.965) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (423.547 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (423.547 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 246.146) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (577.090 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (551.499 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (525.909 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (500.318 425.035) TOP/BOTTOM 
+  GND                  VIA-8-12             (704.798 373.854) TOP/BOTTOM 
+  GND                  VIA-8-12             (704.798 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 348.264) TOP/BOTTOM 
+  GND                  VIA-8-12             (704.798 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 297.327) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (628.027 271.736) TOP/BOTTOM 
+  GND                  VIA-8-12             (653.617 246.146) TOP/BOTTOM 
+  N209430              VIA-8-12             (1240.074 351.498) TOP/BOTTOM 
+  FMC_A1               VIA-8-12             (449.137 298.007) TOP/BOTTOM 
+  FMC_A1               VIA-8-12             (822.000 18.000) TOP/BOTTOM 
+  FMC_A3               VIA-8-12             (423.547 271.702) TOP/BOTTOM 
+  FMC_A3               VIA-8-12             (804.313 40.288) TOP/BOTTOM 
+  FMC_D11              VIA-8-12             (845.000 200.000) TOP/BOTTOM 
+  FMC_D11              VIA-8-12             (825.726 409.784) TOP/BOTTOM 
+  N209458              VIA-8-12             (1231.247 367.186) TOP/BOTTOM 
+  N209502              VIA-8-12             (1269.091 380.918) TOP/BOTTOM 
+  FMC_A10              VIA-8-12             (985.273 110.000) TOP/BOTTOM 
+  FMC_D12              VIA-8-12             (844.210 180.227) TOP/BOTTOM 
+  FMC_D12              VIA-8-12             (813.495 396.577) TOP/BOTTOM 
+  N192990              VIA-8-12             (555.000 520.000) TOP/BOTTOM 
+  N192990              VIA-8-12             (876.002 255.917) TOP/BOTTOM 
+  N192990              VIA-8-12             (1048.265 201.769) TOP/BOTTOM 
+  N209400              VIA-8-12             (474.728 271.736) TOP/BOTTOM 
+  N219356              VIA-8-12             (500.318 169.374) TOP/BOTTOM 
+  FMC_A0               VIA-8-12             (423.547 399.547) TOP/BOTTOM 
+  FMC_A0               VIA-8-12             (985.273 201.769) TOP/BOTTOM 
+  FMC_A2               VIA-8-12             (424.057 299.702) TOP/BOTTOM 
+  FMC_A2               VIA-8-12             (780.000 25.000) TOP/BOTTOM 
+  FMC_D0               VIA-8-12             (825.688 285.789) TOP/BOTTOM 
+  FMC_D0               VIA-8-12             (1205.745 140.751) TOP/BOTTOM 
+  FMC_D6               VIA-8-12             (886.795 111.126) TOP/BOTTOM 
+  FMC_D6               VIA-8-12             (1111.257 140.751) TOP/BOTTOM 
+  FMC_D8               VIA-8-12             (827.000 355.999) TOP/BOTTOM 
+  FMC_D8               VIA-8-12             (832.000 167.000) TOP/BOTTOM 
+  N209454              VIA-8-12             (1224.000 341.000) TOP/BOTTOM 
+  FMC_A9               VIA-8-12             (1016.769 298.231) TOP/BOTTOM 
+  FMC_D1               VIA-8-12             (839.797 301.061) TOP/BOTTOM 
+  FMC_D1               VIA-8-12             (1183.000 70.000) TOP/BOTTOM 
+  FMC_D7               VIA-8-12             (908.000 135.000) TOP/BOTTOM 
+  FMC_D7               VIA-8-12             (1079.761 110.000) TOP/BOTTOM 
+  N209628              VIA-8-12             (449.137 194.965) TOP/BOTTOM 
+  FMC_A4               VIA-8-12             (449.114 270.007) TOP/BOTTOM 
+  FMC_A4               VIA-8-12             (857.602 30.998) TOP/BOTTOM 
+  FMC_A4               VIA-8-12             (989.325 170.814) TOP/BOTTOM 
+  FMC_A4               VIA-8-12             (952.612 326.588) TOP/BOTTOM 
+  FMC_D10              VIA-8-12             (798.000 360.000) TOP/BOTTOM 
+  FMC_D10              VIA-8-12             (679.208 169.374) TOP/BOTTOM 
+  FMC_D15              VIA-8-12             (928.000 447.000) TOP/BOTTOM 
+  FMC_D15              VIA-8-12             (1203.482 358.828) TOP/BOTTOM 
+  N209478              VIA-8-12             (392.000 414.000) TOP/BOTTOM 
+  N209506              VIA-8-12             (1277.500 364.500) TOP/BOTTOM 
+  FMC_A5               VIA-8-12             (449.137 246.146) TOP/BOTTOM 
+  FMC_A5               VIA-8-12             (838.577 51.860) TOP/BOTTOM 
+  FMC_A5               VIA-8-12             (1003.900 239.100) TOP/BOTTOM 
+  FMC_A5               VIA-8-12             (953.777 359.249) TOP/BOTTOM 
+  N209574              VIA-8-12             (474.728 169.374) TOP/BOTTOM 
+  FMC_A8               VIA-8-12             (985.273 388.000) TOP/BOTTOM 
+  FMC_D2               VIA-8-12             (704.798 476.216) TOP/BOTTOM 
+  FMC_D2               VIA-8-12             (1174.249 140.751) TOP/BOTTOM 
+  FMC_D13              VIA-8-12             (997.000 432.000) TOP/BOTTOM 
+  FMC_D13              VIA-8-12             (1174.249 359.249) TOP/BOTTOM 
+  FMC_D14              VIA-8-12             (977.000 425.000) TOP/BOTTOM 
+  FMC_D14              VIA-8-12             (1159.488 420.000) TOP/BOTTOM 
+  N192992              VIA-8-12             (538.582 108.082) TOP/BOTTOM 
+  N192992              VIA-8-12             (895.185 37.992) TOP/BOTTOM 
+  FMC_D5               VIA-8-12             (1110.968 112.158) TOP/BOTTOM 
+  FMC_D9               VIA-8-12             (826.002 149.000) TOP/BOTTOM 
+  FMC_D9               VIA-8-12             (810.100 378.900) TOP/BOTTOM 
+  N192998              VIA-8-12             (487.165 522.434) TOP/BOTTOM 
+  N192998              VIA-8-12             (1079.761 140.751) TOP/BOTTOM 
+  N209482              VIA-8-12             (1256.036 393.311) TOP/BOTTOM 
+  N209640              VIA-8-12             (474.728 194.965) TOP/BOTTOM 
+  N209434              VIA-8-12             (1259.247 363.002) TOP/BOTTOM 
+  N192986              VIA-8-12             (513.000 520.000) TOP/BOTTOM 
+  FMC_A6               VIA-8-12             (985.500 240.500) TOP/BOTTOM 
+  FMC_A6               VIA-8-12             (985.273 298.231) TOP/BOTTOM 
+  VCAP_2               VIA-8-12             (730.389 373.854) TOP/BOTTOM 
+  N206148              VIA-8-12             (449.137 220.555) TOP/BOTTOM 
+  FMC_D3               VIA-8-12             (704.798 450.626) TOP/BOTTOM 
+  FMC_D3               VIA-8-12             (1139.000 70.000) TOP/BOTTOM 
+  N192994              VIA-8-12             (537.048 518.681) TOP/BOTTOM 
+  N192994              VIA-8-12             (877.688 273.916) TOP/BOTTOM 
+  N192994              VIA-8-12             (1049.000 298.231) TOP/BOTTOM 
+  FMC_D4               VIA-8-12             (1031.000 64.000) TOP/BOTTOM 
+  FMC_D4               VIA-8-12             (1142.753 140.751) TOP/BOTTOM 
+  N193000              VIA-8-12             (461.923 544.123) TOP/BOTTOM 
+  N193000              VIA-8-12             (1033.000 398.000) TOP/BOTTOM 
+  FMC_A7               VIA-8-12             (1031.000 267.000) TOP/BOTTOM 
+  FMC_A7               VIA-8-12             (985.273 359.249) TOP/BOTTOM 
+  N192988              VIA-8-12             (423.547 194.965) TOP/BOTTOM 
+  N192988              VIA-8-12             (905.446 23.202) TOP/BOTTOM 
+  PDR_ON               VIA-8-12             (525.909 450.626) TOP/BOTTOM 
+  N209616              VIA-8-12             (500.318 194.965) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:      18
+  Total dangling vias:       92
+  Total antenna vias:       154

@@ -1,0 +1,9 @@
+.\objects\inftrees.o: ..\PNG\inftrees.c
+.\objects\inftrees.o: ..\PNG\zutil.h
+.\objects\inftrees.o: ..\PNG\zlib.h
+.\objects\inftrees.o: ..\PNG\zconf.h
+.\objects\inftrees.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\inftrees.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\inftrees.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\inftrees.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\objects\inftrees.o: ..\PNG\inftrees.h

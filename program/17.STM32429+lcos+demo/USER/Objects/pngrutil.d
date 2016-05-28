@@ -1,0 +1,10 @@
+.\objects\pngrutil.o: ..\PNG\pngrutil.c
+.\objects\pngrutil.o: ..\PNG\png.h
+.\objects\pngrutil.o: ..\PNG\zlib.h
+.\objects\pngrutil.o: ..\PNG\zconf.h
+.\objects\pngrutil.o: ..\PNG\pngconf.h
+.\objects\pngrutil.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\setjmp.h
+.\objects\pngrutil.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pngrutil.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pngrutil.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\pngrutil.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

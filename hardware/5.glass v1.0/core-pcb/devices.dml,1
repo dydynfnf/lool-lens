@@ -1,0 +1,179 @@
+("devices.dml" 
+ (PackagedDevice 
+  ("DEFAULT_CAPACITOR_1e+06pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_1e+06pF_2_1 1 2
+C1 1 2 1e-006
+.ends DEFAULT_CAPACITOR_1e+06pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_CAPACITOR_100000pF_2_1 
+   (ESpice ".subckt DEFAULT_CAPACITOR_100000pF_2_1 1 2
+C1 1 2 1e-007
+.ends DEFAULT_CAPACITOR_100000pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_20.000000pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_20.000000pF_2_1 1 2
+C1 1 2 2e-011
+.ends DEFAULT_CAPACITOR_20.000000pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_12.000000pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_12.000000pF_2_1 1 2
+C1 1 2 1.2e-011
+.ends DEFAULT_CAPACITOR_12.000000pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_4.7e+06pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_4.7e+06pF_2_1 1 2
+C1 1 2 4.7e-006
+.ends DEFAULT_CAPACITOR_4.7e+06pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_4.700000pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_4.700000pF_2_1 1 2
+C1 1 2 4.7e-012
+.ends DEFAULT_CAPACITOR_4.700000pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_33.000000pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_33.000000pF_2_1 1 2
+C1 1 2 3.3e-011
+.ends DEFAULT_CAPACITOR_33.000000pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_CAPACITOR_2.2e+06pF_2_1" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_2.2e+06pF_2_1 1 2
+C1 1 2 2.2e-006
+.ends DEFAULT_CAPACITOR_2.2e+06pF_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_INDUCTOR_100.000000nH_2_1" 
+   (ESpice ".subckt DEFAULT_INDUCTOR_100.000000nH_2_1 1 2
+L1 1 2 1e-007
+.ends DEFAULT_INDUCTOR_100.000000nH_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_INDUCTOR_2200nH_2_1 
+   (ESpice ".subckt DEFAULT_INDUCTOR_2200nH_2_1 1 2
+L1 1 2 2.2e-006
+.ends DEFAULT_INDUCTOR_2200nH_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_32768OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_32768OHM_2_1 1 2
+R1 1 2 32768
+.ends DEFAULT_RESISTOR_32768OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_10000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_10000OHM_2_1 1 2
+R1 1 2 10000
+.ends DEFAULT_RESISTOR_10000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_RESISTOR_1000.000000OHM_2_1" 
+   (ESpice ".subckt DEFAULT_RESISTOR_1000.000000OHM_2_1 1 2
+R1 1 2 1000
+.ends DEFAULT_RESISTOR_1000.000000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_160000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_160000OHM_2_1 1 2
+R1 1 2 160000
+.ends DEFAULT_RESISTOR_160000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_30000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_30000OHM_2_1 1 2
+R1 1 2 30000
+.ends DEFAULT_RESISTOR_30000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_470000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_470000OHM_2_1 1 2
+R1 1 2 470000
+.ends DEFAULT_RESISTOR_470000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_150000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_150000OHM_2_1 1 2
+R1 1 2 150000
+.ends DEFAULT_RESISTOR_150000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_220000OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_220000OHM_2_1 1 2
+R1 1 2 220000
+.ends DEFAULT_RESISTOR_220000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_RESISTOR_22.000000OHM_2_1" 
+   (ESpice ".subckt DEFAULT_RESISTOR_22.000000OHM_2_1 1 2
+R1 1 2 22
+.ends DEFAULT_RESISTOR_22.000000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_RESISTOR_10.000000OHM_2_1" 
+   (ESpice ".subckt DEFAULT_RESISTOR_10.000000OHM_2_1 1 2
+R1 1 2 10
+.ends DEFAULT_RESISTOR_10.000000OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  ("DEFAULT_RESISTOR_0.001OHM_2_1" 
+   (ESpice ".subckt DEFAULT_RESISTOR_0.001OHM_2_1 1 2
+R1 1 2 0.001
+.ends DEFAULT_RESISTOR_0.001OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) 
+  (DEFAULT_RESISTOR_1500OHM_2_1 
+   (ESpice ".subckt DEFAULT_RESISTOR_1500OHM_2_1 1 2
+R1 1 2 1500
+.ends DEFAULT_RESISTOR_1500OHM_2_1
+" ) 
+   (PinConnections 
+    (1 2 ) 
+    (2 1 ) ) ) ) 
+ (LibraryVersion 136.2 ) ) 

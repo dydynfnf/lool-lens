@@ -1,0 +1,158 @@
+\t (01:07:35) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (01:07:35)     Journal start - Sat May 28 02:29:36 2016
+\t (01:07:35)         Host=PSAI-PC User=psai Pid=16916 CPUs=4
+\t (01:07:35) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (01:07:35) 
+\d (01:07:35) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (01:07:35) ifp 
+\i (01:07:37) show measure 
+\i (01:07:40) pick grid -2.975 622.450
+\t (01:07:40) last pick:  -5.000 620.000
+\i (01:07:42) pick grid 1776.272 2.522
+\t (01:07:42) last pick:  1775.000 5.000
+\i (01:20:46) setwindow text
+\i (01:20:46) close 
+\i (01:20:49) setwindow pcb
+\i (01:20:49) zoom in 1 
+\i (01:20:49) setwindow pcb
+\i (01:20:49) zoom in 1004.641 126.133
+\i (01:20:49) trapsize 4682
+\i (01:20:50) zoom in 1 
+\i (01:20:50) setwindow pcb
+\i (01:20:50) zoom in 1004.641 126.134
+\i (01:20:50) trapsize 2341
+\i (01:20:50) zoom out 1 
+\i (01:20:50) setwindow pcb
+\i (01:20:50) zoom out 1004.642 126.134
+\i (01:20:50) trapsize 4682
+\i (01:20:51) zoom out 1 
+\i (01:20:51) setwindow pcb
+\i (01:20:51) zoom out 1004.641 127.070
+\i (01:20:51) trapsize 9364
+\i (01:20:52) zoom in 1 
+\i (01:20:52) setwindow pcb
+\i (01:20:52) zoom in 931.599 261.918
+\i (01:20:52) trapsize 4682
+\i (01:20:52) zoom in 1 
+\i (01:20:52) setwindow pcb
+\i (01:20:52) zoom in 931.599 261.918
+\i (01:20:52) trapsize 2341
+\i (01:21:04) zoom out 1 
+\i (01:21:04) setwindow pcb
+\i (01:21:04) zoom out 997.618 241.784
+\i (01:21:04) trapsize 4682
+\i (01:21:05) roam start
+\i (01:21:05) roam x 16
+\i (01:21:05) roam y 48
+\i (01:21:05) roam x 16
+\i (01:21:05) roam y 32
+\i (01:21:05) roam x 16
+\i (01:21:05) roam y 32
+\i (01:21:05) roam x 16
+\i (01:21:05) roam y 16
+\i (01:21:05) roam y 16
+\i (01:21:05) roam x 16
+\i (01:21:05) roam y 16
+\i (01:21:05) roam x 16
+\i (01:21:05) roam x 16
+\i (01:21:05) roam x 32
+\i (01:21:05) roam y 16
+\i (01:21:05) roam x 16
+\i (01:21:06) roam end
+\i (01:21:07) zoom in 1 
+\i (01:21:07) setwindow pcb
+\i (01:21:07) zoom in 1137.465 73.663
+\i (01:21:07) trapsize 2341
+\i (01:21:09) roam start
+\i (01:21:09) roam x -32
+\i (01:21:09) roam y 32
+\i (01:21:09) roam x -16
+\i (01:21:09) roam x -48
+\i (01:21:09) roam y 16
+\i (01:21:09) roam x -96
+\i (01:21:09) roam y 48
+\i (01:21:09) roam x -32
+\i (01:21:09) roam y 16
+\i (01:21:09) roam x -32
+\i (01:21:09) roam y 16
+\i (01:21:09) roam x -32
+\i (01:21:09) roam y 16
+\i (01:21:09) roam x -32
+\i (01:21:09) roam y 16
+\i (01:21:09) roam end
+\i (01:21:11) zoom out 1 
+\i (01:21:11) setwindow pcb
+\i (01:21:11) zoom out 844.826 2.024
+\i (01:21:11) trapsize 4682
+\i (01:21:12) roam start
+\i (01:21:12) roam x -48
+\i (01:21:12) roam y -16
+\i (01:21:12) roam x -64
+\i (01:21:12) roam x -64
+\i (01:21:12) roam y -16
+\i (01:21:12) roam x -48
+\i (01:21:12) roam x -16
+\i (01:21:12) roam y -16
+\i (01:21:12) roam x -32
+\i (01:21:12) roam end
+\i (01:21:13) zoom out 1 
+\i (01:21:13) setwindow pcb
+\i (01:21:13) zoom out 530.649 61.489
+\i (01:21:13) trapsize 9364
+\i (01:21:15) zoom in 1 
+\i (01:21:15) setwindow pcb
+\i (01:21:15) zoom in 455.733 181.354
+\i (01:21:15) trapsize 4682
+\i (01:21:18) zoom out 1 
+\i (01:21:18) setwindow pcb
+\i (01:21:18) zoom out 753.523 104.566
+\i (01:21:18) trapsize 9364
+\i (01:21:25) zoom in 1 
+\i (01:21:25) setwindow pcb
+\i (01:21:25) zoom in 736.666 14.667
+\i (01:21:25) trapsize 4682
+\i (01:21:26) zoom in 1 
+\i (01:21:26) setwindow pcb
+\i (01:21:26) zoom in 736.667 14.667
+\i (01:21:26) trapsize 2341
+\i (01:21:26) zoom out 1 
+\i (01:21:26) setwindow pcb
+\i (01:21:26) zoom out 736.667 14.667
+\i (01:21:26) trapsize 4682
+\i (01:21:27) zoom out 1 
+\i (01:21:27) setwindow pcb
+\i (01:21:27) zoom out 794.727 25.905
+\i (01:21:27) trapsize 9364
+\i (01:21:34) setwindow form.vf_vis
+\i (01:21:34) FORM vf_vis 1 all_colorvisible NO 
+\i (01:21:36) FORM vf_vis 4 all_colorvisible NO 
+\i (01:21:38) FORM vf_vis 4 all_colorvisible YES 
+\i (01:21:41) FORM vf_vis 1 all_colorvisible YES 
+\i (01:21:43) setwindow pcb
+\i (01:21:43) zoom in 1 
+\i (01:21:43) setwindow pcb
+\i (01:21:43) zoom in 746.033 46.506
+\i (01:21:43) trapsize 4682
+\i (01:21:45) zoom in 1 
+\i (01:21:45) setwindow pcb
+\i (01:21:45) zoom in 927.703 17.477
+\i (01:21:45) trapsize 2341
+\i (01:21:52) roam start
+\i (01:21:52) roam x 48
+\i (01:21:52) roam x 80
+\i (01:21:52) roam x 16
+\i (01:21:52) roam x 48
+\i (01:21:52) roam x 16
+\i (01:21:52) roam x 32
+\i (01:21:52) roam x 32
+\i (01:21:52) roam x 32
+\i (01:21:52) roam y 16
+\i (01:21:53) roam end
+\i (01:21:56) zoom out 1 
+\i (01:21:56) setwindow pcb
+\i (01:21:56) zoom out 1011.982 12.326
+\i (01:21:56) trapsize 4682
+\i (01:22:07) exit 
+\e (01:22:07) Do you want to save the changes you made to core.brd?
+\i (01:22:13) fillin no 
+\t (01:22:13)     Journal end - Sat May 28 02:44:14 2016

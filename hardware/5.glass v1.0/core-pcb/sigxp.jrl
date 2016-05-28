@@ -1,0 +1,28 @@
+\t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
+\t (00:00:00)     Journal start - Fri May 27 09:18:29 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=15216 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaaah15016.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1189
+\i (00:00:00) trapsize 1150
+\i (00:00:00) trapsize 1196
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 1267
+\i (00:00:00) trapsize 6634
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 6634
+\i (00:00:00) trapsize 6634
+\i (00:00:00) trapsize 6634
+   (00:00:00) Loading signal.cxt 
+   (00:00:00) Loading sigxp.cxt 
+   (00:00:00) Loading sxutil.cxt 
+   (00:00:00) Loading axlcore.cxt 
+   (00:00:00) Loading fputil.cxt 
+   (00:00:01) Beginning Autoplacement
+   (00:00:01) Finished Autoplacement
+\i (00:00:01) trapsize 24
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:01) sigxp background 
+\i (00:00:26) exit 
+\t (00:00:26)     Journal end - Fri May 27 09:18:55 2016
