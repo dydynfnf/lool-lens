@@ -1,478 +1,153 @@
-\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:05)     Journal start - Sun May 29 19:03:43 2016
-\t (00:00:05)         Host=PSAI-PC User=psai Pid=8244 CPUs=4
-\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:05) 
-\t (00:00:07) Opening existing design...
-\d (00:00:07) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
-\i (00:00:08) trapsize 7508
-\i (00:00:08) trapsize 7289
-\i (00:00:08) trapsize 7545
-\i (00:00:08) trapsize 7545
-\i (00:00:09) ifp 
-\i (00:00:19) status 
-\i (00:00:19) ifp 
-\i (00:00:33) setwindow form.status
-\i (00:00:33) FORM status done  
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 1741.327 403.474
-\i (00:00:34) trapsize 3773
-\i (00:00:34) zoom in 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 1742.081 404.984
-\i (00:00:34) trapsize 1886
-\i (00:00:34) zoom in 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom in 1746.986 405.361
-\i (00:00:34) trapsize 943
+\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:03)     Journal start - Tue May 31 01:57:58 2016
+\t (00:00:03)         Host=PSAI-PC User=psai Pid=13680 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (00:00:06) trapsize 11897
+\i (00:00:06) trapsize 11577
+\i (00:00:06) trapsize 11952
+\i (00:00:06) trapsize 9960
+\i (00:00:06) trapsize 9960
+\i (00:00:07) ifp 
+\i (00:00:17) roam start
+\i (00:00:17) roam x -96
+\i (00:00:17) roam y 32
+\i (00:00:17) roam x -16
+\i (00:00:17) roam x -48
+\i (00:00:18) roam x -32
+\i (00:00:18) roam y 16
+\i (00:00:18) roam x -16
+\i (00:00:18) roam end
+\i (00:00:21) color192 
+\i (00:00:22) setwindow cvf.dialog
+\i (00:00:22) cvf layer_mode
+\i (00:00:22) setwindow pcb
+\i (00:00:22) ifp 
+\i (00:00:23) setwindow cvf.dialog
+\i (00:00:23) cvf layers_visible stack-up pin/top FALSE
+\i (00:00:24) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:00:25) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:00:27) cvf layers_visible stack-up stack-up/sig1 TRUE
+\i (00:00:27) cvf layers_visible stack-up stack-up/sig2 TRUE
+\i (00:00:28) cvf layers_visible stack-up stack-up/sig2 FALSE
+\i (00:00:28) cvf layers_visible stack-up stack-up/sig1 FALSE
+\i (00:00:29) cvf layers_visible stack-up stack-up/sig1 TRUE
+\i (00:00:30) cvf layers_visible stack-up stack-up/sig1 FALSE
+\i (00:00:31) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:00:31) cvf layers_visible stack-up stack-up/bottom FALSE
+\i (00:00:34) cvf okay
+\i (00:00:35) setwindow pcb
 \i (00:00:35) zoom in 1 
 \i (00:00:35) setwindow pcb
-\i (00:00:35) zoom in 1748.118 402.720
-\i (00:00:35) trapsize 472
-\i (00:00:35) zoom out 1 
+\i (00:00:35) zoom in 1404.383 188.048
+\i (00:00:35) trapsize 4980
+\i (00:00:35) zoom in 1 
 \i (00:00:35) setwindow pcb
-\i (00:00:35) zoom out 1748.401 391.780
-\i (00:00:35) trapsize 943
+\i (00:00:35) zoom in 1404.383 188.048
+\i (00:00:35) trapsize 2490
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 1404.383 188.048
+\i (00:00:36) trapsize 1245
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 1404.383 188.048
+\i (00:00:36) trapsize 2490
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 1404.383 188.048
+\i (00:00:36) trapsize 4980
 \i (00:00:37) zoom in 1 
 \i (00:00:37) setwindow pcb
-\i (00:00:37) zoom in 1676.910 390.270
-\i (00:00:37) trapsize 472
-\i (00:00:38) roam start
-\i (00:00:38) roam x -48
-\i (00:00:38) roam x -48
-\i (00:00:39) roam end
-\i (00:00:40) delete 
-\i (00:00:40) pick grid 1674.170 396.872
-\t (00:00:40) last pick:  1674.000 397.000
-\t (00:00:40) Horizontal Line Segment "5V, Etch/Bottom"
-\i (00:00:41) add connect 
-\t (00:00:41) Pick first element.
-\i (00:00:42) zoom out 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom out 1672.378 394.703
-\i (00:00:42) trapsize 943
-\i (00:00:42) zoom out 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom out 1672.377 394.514
-\i (00:00:42) trapsize 1886
+\i (00:00:37) zoom in 1404.383 188.048
+\i (00:00:37) trapsize 2490
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 1362.550 193.526
+\i (00:00:40) trapsize 4980
 \i (00:00:42) zoom in 1 
 \i (00:00:42) setwindow pcb
-\i (00:00:42) zoom in 1672.755 395.269
-\i (00:00:42) trapsize 943
-\i (00:00:43) zoom in 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom in 1672.755 395.269
-\i (00:00:43) trapsize 472
+\i (00:00:42) zoom in 1395.419 183.566
+\i (00:00:42) trapsize 2490
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 1395.419 183.566
+\i (00:00:42) trapsize 1245
 \i (00:00:43) zoom out 1 
 \i (00:00:43) setwindow pcb
-\i (00:00:43) zoom out 1672.755 395.269
-\i (00:00:43) trapsize 943
-\i (00:00:43) add connect 
-\t (00:00:43) Pick first element.
+\i (00:00:43) zoom out 1395.420 183.566
+\i (00:00:43) trapsize 2490
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 1395.419 183.566
+\i (00:00:43) trapsize 4980
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 1395.420 183.566
+\i (00:00:43) trapsize 9960
 \i (00:00:44) zoom in 1 
 \i (00:00:44) setwindow pcb
-\i (00:00:44) zoom in 1674.830 394.892
-\i (00:00:44) trapsize 472
-\i (00:00:45) pick grid 1666.342 396.779
-\t (00:00:45) last pick:  1666.000 397.000
-\t (00:00:45) Target Odd-angle Line Segment is defined on BOTTOM.
-\t (00:00:45) last pick:  1666.000 397.000
-\i (00:00:45) mouse_pos 1670.586 396.685
-\i (00:00:45) mouse_pos 1671.529 396.873
-\i (00:00:45) mouse_pos 1672.567 396.873
-\i (00:00:45) mouse_pos 1673.510 396.873
-\i (00:00:45) mouse_pos 1674.548 396.779
-\i (00:00:45) mouse_pos 1675.585 396.590
-\i (00:00:45) mouse_pos 1676.245 396.496
-\i (00:00:45) mouse_pos 1676.528 396.496
-\i (00:00:45) mouse_pos 1677.566 396.307
-\i (00:00:46) pick grid 1677.566 396.307
-\t (00:00:46) last pick:  1678.000 396.000
-\t (00:00:46) No DRC errors detected.
-\t (00:00:46) last pick:  1675.075 397.000
-\i (00:00:46) mouse_pos 1677.849 396.119
-\i (00:00:46) mouse_pos 1678.320 395.458
-\i (00:00:46) mouse_pos 1678.509 395.364
-\i (00:00:46) mouse_pos 1679.169 394.421
-\i (00:00:46) mouse_pos 1679.546 394.044
-\i (00:00:46) mouse_pos 1679.829 393.478
-\i (00:00:46) mouse_pos 1680.584 392.440
-\i (00:00:46) mouse_pos 1681.055 391.497
-\i (00:00:46) mouse_pos 1681.527 390.648
-\i (00:00:46) mouse_pos 1681.527 390.460
-\i (00:00:46) mouse_pos 1681.810 389.422
-\i (00:00:46) mouse_pos 1681.999 388.479
-\i (00:00:46) zoom out 1 
+\i (00:00:44) zoom in 1395.421 183.566
+\i (00:00:44) trapsize 4980
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 1395.421 183.566
+\i (00:00:44) trapsize 2490
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 1395.421 183.566
+\i (00:00:44) trapsize 1245
+\i (00:00:46) color192 
+\i (00:00:46) setwindow cvf.dialog
+\i (00:00:46) cvf layer_mode
 \i (00:00:46) setwindow pcb
-\i (00:00:46) zoom out 1682.753 387.064
-\i (00:00:46) trapsize 943
-\i (00:00:47) mouse_pos 1684.639 387.442
-\i (00:00:47) mouse_pos 1683.885 384.612
-\i (00:00:47) mouse_pos 1681.433 388.951
-\i (00:00:47) mouse_pos 1681.244 389.517
-\i (00:00:47) mouse_pos 1680.490 390.837
-\i (00:00:47) mouse_pos 1680.112 391.592
-\i (00:00:47) mouse_pos 1679.546 392.724
-\i (00:00:47) mouse_pos 1679.358 392.912
-\i (00:00:47) mouse_pos 1678.980 393.667
-\i (00:00:47) mouse_pos 1678.415 394.044
-\i (00:00:47) mouse_pos 1678.037 394.610
-\i (00:00:47) mouse_pos 1677.660 395.553
-\i (00:00:47) mouse_pos 1677.471 396.119
-\i (00:00:47) mouse_pos 1677.660 396.308
-\i (00:00:47) mouse_pos 1678.603 396.119
-\i (00:00:48) mouse_pos 1679.546 395.742
-\i (00:00:48) mouse_pos 1680.678 395.553
-\i (00:00:48) mouse_pos 1680.867 395.364
-\i (00:00:48) mouse_pos 1681.621 395.364
-\i (00:00:48) mouse_pos 1682.564 395.364
-\i (00:00:48) mouse_pos 1683.508 395.364
-\i (00:00:48) mouse_pos 1684.074 395.553
-\i (00:00:48) add connect 
-\t (00:00:48) Pick first element.
-\i (00:00:48) zoom in 1 
-\i (00:00:48) setwindow pcb
-\i (00:00:48) zoom in 1682.564 389.705
-\i (00:00:48) trapsize 472
-\i (00:00:50) delete 
-\i (00:00:51) pick grid 1680.301 390.177
-\t (00:00:51) last pick:  1680.000 390.000
-\t (00:00:51) Odd-angle Line Segment "5V, Etch/Bottom"
-\i (00:00:51) add connect 
-\t (00:00:51) Pick first element.
-\i (00:00:51) pick grid 1675.302 397.345
-\t (00:00:51) last pick:  1675.000 397.000
-\t (00:00:51) last pick:  1675.075 397.000
-\t (00:00:51) Target Symbol Pin is defined on BOTTOM.
-\t (00:00:52) last pick:  1675.075 397.000
-\i (00:00:52) mouse_pos 1683.508 391.781
-\i (00:00:52) pick grid 1691.525 380.180
-\t (00:00:52) last pick:  1692.000 380.000
-\t (00:00:52) No DRC errors detected.
-\t (00:00:52) Pick first element.
-\i (00:00:53) add connect 
-\t (00:00:53) Pick first element.
-\i (00:00:54) zoom out 1 
-\i (00:00:54) setwindow pcb
-\i (00:00:54) zoom out 1683.414 381.406
-\i (00:00:54) trapsize 943
-\i (00:00:54) zoom in 1 
-\i (00:00:54) setwindow pcb
-\i (00:00:54) zoom in 1668.511 394.610
-\i (00:00:54) trapsize 472
-\i (00:00:54) zoom in 1 
-\i (00:00:54) setwindow pcb
-\i (00:00:54) zoom in 1668.512 394.610
-\i (00:00:54) trapsize 236
-\i (00:00:55) add connect 
-\t (00:00:55) Pick first element.
-\i (00:00:55) delete 
-\i (00:00:56) pick grid 1657.335 396.543
-\t (00:00:56) last pick:  1657.000 397.000
-\t (00:00:56) Horizontal Line Segment "5V, Etch/Bottom"
-\i (00:00:56) add connect 
-\t (00:00:56) Pick first element.
-\i (00:00:57) pick grid 1666.343 397.109
-\t (00:00:57) last pick:  1666.000 397.000
-\t (00:00:57) Target Odd-angle Line Segment is defined on BOTTOM.
-\t (00:00:57) last pick:  1666.000 397.000
-\i (00:00:58) mouse_pos 1654.459 395.506
-\i (00:00:59) pick grid 1652.242 395.506
-\t (00:00:59) last pick:  1652.000 396.000
-\t (00:00:59) No DRC errors detected.
-\t (00:00:59) Pick first element.
-\i (00:00:59) zoom out 1 
-\i (00:00:59) setwindow pcb
-\i (00:00:59) zoom out 1667.521 395.930
-\i (00:00:59) trapsize 472
-\i (00:00:59) zoom out 1 
-\i (00:00:59) setwindow pcb
-\i (00:00:59) zoom out 1668.654 396.026
-\i (00:00:59) trapsize 943
-\i (00:00:59) add connect 
-\t (00:01:00) Pick first element.
-\i (00:01:00) zoom in 1 
+\i (00:00:46) ifp 
+\i (00:00:48) setwindow cvf.dialog
+\i (00:00:48) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:00:50) cvf layers_visible stack-up stack-up/sig1 TRUE
+\i (00:00:51) cvf layers_visible stack-up stack-up/sig2 TRUE
+\i (00:00:52) cvf layers_visible stack-up stack-up/power TRUE
+\i (00:00:53) cvf layers_visible stack-up stack-up/power FALSE
+\i (00:00:54) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:00:55) cvf apply
+\i (00:00:56) cvf okay
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 1361.059 169.871
+\i (00:00:57) trapsize 2490
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 1391.936 179.831
+\i (00:00:58) trapsize 1245
+\i (00:01:00) zoom out 1 
 \i (00:01:00) setwindow pcb
-\i (00:01:00) zoom in 1666.014 392.441
-\i (00:01:00) trapsize 472
-\i (00:01:00) zoom in 1 
+\i (00:01:00) zoom out 1391.936 179.831
+\i (00:01:00) trapsize 2490
+\i (00:01:00) zoom out 1 
 \i (00:01:00) setwindow pcb
-\i (00:01:00) zoom in 1666.014 392.442
-\i (00:01:00) trapsize 236
-\i (00:01:05) delete 
-\i (00:01:05) zoom out 1 
-\i (00:01:05) setwindow pcb
-\i (00:01:05) zoom out 1675.210 404.042
-\i (00:01:05) trapsize 472
+\i (00:01:00) zoom out 1391.937 179.831
+\i (00:01:00) trapsize 4980
+\i (00:01:05) roam start
+\i (00:01:05) roam x -16
+\i (00:01:05) roam y -48
+\i (00:01:05) roam x -32
+\i (00:01:05) roam y -32
+\i (00:01:05) roam x -16
+\i (00:01:05) roam y -32
+\i (00:01:06) roam x -32
+\i (00:01:06) roam y -16
+\i (00:01:06) roam x -32
+\i (00:01:06) roam y -16
+\i (00:01:06) roam end
 \i (00:01:06) zoom out 1 
 \i (00:01:06) setwindow pcb
-\i (00:01:06) zoom out 1675.211 404.043
-\i (00:01:06) trapsize 943
-\i (00:01:08) zoom in 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom in 1655.970 397.253
-\i (00:01:08) trapsize 472
-\i (00:01:08) zoom in 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom in 1655.970 397.253
-\i (00:01:08) trapsize 236
-\i (00:01:10) zoom out 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom out 1645.972 399.846
-\i (00:01:10) trapsize 472
-\i (00:01:10) zoom out 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom out 1645.973 399.848
-\i (00:01:10) trapsize 943
-\i (00:01:12) zoom in 1 
-\i (00:01:12) setwindow pcb
-\i (00:01:12) zoom in 1641.446 407.392
-\i (00:01:12) trapsize 472
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 1639.749 404.374
-\i (00:01:15) trapsize 943
-\i (00:01:15) roam start
-\i (00:01:15) roam x -64
-\i (00:01:15) roam y -32
-\i (00:01:15) roam x -64
-\i (00:01:15) roam y -48
-\i (00:01:15) roam x -64
-\i (00:01:15) roam y -48
-\i (00:01:16) roam x 16
-\i (00:01:16) roam y -16
-\i (00:01:16) roam end
-\i (00:01:16) zoom in 1 
-\i (00:01:16) setwindow pcb
-\i (00:01:16) zoom in 1638.730 410.651
-\i (00:01:16) trapsize 472
-\i (00:01:16) zoom in 1 
-\i (00:01:16) setwindow pcb
-\i (00:01:16) zoom in 1640.711 409.331
-\i (00:01:16) trapsize 236
-\i (00:01:16) add connect 
-\t (00:01:16) Pick first element.
-\i (00:01:18) roam start
-\i (00:01:18) roam x 48
-\i (00:01:18) roam x 48
-\i (00:01:18) roam y 48
-\i (00:01:18) roam x 80
-\i (00:01:18) roam y 32
-\i (00:01:18) roam x 96
-\i (00:01:18) roam y 48
-\i (00:01:18) roam x 112
-\i (00:01:18) roam y 48
-\i (00:01:18) roam end
-\i (00:01:19) pick grid 1665.775 397.010
-\t (00:01:19) last pick:  1666.000 397.000
-\t (00:01:19) Target Odd-angle Line Segment is defined on TOP.
-\t (00:01:19) last pick:  1666.000 397.000
-\i (00:01:19) mouse_pos 1661.484 397.481
-\i (00:01:20) add connect 
-\t (00:01:20) Pick first element.
-\i (00:01:24) zoom out 1 
-\i (00:01:24) setwindow pcb
-\i (00:01:24) zoom out 1665.634 393.096
-\i (00:01:24) trapsize 472
-\i (00:01:32) setwindow form.vf_vis
-\i (00:01:32) FORM vf_vis 4 all_colorvisible NO 
-\i (00:01:34) FORM vf_vis 1 all_colorvisible NO 
-\i (00:01:35) FORM vf_vis 1 all_colorvisible YES 
-\i (00:01:38) setwindow pcb
-\i (00:01:38) roam start
-\i (00:01:38) roam x 48
-\i (00:01:38) roam y 48
-\i (00:01:38) roam x 48
-\i (00:01:38) roam y 16
-\i (00:01:38) roam x 32
-\i (00:01:38) roam y 16
-\i (00:01:38) roam end
-\i (00:01:38) delete 
-\i (00:01:40) pick grid 1671.835 399.523
-\t (00:01:40) last pick:  1672.000 400.000
-\t (00:01:40) Horizontal Line Segment "5V, Etch/Bottom"
-\i (00:01:41) add connect 
-\t (00:01:41) Pick first element.
-\i (00:01:42) zoom out 1 
-\i (00:01:42) setwindow pcb
-\i (00:01:42) zoom out 1674.664 395.184
-\i (00:01:42) trapsize 943
-\i (00:01:44) zoom in 1 
-\i (00:01:44) setwindow pcb
-\i (00:01:44) zoom in 1678.249 391.034
-\i (00:01:44) trapsize 472
-\i (00:01:49) delete 
-\i (00:01:51) add connect 
-\t (00:01:51) Pick first element.
-\i (00:01:53) pick grid 1676.080 397.542
-\t (00:01:53) last pick:  1676.000 398.000
-\t (00:01:53) last pick:  1675.441 397.000
-\t (00:01:53) Target Odd-angle Line Segment is defined on TOP.
-\t (00:01:53) last pick:  1675.441 397.000
-\i (00:01:53) mouse_pos 1683.814 389.431
-\i (00:01:53) mouse_pos 1683.437 389.148
-\i (00:01:56) mouse_pos 1672.119 397.448
-\i (00:01:57) pick grid 1666.460 396.505
-\t (00:01:57) last pick:  1666.000 397.000
-\t (00:01:57) No DRC errors detected.
-\t (00:01:57) Pick first element.
-\i (00:01:57) add connect 
-\t (00:01:58) Pick first element.
-\i (00:01:58) zoom in 1 
-\i (00:01:58) setwindow pcb
-\i (00:01:58) zoom in 1671.081 400.089
-\i (00:01:58) trapsize 236
-\i (00:01:59) delete 
-\i (00:01:59) pick grid 1674.618 404.663
-\t (00:01:59) last pick:  1675.000 405.000
-\t (00:01:59) Odd-angle Line Segment "5V, Etch/Top"
-\i (00:01:59) add connect 
-\t (00:02:00) Pick first element.
-\i (00:02:01) pick grid 1666.507 397.448
-\t (00:02:01) last pick:  1667.000 397.000
-\t (00:02:01) last pick:  1666.000 397.000
-\t (00:02:01) Target Vertical Line Segment is defined on TOP.
-\t (00:02:01) last pick:  1666.000 397.000
-\i (00:02:02) subclass -- 
-\i (00:02:02) subclass -- 
-\i (00:02:03) subclass -- 
-\i (00:02:03) subclass -- 
-\i (00:02:03) subclass -- 
-\i (00:02:04) zoom out 1 
-\i (00:02:04) setwindow pcb
-\i (00:02:04) zoom out 1672.967 402.211
-\i (00:02:04) trapsize 472
-\i (00:02:07) pick grid 1674.571 405.512
-\t (00:02:07) last pick:  1675.000 406.000
-\t (00:02:07) No DRC errors detected.
-\i (00:02:07) mouse_pos 1691.737 416.547
-\i (00:02:08) mouse_pos 1693.152 416.453
-\i (00:02:08) roam start
-\i (00:02:08) roam x 32
-\i (00:02:08) roam y -96
-\i (00:02:08) mouse_pos 1695.414 424.894
-\i (00:02:08) roam x 16
-\i (00:02:08) roam y -48
-\i (00:02:08) roam x 16
-\i (00:02:08) roam y -16
-\i (00:02:08) roam x 16
-\i (00:02:08) roam y -32
-\i (00:02:08) roam y -32
-\i (00:02:08) roam x 16
-\i (00:02:08) roam y -16
-\i (00:02:08) roam y -32
-\i (00:02:08) roam y -32
-\i (00:02:09) roam end
-\i (00:02:10) mouse_pos 1690.415 423.762
-\i (00:02:11) mouse_pos 1690.510 424.705
-\i (00:02:12) pick grid 1699.470 428.478
-\t (00:02:12) last pick:  1699.000 428.000
-\t (00:02:12) No DRC errors detected.
-\t (00:02:12) Pick first element.
-\i (00:02:13) zoom out 1 
-\i (00:02:13) setwindow pcb
-\i (00:02:13) zoom out 1666.176 414.425
-\i (00:02:13) trapsize 943
-\i (00:02:14) prepopup 1674.664 419.140
-\i (00:02:14) done 
-\i (00:02:14) ifp 
-\i (00:02:15) zoom in 1 
-\i (00:02:15) setwindow pcb
-\i (00:02:15) zoom in 1671.457 399.334
-\i (00:02:15) trapsize 472
-\i (00:02:16) slide 
-\t (00:02:16) Pick element to slide.
-\i (00:02:16) pick grid 1684.285 416.783
-\t (00:02:16) last pick:  1684.000 417.000
-\t (00:02:16) last pick:  1684.765 416.300
-\t (00:02:17) Waiting for the destination pick.
-\i (00:02:25) pick grid 1682.398 411.501
-\t (00:02:25) last pick:  1682.000 412.000
-\t (00:02:26) No DRC errors detected.
-\t (00:02:26) Pick another element to slide.
-\i (00:02:26) zoom out 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom out 1665.799 413.482
-\i (00:02:26) trapsize 943
-\i (00:02:26) zoom out 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom out 1665.798 413.482
-\i (00:02:26) trapsize 1886
-\i (00:02:27) prepopup 1796.711 445.549
-\i (00:02:27) done 
-\i (00:02:27) ifp 
-\i (00:02:28) zoom out 1 
-\i (00:02:28) setwindow pcb
-\i (00:02:28) zoom out 1814.065 388.959
-\i (00:02:28) trapsize 3773
-\i (00:02:29) roam start
-\i (00:02:29) roam y 48
-\i (00:02:29) roam y 32
-\i (00:02:29) roam x -16
-\i (00:02:29) roam y 48
-\i (00:02:29) roam x -16
-\i (00:02:29) roam y 16
-\i (00:02:29) roam end
-\i (00:02:31) save 
-\i (00:02:32) fillin yes 
-\i (00:02:32) ifp 
-\i (00:02:34) status 
-\i (00:02:34) ifp 
-\i (00:02:49) setwindow form.status
-\i (00:02:49) FORM status done  
-\i (00:02:49) setwindow pcb
-\i (00:02:49) zoom out 1 
-\i (00:02:50) setwindow pcb
-\i (00:02:50) zoom out 1533.472 235.222
-\i (00:02:50) trapsize 7545
-\i (00:02:50) zoom out 1 
-\i (00:02:50) setwindow pcb
-\i (00:02:50) zoom out 1533.473 229.186
-\i (00:02:50) trapsize 15091
-\i (00:02:51) zoom in 1 
-\i (00:02:51) setwindow pcb
-\i (00:02:51) zoom in 749.497 333.803
-\i (00:02:51) trapsize 7545
-\i (00:02:51) zoom in 1 
-\i (00:02:51) setwindow pcb
-\i (00:02:51) zoom in 749.497 333.804
-\i (00:02:51) trapsize 3773
-\i (00:02:53) zoom out 1 
-\i (00:02:53) setwindow pcb
-\i (00:02:53) zoom out 804.577 299.851
-\i (00:02:53) trapsize 7545
-\i (00:02:56) prepopup 890.594 -98.540
-\i (00:02:58) pick grid 810.614 665.043
-\t (00:02:58) last pick:  811.000 665.000
-\i (00:02:59) zoom out 1 
-\i (00:02:59) setwindow pcb
-\i (00:02:59) zoom out 812.123 648.443
-\i (00:02:59) trapsize 15091
-\i (00:03:00) zoom in 1 
-\i (00:03:00) setwindow pcb
-\i (00:03:00) zoom in 840.040 351.912
-\i (00:03:00) trapsize 7545
-\i (00:03:04) zoom in 1 
-\i (00:03:04) setwindow pcb
-\i (00:03:04) zoom in 586.519 406.238
-\i (00:03:04) trapsize 3773
-\i (00:03:04) zoom out 1 
-\i (00:03:04) setwindow pcb
-\i (00:03:04) zoom out 586.519 406.239
-\i (00:03:04) trapsize 7545
-\i (00:03:05) zoom out 1 
-\i (00:03:05) setwindow pcb
-\i (00:03:05) zoom out 625.754 373.040
-\i (00:03:05) trapsize 15091
-\i (00:03:08) zoom in 1 
-\i (00:03:08) setwindow pcb
-\i (00:03:08) zoom in -104.628 445.473
-\i (00:03:08) trapsize 7545
-\i (00:03:09) zoom in 1 
-\i (00:03:09) setwindow pcb
-\i (00:03:09) zoom in -54.829 448.492
-\i (00:03:09) trapsize 3773
-\i (00:15:25) exit 
-\t (00:15:25)     Journal end - Sun May 29 19:19:03 2016
+\i (00:01:06) zoom out 1144.423 366.335
+\i (00:01:06) trapsize 9960
+\i (00:01:14) save 
+\i (00:01:18) fillin yes 
+\i (00:01:18) ifp 
+\i (00:01:25) exit 
+\t (00:01:25)     Journal end - Tue May 31 01:59:20 2016

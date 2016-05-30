@@ -1,7 +1,7 @@
 \t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
-\t (00:00:00)     Journal start - Sun May 29 11:01:20 2016
-\t (00:00:00)         Host=PSAI-PC User=psai Pid=1732 CPUs=4
-\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaaau08408.tmp
+\t (00:00:00)     Journal start - Sun May 29 18:51:54 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=6860 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaaan03200.tmp
 \t (00:00:00) 
 \t (00:00:00) Starting new design...
 \i (00:00:00) trapsize 1189
@@ -19,16 +19,18 @@
    (00:00:00) Loading sxutil.cxt 
    (00:00:00) Loading axlcore.cxt 
    (00:00:00) Loading fputil.cxt 
-   (00:00:00) Already Placed Circuit
-\i (00:00:01) trapsize 25
+   (00:00:01) Already Placed Circuit
+\i (00:00:01) trapsize 18
    (00:00:01) Loading skillExt.cxt 
 \i (00:00:01) sigxp background 
-\i (00:00:02) sxconstraints 
-\i (00:00:04) setwindow form.sxconstraint
-\i (00:00:04) FORM sxconstraint prop_delay  
-\i (00:00:05) FORM sxconstraint delayrules 'F1.5          U1.P3         LENGTH       0.000 mil   2000.000 mil' 
-\i (00:00:05) FORM sxconstraint cancel  
-\i (00:00:05) setwindow sigxp
-\i (00:00:05) sigxp background 
-\i (00:00:06) exit 
-\t (00:00:06)     Journal end - Sun May 29 11:01:26 2016
+\i (00:00:04) sxconstraints 
+\i (00:00:06) setwindow form.sxconstraint
+\i (00:00:06) FORM sxconstraint diff_pair  
+\i (00:00:19) FORM sxconstraint dp_phase_tolerance '5.000 MIL' 
+\i (00:00:19) FORM sxconstraint done  
+\i (00:00:19) setwindow sigxp
+\i (00:00:19) sigxp background 
+\i (00:00:22) update cm 
+\i (00:00:22) sigxp background 
+\i (00:07:22) exit 
+\t (00:07:22)     Journal end - Sun May 29 18:59:16 2016

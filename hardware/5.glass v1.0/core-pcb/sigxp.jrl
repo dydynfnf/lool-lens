@@ -1,7 +1,7 @@
 \t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
-\t (00:00:00)     Journal start - Sun May 29 18:51:54 2016
-\t (00:00:00)         Host=PSAI-PC User=psai Pid=6860 CPUs=4
-\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaaan03200.tmp
+\t (00:00:00)     Journal start - Mon May 30 10:17:49 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=7684 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaaai07644.tmp
 \t (00:00:00) 
 \t (00:00:00) Starting new design...
 \i (00:00:00) trapsize 1189
@@ -19,18 +19,139 @@
    (00:00:00) Loading sxutil.cxt 
    (00:00:00) Loading axlcore.cxt 
    (00:00:00) Loading fputil.cxt 
-   (00:00:01) Already Placed Circuit
-\i (00:00:01) trapsize 18
+   (00:00:00) Already Placed Circuit
+\i (00:00:01) trapsize 19
    (00:00:01) Loading skillExt.cxt 
 \i (00:00:01) sigxp background 
-\i (00:00:04) sxconstraints 
-\i (00:00:06) setwindow form.sxconstraint
-\i (00:00:06) FORM sxconstraint diff_pair  
-\i (00:00:19) FORM sxconstraint dp_phase_tolerance '5.000 MIL' 
-\i (00:00:19) FORM sxconstraint done  
-\i (00:00:19) setwindow sigxp
-\i (00:00:19) sigxp background 
-\i (00:00:22) update cm 
-\i (00:00:22) sigxp background 
-\i (00:07:22) exit 
-\t (00:07:22)     Journal end - Sun May 29 18:59:16 2016
+\i (00:00:02) sxconstraints 
+\i (00:00:03) setwindow form.sxconstraint
+\i (00:00:03) FORM sxconstraint prop_delay  
+\i (00:00:05) FORM sxconstraint delayrules 'U1.E2         U5.H7         LENGTH       0.000 mil   1200.000 mil' 
+\i (00:00:14) FORM sxconstraint drmaxdelay '1230.000 mil' 
+\i (00:00:14) FORM sxconstraint drmodify  
+\i (00:00:51) FORM sxconstraint drmaxdelay '1300.000 MIL' 
+\i (00:00:51) FORM sxconstraint drmodify  
+\i (00:00:52) FORM sxconstraint done  
+\i (00:00:52) setwindow sigxp
+\i (00:00:52) sigxp background 
+\i (00:00:53) update cm 
+\i (00:00:53) sigxp background 
+\i (00:01:02) open C:/Users/psai/AppData/Local/Temp/#Taaaaak07644.tmp 
+\i (00:01:07) fillin yes 
+\t (00:01:07) Starting new design...
+\i (00:01:07) trapsize 6634
+\i (00:01:07) trapsize 6634
+\i (00:01:07) trapsize 6634
+   (00:01:08) Already Placed Circuit
+\i (00:01:08) trapsize 22
+\i (00:01:08) sigxp background 
+\i (00:01:09) sxconstraints 
+\i (00:01:11) setwindow form.sxconstraint
+\i (00:01:11) FORM sxconstraint delayrules 'U1.B6         U5.G9         LENGTH       0.000 mil   1200.000 mil' 
+\i (00:01:15) FORM sxconstraint drmaxdelay '1300.000 mil' 
+\i (00:01:15) FORM sxconstraint drmodify  
+\i (00:01:16) FORM sxconstraint done  
+\i (00:01:17) setwindow sigxp
+\i (00:01:17) sigxp background 
+\i (00:01:17) update cm 
+\i (00:01:17) sigxp background 
+\i (00:01:22) open C:/Users/psai/AppData/Local/Temp/#Taaaaam07644.tmp 
+\i (00:01:26) fillin yes 
+\t (00:01:26) Starting new design...
+\i (00:01:26) trapsize 6634
+\i (00:01:26) trapsize 6634
+\i (00:01:26) trapsize 6634
+   (00:01:26) Already Placed Circuit
+\i (00:01:26) trapsize 19
+\i (00:01:26) sigxp background 
+\i (00:01:27) sxconstraints 
+\i (00:01:28) setwindow form.sxconstraint
+\i (00:01:28) FORM sxconstraint delayrules 'U1.M14        U5.A8         LENGTH       0.000 mil   1200.000 mil' 
+\i (00:01:32) FORM sxconstraint drmaxdelay '1300.000 mil' 
+\i (00:01:32) FORM sxconstraint drmodify  
+\i (00:01:34) FORM sxconstraint done  
+\i (00:01:34) setwindow sigxp
+\i (00:01:34) sigxp background 
+\i (00:01:35) update cm 
+\i (00:01:35) sigxp background 
+\i (00:01:41) open C:/Users/psai/AppData/Local/Temp/#Taaaaao07644.tmp 
+\i (00:01:44) fillin yes 
+\t (00:01:44) Starting new design...
+\i (00:01:44) trapsize 6634
+\i (00:01:44) trapsize 6634
+\i (00:01:44) trapsize 6634
+   (00:01:44) Already Placed Circuit
+\i (00:01:44) trapsize 25
+\i (00:01:44) sigxp background 
+\i (00:01:46) update cm 
+\i (00:01:46) sigxp background 
+\i (00:01:50) open C:/Users/psai/AppData/Local/Temp/#Taaaaaq07644.tmp 
+\t (00:01:50) Starting new design...
+\i (00:01:50) trapsize 6634
+\i (00:01:50) trapsize 6634
+\i (00:01:50) trapsize 6634
+   (00:01:50) Already Placed Circuit
+\i (00:01:50) trapsize 25
+\i (00:01:50) sigxp background 
+\i (00:01:53) sxconstraints 
+\i (00:01:54) setwindow form.sxconstraint
+\i (00:01:54) FORM sxconstraint delayrules 'F1.5          U1.P3         LENGTH       0.000 mil   2000.000 mil' 
+\i (00:01:58) FORM sxconstraint done  
+\i (00:01:58) setwindow sigxp
+\i (00:01:58) sigxp background 
+\i (00:02:13) open C:/Users/psai/AppData/Local/Temp/#Taaaaar07644.tmp 
+\i (00:02:20) fillin yes 
+\t (00:02:20) Starting new design...
+\i (00:02:20) trapsize 6634
+\i (00:02:20) trapsize 6634
+\i (00:02:20) trapsize 6634
+   (00:02:20) Already Placed Circuit
+\i (00:02:20) trapsize 19
+\i (00:02:20) sigxp background 
+\i (00:02:21) sxconstraints 
+\i (00:02:22) setwindow form.sxconstraint
+\i (00:02:22) FORM sxconstraint delayrules 'F1.15         U1.B1         LENGTH       0.000 mil   1200.000 mil' 
+\i (00:02:25) FORM sxconstraint drmaxdelay '1300.000 mil' 
+\i (00:02:25) FORM sxconstraint drmodify  
+\i (00:02:26) FORM sxconstraint apply  
+\i (00:02:27) FORM sxconstraint done  
+\i (00:02:27) setwindow sigxp
+\i (00:02:27) sigxp background 
+\i (00:02:28) update cm 
+\i (00:02:28) sigxp background 
+\i (00:02:32) open C:/Users/psai/AppData/Local/Temp/#Taaaaat07644.tmp 
+\i (00:02:34) fillin yes 
+\t (00:02:34) Starting new design...
+\i (00:02:34) trapsize 6634
+\i (00:02:34) trapsize 6634
+\i (00:02:34) trapsize 6634
+   (00:02:35) Already Placed Circuit
+\i (00:02:35) trapsize 19
+\i (00:02:35) sigxp background 
+\i (00:02:35) sxconstraints 
+\i (00:02:37) setwindow form.sxconstraint
+\i (00:02:37) FORM sxconstraint delayrules 'F1.19         U1.J14        LENGTH       0.000 mil   1200.000 mil' 
+\i (00:02:41) FORM sxconstraint drmaxdelay '1300.000 mil' 
+\i (00:02:41) FORM sxconstraint drmodify  
+\i (00:02:43) FORM sxconstraint done  
+\i (00:02:43) setwindow sigxp
+\i (00:02:43) sigxp background 
+\i (00:02:44) update cm 
+\i (00:02:44) sigxp background 
+\i (00:02:48) open C:/Users/psai/AppData/Local/Temp/#Taaaaav07644.tmp 
+\i (00:02:50) fillin yes 
+\t (00:02:50) Starting new design...
+\i (00:02:50) trapsize 6634
+\i (00:02:50) trapsize 6634
+\i (00:02:50) trapsize 6634
+   (00:02:50) Already Placed Circuit
+\i (00:02:50) trapsize 22
+\i (00:02:50) sigxp background 
+\i (00:02:52) sxconstraints 
+\i (00:02:53) setwindow form.sxconstraint
+\i (00:02:53) FORM sxconstraint delayrules 'U1.K1         U6.6          LENGTH       0.000 mil   2000.000 mil' 
+\i (00:02:54) FORM sxconstraint done  
+\i (00:02:54) setwindow sigxp
+\i (00:02:54) sigxp background 
+\i (00:02:55) exit 
+\t (00:02:55)     Journal end - Mon May 30 10:20:44 2016

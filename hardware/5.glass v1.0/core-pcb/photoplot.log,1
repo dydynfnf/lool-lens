@@ -1,0 +1,539 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Tue May 31 01:45:30 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(509.530 108.027) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.03543                                  DARK 
+  SQUARE     0.05512                     0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.05315     x 0.01575      90.000 NO     DARK 
+  OBLONG     0.03150     x 0.00984       0.000 NO     DARK 
+  OBLONG     0.03150     x 0.00984      90.000 NO     DARK 
+  PAD SHAPE  CMPLXRR0-3X0-8A0            0.000 NO     DARK 
+  PAD SHAPE  COMPLEX0-8X1-4A1          180.000 NO     DARK 
+  PAD SHAPE  R350_325C10_TOP           180.000 NO     DARK 
+  PAD SHAPE  CMPLXRR0-3X0-8A0          180.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < SIG1 >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/SIG1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(1228.899 38.591) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1247.130 38.588) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(1243.819 46.591) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+
+     SIG1 created with warnings
+
+
+================================================================
+     PROCESSING FILM < SIG2 >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/SIG2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+
+     SIG2 created.
+
+
+================================================================
+     PROCESSING FILM < POWER >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/POWER.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+
+     POWER created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(999.000 593.002) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00039                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  RECTANGLE  0.01000     x 0.08000      90.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.01772     x 0.00945      90.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.01850      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315      90.000 NO     DARK 
+  RECTANGLE  0.02658     x 0.06890       0.000 NO     DARK 
+  RECTANGLE  0.02658     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.12000     x 0.06000       0.000 NO     DARK 
+  OBLONG     0.03347     x 0.01181       0.000 NO     DARK 
+  OBLONG     0.03347     x 0.01181      90.000 NO     DARK 
+  OBLONG     0.03740     x 0.01772      90.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.03543                                  DARK 
+  SQUARE     0.05512                     0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.05315     x 0.01575      90.000 NO     DARK 
+  OBLONG     0.03150     x 0.00984       0.000 NO     DARK 
+  OBLONG     0.03150     x 0.00984      90.000 NO     DARK 
+  PAD SHAPE  CMPLXRR0-3X0-8A0            0.000 NO     DARK 
+  PAD SHAPE  R350_325C10_SM            180.000 NO     DARK 
+  PAD SHAPE  CMPLXRR0-3X0-8A0          180.000 NO     DARK 
+  PAD SHAPE  COMPLEX0-8X1-4A1          180.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.01000     x 0.08000      90.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.01772     x 0.00945      90.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.01850      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315      90.000 NO     DARK 
+  RECTANGLE  0.02658     x 0.06890       0.000 NO     DARK 
+  RECTANGLE  0.02658     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.12000     x 0.06000       0.000 NO     DARK 
+  OBLONG     0.03347     x 0.01181       0.000 NO     DARK 
+  OBLONG     0.03347     x 0.01181      90.000 NO     DARK 
+  OBLONG     0.03740     x 0.01772      90.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+  CIRCLE     0.03543                                  DARK 
+  SQUARE     0.05512                     0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.05315     x 0.01575      90.000 NO     DARK 
+  OBLONG     0.03150     x 0.00984       0.000 NO     DARK 
+  OBLONG     0.03150     x 0.00984      90.000 NO     DARK 
+  PAD SHAPE  CMPLXRR0-3X0-8A0            0.000 NO     DARK 
+  PAD SHAPE  COMPLEX0-4X1A0-45         180.000 NO     DARK 
+  PAD SHAPE  R350_325C10_PM            180.000 NO     DARK 
+  PAD SHAPE  CMPLXRR0-3X0-8A0          180.000 NO     DARK 
+
+     PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.01000     x 0.08000      90.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
+  RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.01772     x 0.00945      90.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.01850      90.000 NO     DARK 
+  RECTANGLE  0.02559     x 0.05315      90.000 NO     DARK 
+  RECTANGLE  0.02658     x 0.06890       0.000 NO     DARK 
+  RECTANGLE  0.02658     x 0.06890      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.12000     x 0.06000       0.000 NO     DARK 
+  OBLONG     0.03347     x 0.01181       0.000 NO     DARK 
+  OBLONG     0.03347     x 0.01181      90.000 NO     DARK 
+  OBLONG     0.03740     x 0.01772      90.000 NO     DARK 
+
+     PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00400                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+
+     SILKSCREEN_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < DILL >
+     TO FILE < E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/DILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (1859.000 269.000)
+           ... using undefined line width of 1.000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 1.000
+
+    WARNING: text composed 0 width line found at (2308.500 831.500)
+           ... using undefined line width of 1.000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 1.000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00100                                  DARK 
+
+     DILL created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND created.
+        SIG1 created with warnings
+        SIG2 created.
+        POWER created.
+        BOTTOM created with warnings
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        SILKSCREEN_TOP created.
+        SILKSCREEN_BOTTOM created.
+        DILL created with warnings
+
+ ARTWORK had warnings

@@ -120,7 +120,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 880 25 405")
-        (Scroll "44 55")
+        (Scroll "44 84")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -131,7 +131,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 905 50 430")
-        (Scroll "362 364")
+        (Scroll "269 589")
         (Zoom "170")
         (Occurrence "/FLASH&SDRAM1"))
       (Path
@@ -153,7 +153,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 955 100 480")
-        (Scroll "0 35")
+        (Scroll "0 0")
         (Zoom "85")
         (Occurrence "/CONNECTOR1"))
       (Path

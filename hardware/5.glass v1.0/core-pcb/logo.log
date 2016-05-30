@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : logo.dra                                      )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Mon May 30 11:30:27 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FORMAT
+    Directory = E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb
+    Name      = logo.osm
+    User      = psai
+    Machine   = PSAI-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
