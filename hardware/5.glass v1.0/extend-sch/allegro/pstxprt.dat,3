@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 15:44:12 }
+{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 20:06:56 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='EXTEND';
@@ -248,6 +248,26 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ M1 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS222651@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins222651@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins222651@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M2 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS222671@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins222671@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins222671@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R1 'RES_0402_10K':;
 
 SECTION_NUMBER 1
@@ -304,6 +324,26 @@ SECTION_NUMBER 1
  '@EXTEND.BLUETOOTH(SCH_1):INS113446@MYLIBRARY.RES.NORMAL(CHIPS)':
  C_PATH='@extend.bluetooth(sch_1):ins113446@mylibrary.\res.normal\(chips)',
  P_PATH='@extend.bluetooth(sch_1):page1_ins113446@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RES_0402_16':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS223372@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins223372@mylibrary.\res.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins223372@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RES_0402_16':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS223442@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins223442@mylibrary.\res.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins223442@mylibrary.\res.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

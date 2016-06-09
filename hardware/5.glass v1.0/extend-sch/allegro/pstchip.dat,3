@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 15:44:12}
+{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 20:06:56}
 primitive 'CAP_0603_2.2UF';
   pin
     '1':
@@ -198,6 +198,18 @@ primitive 'HEADER 2_H-2_HEADER 2';
     VALUE='HEADER 2';
   end_body;
 end_primitive;
+primitive 'MTG_MTG-100_MTG';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MTG';
+    JEDEC_TYPE='MTG-100';
+    VALUE='MTG';
+  end_body;
+end_primitive;
 primitive 'RES_0402_10K';
   pin
     '1':
@@ -256,6 +268,21 @@ primitive 'RES_0402_0';
     PART_NAME='Res';
     JEDEC_TYPE='0402';
     VALUE='0';
+  end_body;
+end_primitive;
+primitive 'RES_0402_16';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0402';
+    VALUE='16';
   end_body;
 end_primitive;
 primitive 'BK8000L-MODULE_BK8000L-MODULE_B';

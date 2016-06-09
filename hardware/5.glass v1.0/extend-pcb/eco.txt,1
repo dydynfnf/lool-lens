@@ -3,41 +3,74 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 15:44:23 2016  |
+|                                                    Thu Jun 09 20:07:07 2016  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CONN RECT 11X2_MOLEX-BTB-18P-A_
+  N1018520     pins ADDED TO this new net
+                                 R7.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1018521     pins ADDED TO this new net
+                                 R8.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUTL         pins MOVED FROM this net (to net name listed on right)
+                                 J1.2            1635.00 474.094
+                                                                       N1018521
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R8.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUTR         pins MOVED FROM this net (to net name listed on right)
+                                 J1.1            1499.17 208.346
+                                                                       N1018520
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R7.1                           
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 15:44:23 2016  |
+|                                                    Thu Jun 09 20:07:07 2016  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J2                  CONN RECT 11X2_MOLEX-BTB-18P-A_                 CONN RECT 11X2_MOLEX-BTB-18P-B_
+ RES_0402_16
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 15:44:23 2016  |
+|                                                    Thu Jun 09 20:07:07 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R7                  RES_0402_16           
+ R8                  RES_0402_16           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
+|                                                    Thu Jun 09 20:07:07 2016  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J2.9                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
+|       Nets changed          :       6                                        |
 |       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Slot property added   :       1                                        |
+|       Components added      :       2                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:      11                                        |
 |------------------------------------------------------------------------------|

@@ -1,0 +1,7 @@
+INFO: Using SigNoise run directory 'E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb/signoise.run'
+INFO: Loaded existing device file 'E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb\devices.dml'
+INFO: Finished loading SigNoise device libraries
+ERROR: Illegal discrete value NC for component R5
+INFO: 27 models assigned
+ERROR: Illegal discrete value NC for component R5
+INFO: 0 models assigned

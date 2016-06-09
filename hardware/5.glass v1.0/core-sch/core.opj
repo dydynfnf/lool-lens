@@ -119,18 +119,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn"
-         "Top")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn"
-         "CONNECTOR")
       (Path "Outputs")
-      (Select "Design Resources"
-         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn"
-         "Top" "TOP"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

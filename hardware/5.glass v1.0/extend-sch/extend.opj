@@ -137,8 +137,10 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\extend.dsn")
+      (Path "Design Resources" ".\extend.dsn" "BLUETOOTH")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\extend.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -148,13 +150,24 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 513 75 636")
-        (Scroll "-46 -7")
+        (Placement "44 0 1 -1 -1 -8 -30 75 513 75 636")
+        (Scroll "0 0")
         (Zoom "85")
         (Occurrence "/"))
       (Path
          "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\EXTEND-SCH\EXTEND.DSN")
       (Schematic "BLUETOOTH")
-      (Page "BLUETOOTH")))
+      (Page "BLUETOOTH"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 798 50 508")
+        (Scroll "0 10")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\EXTEND-SCH\EXTEND.DSN")
+      (Schematic "BLUETOOTH")
+      (Page "BTB")))
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))
