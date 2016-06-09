@@ -1,137 +1,186 @@
-\t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:02)     Journal start - Tue May 31 02:00:24 2016
-\t (00:00:02)         Host=PSAI-PC User=psai Pid=12768 CPUs=4
-\t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
-\i (00:00:05) trapsize 11897
-\i (00:00:05) trapsize 11577
-\i (00:00:05) trapsize 11952
-\i (00:00:05) trapsize 9960
-\i (00:00:05) trapsize 9960
-\i (00:00:06) ifp 
-\i (00:00:07) color192 
-\i (00:00:07) setwindow cvf.dialog
-\i (00:00:07) cvf layer_mode
-\i (00:00:07) setwindow pcb
-\i (00:00:07) ifp 
-\i (00:00:08) setwindow cvf.dialog
-\i (00:00:08) cvf cancel
-\i (00:00:09) setwindow pcb
-\i (00:00:09) xsection 
-   (00:00:09) Loading floor.cxt 
-   (00:00:09) Loading skillExt.cxt 
-   (00:00:09) Loading axlcore.cxt 
-\i (00:01:40) setwindow form.fplyrstack
-\i (00:01:40) FORM fplyrstack lsgrid cell 4,shield 
-\i (00:01:41) FORM fplyrstack lsgrid change 4,shield no 
-   (00:01:41) Loading signal.cxt 
-\i (00:01:53) FORM fplyrstack lsgrid cell 4,shield 
-\i (00:01:54) FORM fplyrstack lsgrid change 4,shield yes 
-\i (00:01:58) FORM fplyrstack showsingleimpedance YES 
-\i (00:01:59) FORM fplyrstack showdiffimpedance YES 
-\i (00:02:02) FORM fplyrstack lsgrid cell 4,shield 
-\i (00:02:02) FORM fplyrstack lsgrid change 4,shield no 
-\i (00:02:03) FORM fplyrstack lsgrid cell 4,shield 
-\i (00:02:03) FORM fplyrstack lsgrid change 4,shield yes 
-\i (00:02:29) FORM fplyrstack showdiffimpedance NO 
-\i (00:02:33) FORM fplyrstack showdiffimpedance YES 
-\i (00:02:38) FORM fplyrstack lsgrid lprepopup 2,couplingtype 
-\i (00:02:39) FORM fplyrstack lsgrid cell 2,couplingtype 
-\i (00:02:40) FORM fplyrstack lsgrid change 2,couplingtype EDGE 
-\i (00:02:41) FORM fplyrstack lsgrid lprepopup 6,couplingtype 
-\i (00:02:41) FORM fplyrstack lsgrid cell 6,couplingtype 
-\i (00:02:42) FORM fplyrstack lsgrid change 6,couplingtype EDGE 
-\i (00:02:43) FORM fplyrstack lsgrid lprepopup 8,couplingtype 
-\i (00:02:43) FORM fplyrstack lsgrid cell 8,couplingtype 
-\i (00:02:45) FORM fplyrstack lsgrid change 8,couplingtype EDGE 
-\i (00:02:45) FORM fplyrstack lsgrid lprepopup 12,couplingtype 
-\i (00:02:45) FORM fplyrstack lsgrid cell 12,couplingtype 
-\i (00:02:46) FORM fplyrstack lsgrid change 12,couplingtype EDGE 
-\i (00:03:27) FORM fplyrstack cancel  
-\i (00:03:27) setwindow pcb
-\i (00:03:27) ifp 
-\i (00:03:29) zoom out 1 
-\i (00:03:29) setwindow pcb
-\i (00:03:29) zoom out 969.124 633.268
-\i (00:03:29) trapsize 19920
-\i (00:03:31) roam start
-\i (00:03:31) roam end
-\i (00:03:32) move 
-\t (00:03:32) Select element(s) to move.
-\i (00:03:32) slide 
-\t (00:03:33) Pick element to slide.
-\i (00:03:33) move 
-\t (00:03:33) Select element(s) to move.
-\i (00:03:34) save 
-\i (00:03:35) fillin yes 
-\i (00:03:35) ifp 
-\i (00:03:37) zoom out 1 
-\i (00:03:37) setwindow pcb
-\i (00:03:37) zoom out 2372.511 283.666
-\i (00:03:37) trapsize 39841
-\i (00:03:39) zoom in 1 
-\i (00:03:39) setwindow pcb
-\i (00:03:39) zoom in 416.335 395.219
-\i (00:03:39) trapsize 19920
-\i (00:03:40) roam start
-\i (00:03:40) roam x -48
-\i (00:03:40) roam y 96
-\i (00:03:40) roam x -64
-\i (00:03:40) roam y 48
-\i (00:03:41) roam end
-\i (00:03:42) zoom in 1 
-\i (00:03:42) setwindow pcb
-\i (00:03:42) zoom in 902.390 136.255
-\i (00:03:42) trapsize 9960
-\i (00:03:42) zoom in 1 
-\i (00:03:42) setwindow pcb
-\i (00:03:42) zoom in 902.390 140.239
-\i (00:03:42) trapsize 4980
-\i (00:03:42) zoom out 1 
-\i (00:03:42) setwindow pcb
-\i (00:03:42) zoom out 979.084 188.049
-\i (00:03:42) trapsize 9960
-\i (00:03:43) zoom out 1 
-\i (00:03:43) setwindow pcb
-\i (00:03:43) zoom out 979.084 188.048
-\i (00:03:43) trapsize 19920
-\i (00:03:44) zoom out 1 
-\i (00:03:44) setwindow pcb
-\i (00:03:44) zoom out 2607.571 395.220
-\i (00:03:44) trapsize 39841
-\i (00:03:45) zoom out 1 
-\i (00:03:45) setwindow pcb
-\i (00:03:45) zoom out 5715.139 1590.438
-\i (00:03:45) trapsize 39841
-\i (00:03:49) zoom out 1 
-\i (00:03:49) setwindow pcb
-\i (00:03:49) zoom out 846.614 211.952
-\i (00:03:49) trapsize 39841
-\i (00:03:50) zoom in 1 
-\i (00:03:50) setwindow pcb
-\i (00:03:50) zoom in 846.614 211.952
-\i (00:03:50) trapsize 19920
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 846.614 211.952
-\i (00:03:51) trapsize 9960
-\i (00:03:51) zoom in 1 
-\i (00:03:51) setwindow pcb
-\i (00:03:51) zoom in 846.614 211.952
-\i (00:03:51) trapsize 4980
-\i (00:03:52) zoom out 1 
-\i (00:03:52) setwindow pcb
-\i (00:03:52) zoom out 846.615 211.952
-\i (00:03:52) trapsize 9960
-\i (00:03:53) zoom out 1 
-\i (00:03:53) setwindow pcb
-\i (00:03:53) zoom out 846.614 211.952
-\i (00:03:53) trapsize 19920
-\i (00:03:55) zoom in 1 
-\i (00:03:55) setwindow pcb
-\i (00:03:55) zoom in 1671.316 423.108
-\i (00:03:55) trapsize 9960
-\i (00:04:00) exit 
-\t (00:04:01)     Journal end - Tue May 31 02:04:23 2016
+\t (03:45:08) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (03:45:08)     Journal start - Thu Jun 09 17:37:34 2016
+\t (03:45:08)         Host=PSAI-PC User=psai Pid=8684 CPUs=4
+\t (03:45:08) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (03:45:08) 
+\d (03:45:08) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (03:45:08) generaledit 
+\i (03:45:11) zoom in 1 
+\i (03:45:11) setwindow pcb
+\i (03:45:11) zoom in 1236.766 156.396
+\i (03:45:11) trapsize 5334
+\i (03:45:11) zoom in 1 
+\i (03:45:11) setwindow pcb
+\i (03:45:11) zoom in 1236.767 156.396
+\i (03:45:11) trapsize 2667
+\i (03:45:11) zoom out 1 
+\i (03:45:11) setwindow pcb
+\i (03:45:11) zoom out 1236.767 156.396
+\i (03:45:11) trapsize 5334
+\i (03:45:13) roam start
+\i (03:45:13) roam x 64
+\i (03:45:13) roam x 176
+\i (03:45:13) roam y 16
+\i (03:45:13) roam x 48
+\i (03:45:13) roam x 32
+\i (03:45:13) roam x 48
+\i (03:45:13) roam x 48
+\i (03:45:13) roam end
+\i (03:45:14) zoom in 1 
+\i (03:45:14) setwindow pcb
+\i (03:45:14) zoom in 1415.991 130.258
+\i (03:45:14) trapsize 2667
+\i (03:45:14) zoom in 1 
+\i (03:45:14) setwindow pcb
+\i (03:45:14) zoom in 1415.991 130.259
+\i (03:45:14) trapsize 1334
+\i (03:45:16) show measure 
+\i (03:45:17) prepopup 1399.723 161.463
+\i (03:45:21) pop dyn_option_select 'Snap pick to@:@Symbol Center' 
+\t (03:45:21) last pick:  1400.000 115.000
+\i (03:45:22) zoom out 1 
+\i (03:45:22) setwindow pcb
+\i (03:45:22) zoom out 1376.786 126.792
+\i (03:45:22) trapsize 2667
+\i (03:45:22) zoom out 1 
+\i (03:45:22) setwindow pcb
+\i (03:45:22) zoom out 1376.787 126.791
+\i (03:45:22) trapsize 5334
+\i (03:45:23) roam start
+\i (03:45:23) roam x -16
+\i (03:45:23) roam y -48
+\i (03:45:23) roam y -80
+\i (03:45:23) roam x -48
+\i (03:45:23) roam y -16
+\i (03:45:23) roam x -32
+\i (03:45:23) roam y -48
+\i (03:45:23) roam x -64
+\i (03:45:23) roam y -48
+\i (03:45:23) roam x -32
+\i (03:45:23) roam y -32
+\i (03:45:23) roam end
+\i (03:45:24) zoom in 1 
+\i (03:45:24) setwindow pcb
+\i (03:45:24) zoom in 1334.913 419.363
+\i (03:45:24) trapsize 2667
+\i (03:45:32) zoom in 1 
+\i (03:45:32) setwindow pcb
+\i (03:45:32) zoom in 1295.441 524.444
+\i (03:45:32) trapsize 1334
+\i (03:45:32) zoom in 1 
+\i (03:45:32) setwindow pcb
+\i (03:45:32) zoom in 1295.441 525.511
+\i (03:45:32) trapsize 667
+\i (03:45:33) roam start
+\i (03:45:33) roam x -96
+\i (03:45:33) roam y -96
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -16
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -32
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -16
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -32
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -32
+\i (03:45:33) roam y -16
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -48
+\i (03:45:33) roam x -16
+\i (03:45:33) roam y -32
+\i (03:45:33) roam x -32
+\i (03:45:33) roam y -48
+\i (03:45:33) roam x -32
+\i (03:45:33) roam y -48
+\i (03:45:33) roam x -48
+\i (03:45:33) roam y -32
+\i (03:45:33) roam x -32
+\i (03:45:33) roam y -16
+\i (03:45:33) roam y -16
+\i (03:45:33) roam end
+\i (03:45:34) zoom out 1 
+\i (03:45:34) setwindow pcb
+\i (03:45:34) zoom out 1238.900 577.785
+\i (03:45:34) trapsize 1334
+\i (03:45:34) zoom out 1 
+\i (03:45:34) setwindow pcb
+\i (03:45:34) zoom out 1238.900 577.784
+\i (03:45:34) trapsize 2667
+\i (03:45:34) zoom out 1 
+\i (03:45:34) setwindow pcb
+\i (03:45:34) zoom out 1238.901 577.784
+\i (03:45:34) trapsize 5334
+\i (03:48:34) zoom out 1 
+\i (03:48:34) setwindow pcb
+\i (03:48:34) zoom out 1380.786 271.610
+\i (03:48:34) trapsize 10668
+\i (03:48:35) zoom in 1 
+\i (03:48:35) setwindow pcb
+\i (03:48:35) zoom in 1397.855 53.981
+\i (03:48:35) trapsize 5334
+\i (03:48:35) zoom in 1 
+\i (03:48:35) setwindow pcb
+\i (03:48:35) zoom in 1388.254 55.049
+\i (03:48:35) trapsize 2667
+\i (03:48:35) zoom in 1 
+\i (03:48:35) setwindow pcb
+\i (03:48:35) zoom in 1387.721 73.185
+\i (03:48:35) trapsize 1334
+\i (03:48:36) zoom out 1 
+\i (03:48:36) setwindow pcb
+\i (03:48:36) zoom out 1391.989 121.192
+\i (03:48:36) trapsize 2667
+\i (03:48:36) zoom out 1 
+\i (03:48:36) setwindow pcb
+\i (03:48:36) zoom out 1391.988 121.192
+\i (03:48:36) trapsize 5334
+\i (03:48:37) zoom in 1 
+\i (03:48:37) setwindow pcb
+\i (03:48:37) zoom in 1324.779 470.039
+\i (03:48:37) trapsize 2667
+\i (03:48:37) zoom in 1 
+\i (03:48:37) setwindow pcb
+\i (03:48:37) zoom in 1323.179 477.507
+\i (03:48:37) trapsize 1334
+\i (03:48:37) roam start
+\i (03:48:37) roam y -48
+\i (03:48:38) roam x -32
+\i (03:48:38) roam y -64
+\i (03:48:38) roam x -16
+\i (03:48:38) roam x -16
+\i (03:48:38) roam y -32
+\i (03:48:38) roam x -16
+\i (03:48:38) roam y -32
+\i (03:48:38) roam x -32
+\i (03:48:38) roam y -48
+\i (03:48:38) roam x -16
+\i (03:48:38) roam y -16
+\i (03:48:38) roam x -16
+\i (03:48:38) roam y -16
+\i (03:48:38) roam x -16
+\i (03:48:38) roam y -48
+\i (03:48:38) roam y -32
+\i (03:48:38) roam y -32
+\i (03:48:38) roam end
+\i (03:48:40) zoom out 1 
+\i (03:48:40) setwindow pcb
+\i (03:48:40) zoom out 1293.041 502.308
+\i (03:48:40) trapsize 2667
+\i (03:48:43) zoom in 1 
+\i (03:48:43) setwindow pcb
+\i (03:48:43) zoom in 1312.777 497.508
+\i (03:48:43) trapsize 1334
+\i (03:48:45) pick grid 1290.641 505.242
+\t (03:48:45) last pick:  1291.000 505.000
+\i (03:49:03) pick grid 1337.847 521.245
+\t (03:49:03) last pick:  1338.000 521.000
+\i (03:49:04) setwindow text
+\i (03:49:04) close 
+\i (03:49:06) setwindow pcb
+\i (03:49:06) open 
+\i (03:49:10) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb\extend-pcb.brd"
+\i (03:49:10) cd "E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb"
+\t (03:49:10) Opening existing design...
+\i (03:49:10) trapsize 11991
+\t (03:49:10)     Journal end - Thu Jun 09 17:41:35 2016

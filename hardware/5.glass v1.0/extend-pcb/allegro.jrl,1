@@ -1,0 +1,100 @@
+\t (03:42:50) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (03:42:50)     Journal start - Thu Jun 09 17:35:15 2016
+\t (03:42:50)         Host=PSAI-PC User=psai Pid=8684 CPUs=4
+\t (03:42:50) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (03:42:50) 
+\d (03:42:50) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd
+\i (03:42:50) generaledit 
+\i (03:42:54) unrats all 
+\i (03:42:54) generaledit 
+\i (03:42:55) rats all 
+\i (03:42:55) generaledit 
+\i (03:43:24) zoom in 1 
+\i (03:43:24) setwindow pcb
+\i (03:43:24) zoom in 1401.660 176.130
+\i (03:43:24) trapsize 5996
+\i (03:43:24) zoom in 1 
+\i (03:43:24) setwindow pcb
+\i (03:43:24) zoom in 1435.236 156.944
+\i (03:43:24) trapsize 2998
+\i (03:43:25) zoom out 1 
+\i (03:43:25) setwindow pcb
+\i (03:43:25) zoom out 1379.476 125.766
+\i (03:43:25) trapsize 5996
+\i (03:43:25) zoom out 1 
+\i (03:43:25) setwindow pcb
+\i (03:43:25) zoom out 1379.477 125.767
+\i (03:43:25) trapsize 11991
+\i (03:43:37) pick grid 1223.587 571.850
+\t (03:43:37) last pick:  1225.000 570.000
+\i (03:43:38) pick grid 1089.283 838.061
+\t (03:43:38) last pick:  1090.000 840.000
+\i (03:43:39) iangle 90 
+\e (03:43:39) angle command is not allowed in this mode.
+\i (03:43:39) custom smooth 
+\i (03:43:39) custom smooth 
+\i (03:43:39) move 
+\t (03:43:40) Select element(s) to move.
+\i (03:43:40) pick grid 1326.714 588.638
+\t (03:43:40) last pick:  1325.000 590.000
+\t (03:43:40) last pick:  930.000 310.000
+\t (03:43:40) Moving U1 / BK8000L-MODULE_BK8000L-MODULE_B / BK8000L-MODULE.
+\t (03:43:40) Pick new location for the element(s).
+\i (03:43:43) iangle 90 
+\t (03:43:43) last pick:  90.000 0.000
+\i (03:43:44) iangle 90 
+\t (03:43:44) last pick:  90.000 0.000
+\i (03:43:51) prepopup 921.402 674.977
+\i (03:43:51) cancel 
+\i (03:43:52) generaledit 
+\i (03:43:52) pick grid 969.368 576.646
+\t (03:43:52) last pick:  970.000 575.000
+\i (03:43:53) pick grid 981.359 770.908
+\t (03:43:53) last pick:  980.000 770.000
+\i (03:43:55) pick grid 1089.283 569.452
+\t (03:43:55) last pick:  1090.000 570.000
+\i (03:43:55) pick grid 914.207 811.679
+\t (03:43:55) last pick:  915.000 810.000
+\i (03:44:01) move 
+\t (03:44:01) Select element(s) to move.
+\i (03:44:02) pick grid 1182.816 564.655
+\t (03:44:02) last pick:  1185.000 565.000
+\t (03:44:02) last pick:  930.000 310.000
+\t (03:44:02) Moving U1 / BK8000L-MODULE_BK8000L-MODULE_B / BK8000L-MODULE.
+\t (03:44:02) Pick new location for the element(s).
+\i (03:44:02) iangle 90 
+\t (03:44:02) last pick:  90.000 0.000
+\i (03:44:03) iangle 90 
+\t (03:44:03) last pick:  90.000 0.000
+\i (03:44:15) pick grid 962.173 310.436
+\t (03:44:15) last pick:  960.000 310.000
+\i (03:44:16) prepopup 1000.546 842.857
+\i (03:44:16) done 
+\i (03:44:16) generaledit 
+\i (03:44:17) zoom in 1 
+\i (03:44:17) setwindow pcb
+\i (03:44:17) zoom in 1249.968 356.003
+\i (03:44:17) trapsize 5996
+\i (03:44:17) zoom in 1 
+\i (03:44:17) setwindow pcb
+\i (03:44:17) zoom in 1249.969 356.003
+\i (03:44:17) trapsize 2998
+\i (03:44:17) zoom out 1 
+\i (03:44:17) setwindow pcb
+\i (03:44:17) zoom out 1249.969 353.605
+\i (03:44:17) trapsize 5996
+\i (03:44:17) zoom out 1 
+\i (03:44:18) setwindow pcb
+\i (03:44:18) zoom out 1249.970 352.406
+\i (03:44:18) trapsize 11991
+\i (03:44:36) unrats all 
+\i (03:44:36) generaledit 
+\i (03:45:00) save 
+\i (03:45:02) fillin yes 
+\i (03:45:02) generaledit 
+\i (03:45:04) open 
+\i (03:45:08) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\core.brd"
+\i (03:45:08) cd "E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb"
+\t (03:45:08) Opening existing design...
+\i (03:45:08) trapsize 10668
+\t (03:45:08)     Journal end - Thu Jun 09 17:37:34 2016

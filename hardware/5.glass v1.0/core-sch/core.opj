@@ -81,7 +81,21 @@
     ("Allegro Setup Part Type Length" "31")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "1")
+    (BOM_Report_File
+       "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint")
+    (BOM_Include_File
+       "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\core.drc"
       (Type "Report"))
@@ -93,7 +107,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\core.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (MTG
@@ -103,13 +119,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\core.dsn")
-      (Path "Design Resources" ".\core.dsn" "Top")
-      (Path "Design Resources" ".\core.dsn" "CONNECTOR")
-      (Path "Design Resources" ".\core.dsn" "FLASH&SDRAM")
-      (Path "Design Resources" ".\core.dsn" "MCU")
-      (Path "Design Resources" ".\core.dsn" "POWER")
-      (Select "Design Resources" ".\core.dsn" "POWER" "POWER"))
+      (Path "Design Resources"
+         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn")
+      (Path "Design Resources"
+         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn"
+         "Top")
+      (Path "Design Resources"
+         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn"
+         "CONNECTOR")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\material\glass\workspace\hardware\5.glass v1.0\core-sch\core.dsn"
+         "Top" "TOP"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -119,68 +140,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 880 25 405")
-        (Scroll "44 84")
+        (Placement "44 2 3 -1 -1 -8 -30 100 592 100 558")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
       (Schematic "Top")
-      (Page "TOP"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 905 50 430")
-        (Scroll "269 589")
-        (Zoom "170")
-        (Occurrence "/FLASH&SDRAM1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "FLASH&SDRAM")
-      (Page "FLASH&SDRAM"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 930 75 455")
-        (Scroll "-46 -7")
-        (Zoom "85")
-        (Occurrence "/STM32F1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "MCU")
-      (Page "MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 955 100 480")
-        (Scroll "0 0")
-        (Zoom "85")
-        (Occurrence "/CONNECTOR1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "CONNECTOR")
-      (Page "CONNECTOR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 984 125 509")
-        (Scroll "0 0")
-        (Zoom "85")
-        (Occurrence "/POWER1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "POWER")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1009 150 534")
-        (Scroll "119 173")
-        (Zoom "100")
-        (Occurrence "/SENSOR1"))
-      (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
-      (Schematic "SENSOR")
-      (Page "SENSOR")))
+      (Page "TOP")))
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))

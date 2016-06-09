@@ -1,4 +1,4 @@
-Date and Time : 05/23/16 15:55:35
+Date and Time : 06/09/16 16:11:57
 
 --------------------------------------------------
 Checking Schematic: BLUETOOTH
@@ -20,35 +20,50 @@ Reporting Ports
 Reporting Off-Page Connections
 
 Reporting Globals
+    3V
     GND
     3.3V
+    VBAT
 
 Reporting Net Names
-    GND
-    OUTR
-    INL+
-    N101904
-    INR-
-    N102504
-    OUTL
-    INL-
-    N102000
-    N102032
-    INR+
-    N102346
-    3.3V
-    MIC_BIAS
-    MICN
-    N101900
     N102512
-    N101924
+    OUTL
+    NAV_INT
+    N113563
+    INL+
+    N101900
     N102004
-    N102500
-    N101976
-    N102508
     MICP
+    INL-
+    NAV_SCK
+    N102508
+    NAV_MOSI
+    N113559
+    N102346
+    NAV_MISO
+    3.3V
+    LED-
+    MIC_BIAS
+    SDA
+    NAV_NSS
+    INR+
+    N102504
+    MICN
+    N101976
+    GND
     BT-RX
+    N101904
+    3V
+    N102000
+    N101924
+    N109388
+    OUTR
     BT-TX
+    N102500
+    N102032
+    SCL
+    INR-
+    VBAT
 
 Checking Misleading Tap connection
 

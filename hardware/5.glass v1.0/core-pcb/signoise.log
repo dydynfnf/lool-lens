@@ -1,13 +1,2 @@
-INFO: Loaded existing interconnect file 'E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\interconn.iml'
-INFO: Loaded existing interconnect file 'D:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
-INFO: Finished loading SigNoise interconnect libraries
-INFO: Field Solver bem2d for STL_2S_1R_7
-INFO: Executing command: bem2d 0 "C:/Users/psai/AppData/Local/Temp/#Taaaaab12768.in" 0.00127
-INFO: Field Solver bem2d for STL_2S_1R_8
-INFO: Executing command: bem2d 0 "C:/Users/psai/AppData/Local/Temp/#Taaaaac12768.in" 0.00127
-INFO: Field Solver bem2d for MTL_2S_6R_9
-INFO: Executing command: bem2d 0 "C:/Users/psai/AppData/Local/Temp/#Taaaaad12768.in" 0.00127
-INFO: Field Solver bem2d for MTL_2S_6R_10
-INFO: Executing command: bem2d 0 "C:/Users/psai/AppData/Local/Temp/#Taaaaae12768.in" 0.00127
-INFO: Field Solver bem2d for MTL_1S_6R_11
-INFO: Executing command: bem2d 0 "C:/Users/psai/AppData/Local/Temp/#Taaaaaf12768.in" 0.00127
+INFO: Loaded existing device file 'E:\material\glass\workspace\hardware\5.glass v1.0\core-pcb\devices.dml'
+INFO: Finished loading SigNoise device libraries

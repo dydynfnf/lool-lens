@@ -1,0 +1,12 @@
+scriptmode +i +n
+version 15.5
+setwindow pcb
+trapsize 15382
+define grid
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids 5.000000
+FORM grid non_etch non_etch_y_grids 5.000000
+FORM grid all_etch all_etch_x_grids 5.000000
+FORM grid all_etch all_etch_y_grids 5.000000
+FORM grid done
+setwindow pcb

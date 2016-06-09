@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001May-23-2016 at 15:33:59}
+{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 14:21:11}
 primitive 'CAP_0603_2.2UF';
   pin
     '1':
@@ -60,6 +60,36 @@ primitive 'CAP_0402_0.1UF';
     VALUE='0.1uF';
   end_body;
 end_primitive;
+primitive 'CAP_0402_10NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Cap';
+    JEDEC_TYPE='0402';
+    VALUE='10nF';
+  end_body;
+end_primitive;
+primitive '1N5819_SOD123_CMMSH1-40';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='1n5819';
+    JEDEC_TYPE='SOD123';
+    VALUE='CMMSH1-40';
+  end_body;
+end_primitive;
 primitive 'PHONEJACK STEREO_PHONEJACK-3P_P';
   pin
     'A':
@@ -76,6 +106,96 @@ primitive 'PHONEJACK STEREO_PHONEJACK-3P_P';
     PART_NAME='PHONEJACK STEREO';
     JEDEC_TYPE='PHONEJACK-3P';
     VALUE='PHONEJACK STEREO';
+  end_body;
+end_primitive;
+primitive 'CONN RECT 11X2_MOLEX-BTB-18P-B_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '17':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    '19':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    '21':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    '18':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    '20':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    '22':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN RECT 11x2';
+    JEDEC_TYPE='MOLEX-BTB-18P-B';
+    VALUE='CONN RECT 11x2';
+  end_body;
+end_primitive;
+primitive 'HEADER 2_H-2_HEADER 2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 2';
+    JEDEC_TYPE='H-2';
+    VALUE='HEADER 2';
   end_body;
 end_primitive;
 primitive 'RES_0402_10K';
@@ -106,6 +226,36 @@ primitive 'RES_0402_3.3K';
     PART_NAME='Res';
     JEDEC_TYPE='0402';
     VALUE='3.3K';
+  end_body;
+end_primitive;
+primitive 'RES_0402_NC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0402';
+    VALUE='NC';
+  end_body;
+end_primitive;
+primitive 'RES_0402_0';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Res';
+    JEDEC_TYPE='0402';
+    VALUE='0';
   end_body;
 end_primitive;
 primitive 'BK8000L-MODULE_BK8000L-MODULE_B';
@@ -292,6 +442,135 @@ primitive 'SPU0410HR5H-PB_SPU0410HR5H-PB_S';
     PART_NAME='SPU0410HR5H-PB';
     JEDEC_TYPE='SPU0410HR5H-PB';
     VALUE='SPU0410HR5H-PB';
+  end_body;
+end_primitive;
+primitive 'BMP280_0_BMP280-LGA8_BMP280';
+  pin
+    'GND1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CSB':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SDI':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'SCK':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'SDO':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'VDDIO':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'GND2':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BMP280_0';
+    JEDEC_TYPE='BMP280-LGA8';
+    VALUE='BMP280';
+  end_body;
+end_primitive;
+primitive 'ADBS-A320_1_ADBS-A320-QFN_ADBS-';
+  pin
+    'GND1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'XY-LED':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'MOTION':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GPIO':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VDDIO1':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'MOSI':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'SCK':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'MISO':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'NCS':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'NRST':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'GND2':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'ORIENT':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'SHTDWN':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'VDDIO2':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'IO_SELECT':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'DVDD':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'NDREG_EN':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    'NC2':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    'VDDA':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'GND3':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    'GND4':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    'NC3':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    'LED1-':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    'LED2-':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+    'LED3-':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+    'LED+':
+      PIN_NUMBER='(27)';
+      PINUSE='UNSPEC';
+    'GND5':
+      PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    'GNP-PAD':
+      PIN_NUMBER='(29)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ADBS-A320_1';
+    JEDEC_TYPE='ADBS-A320-QFN';
+    VALUE='ADBS-A320';
   end_body;
 end_primitive;
 END.

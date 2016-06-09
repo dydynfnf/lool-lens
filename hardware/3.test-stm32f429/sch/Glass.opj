@@ -205,24 +205,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\3.test-stm32f429\sch\glass.dsn")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\3.test-stm32f429\sch\glass.dsn"
-         "Top")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\3.test-stm32f429\sch\glass.dsn"
-         "LCD")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\3.test-stm32f429\sch\glass.dsn"
-         "NandFlash&SDRAM")
-      (Path "Design Resources"
-         "E:\material\glass\workspace\hardware\3.test-stm32f429\sch\glass.dsn"
-         "POWER")
       (Path "Outputs")
-      (Select "Design Resources"
-         "E:\material\glass\workspace\hardware\3.test-stm32f429\sch\glass.dsn"
-         "NandFlash&SDRAM" "MT29F4G08&MT48LC8M16A2P"))
+      (Select "Design Resources" ".\glass.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
