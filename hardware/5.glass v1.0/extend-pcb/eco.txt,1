@@ -3,74 +3,266 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 20:07:07 2016  |
+|                                                    Thu Jun 09 20:23:46 2016  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N1018520     pins ADDED TO this new net
-                                 R7.2                           
+  A1           pins ADDED TO this new net
+                                 J4.1                           
+                                 J5.2                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N1018521     pins ADDED TO this new net
-                                 R8.2                           
+  A2           pins ADDED TO this new net
+                                 J4.2                           
+                                 J5.1                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OUTL         pins MOVED FROM this net (to net name listed on right)
-                                 J1.2            1635.00 474.094
-                                                                       N1018521
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R8.1                           
+  A3           pins ADDED TO this new net
+                                 J4.3                           
+                                 J5.4                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OUTR         pins MOVED FROM this net (to net name listed on right)
-                                 J1.1            1499.17 208.346
-                                                                       N1018520
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R7.1                           
+  A4           pins ADDED TO this new net
+                                 J4.4                           
+                                 J5.3                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A5           pins ADDED TO this new net
+                                 J4.5                           
+                                 J5.6                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A6           pins ADDED TO this new net
+                                 J4.6                           
+                                 J5.5                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A7           pins ADDED TO this new net
+                                 J4.7                           
+                                 J5.8                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A8           pins ADDED TO this new net
+                                 J4.8                           
+                                 J5.7                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A9           pins ADDED TO this new net
+                                 J4.9                           
+                                 J5.10                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A10          pins ADDED TO this new net
+                                 J4.10                          
+                                 J5.9                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A11          pins ADDED TO this new net
+                                 J4.11                          
+                                 J5.12                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A12          pins ADDED TO this new net
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 20:07:07 2016  |
+|                                                    Thu Jun 09 20:23:46 2016  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RES_0402_16
+                                 J4.12                          
+                                 J5.11                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A13          pins ADDED TO this new net
+                                 J4.13                          
+                                 J5.14                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A14          pins ADDED TO this new net
+                                 J4.14                          
+                                 J5.13                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A15          pins ADDED TO this new net
+                                 J4.15                          
+                                 J5.16                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A16          pins ADDED TO this new net
+                                 J4.16                          
+                                 J5.15                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A17          pins ADDED TO this new net
+                                 J4.17                          
+                                 J5.18                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A18          pins ADDED TO this new net
+                                 J4.18                          
+                                 J5.17                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A19          pins ADDED TO this new net
+                                 J4.19                          
+                                 J5.20                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A20          pins ADDED TO this new net
+                                 J4.20                          
+                                 J5.19                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A21          pins ADDED TO this new net
+                                 J4.21                          
+                                 J5.22                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  A22          pins ADDED TO this new net
+                                 J4.22                          
+                                 J5.21                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B1           pins ADDED TO this new net
+                                 J6.1                           
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 20:07:07 2016  |
+|                                                    Thu Jun 09 20:23:46 2016  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R7                  RES_0402_16           
- R8                  RES_0402_16           
+                                 J7.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B2           pins ADDED TO this new net
+                                 J6.2                           
+                                 J7.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B3           pins ADDED TO this new net
+                                 J6.3                           
+                                 J7.4                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B4           pins ADDED TO this new net
+                                 J6.4                           
+                                 J7.3                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B5           pins ADDED TO this new net
+                                 J6.5                           
+                                 J7.6                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B6           pins ADDED TO this new net
+                                 J6.6                           
+                                 J7.5                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B7           pins ADDED TO this new net
+                                 J6.7                           
+                                 J7.8                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B8           pins ADDED TO this new net
+                                 J6.8                           
+                                 J7.7                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B9           pins ADDED TO this new net
+                                 J6.9                           
+                                 J7.10                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B10          pins ADDED TO this new net
+                                 J6.10                          
+                                 J7.9                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B11          pins ADDED TO this new net
+                                 J6.11                          
+                                 J7.12                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B12          pins ADDED TO this new net
+                                 J6.12                          
+                                 J7.11                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
-|                                                    Thu Jun 09 20:07:07 2016  |
+|                                                    Thu Jun 09 20:23:46 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  B13          pins ADDED TO this new net
+                                 J6.13                          
+                                 J7.14                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B14          pins ADDED TO this new net
+                                 J6.14                          
+                                 J7.13                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B15          pins ADDED TO this new net
+                                 J6.15                          
+                                 J7.16                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B16          pins ADDED TO this new net
+                                 J6.16                          
+                                 J7.15                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B17          pins ADDED TO this new net
+                                 J6.17                          
+                                 J7.18                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B18          pins ADDED TO this new net
+                                 J6.18                          
+                                 J7.17                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B19          pins ADDED TO this new net
+                                 J6.19                          
+                                 J7.20                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B20          pins ADDED TO this new net
+                                 J6.20                          
+                                 J7.19                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B21          pins ADDED TO this new net
+                                 J6.21                          
+                                 J7.22                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  B22          pins ADDED TO this new net
+                                 J6.22                          
+                                 J7.21                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
+|                                                    Thu Jun 09 20:23:46 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CONN RECT 11X2_MOLEX-BTB-18P-B_
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
+|                                                    Thu Jun 09 20:23:46 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J4                  CONN RECT 11X2_MOLEX-BTB-18P-A_ 
+ J5                  CONN RECT 11X2_MOLEX-BTB-18P-A_ 
+ J6                  CONN RECT 11X2_MOLEX-BTB-18P-B_ 
+ J7                  CONN RECT 11X2_MOLEX-BTB-18P-B_ 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  E:.../glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd       |
+|                                                    Thu Jun 09 20:23:46 2016  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R7.2                           PRIM_FILE      .\pstchip.dat
- R8.2                           PRIM_FILE      .\pstchip.dat
+ J4.9                           PRIM_FILE      .\pstchip.dat
+ J5.9                           PRIM_FILE      .\pstchip.dat
+ J6.9                           PRIM_FILE      .\pstchip.dat
+ J7.9                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
+|       Nets changed          :      88                                        |
 |       Comp definitions added:       1                                        |
-|       Components added      :       2                                        |
-|       Slot property added   :       2                                        |
+|       Components added      :       4                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      11                                        |
+|   Total ECO changes reported:      97                                        |
 |------------------------------------------------------------------------------|
