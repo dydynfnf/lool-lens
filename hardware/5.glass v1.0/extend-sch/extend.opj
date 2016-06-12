@@ -140,34 +140,34 @@
       (Path "Design Resources" ".\extend.dsn" "BLUETOOTH")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\extend.dsn"))
+      (Select "Design Resources" ".\extend.dsn" "BLUETOOTH" "BTB"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 856"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 555"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 513 75 636")
-        (Scroll "-46 -7")
-        (Zoom "85")
+        (Placement "44 2 3 -1 -1 -8 -30 50 984 50 307")
+        (Scroll "1550 710")
+        (Zoom "264")
         (Occurrence "/"))
       (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\EXTEND-SCH\EXTEND.DSN")
+         "F:\LOOL_LENS\LOOL-LENS\HARDWARE\5.GLASS V1.0\EXTEND-SCH\EXTEND.DSN")
       (Schematic "BLUETOOTH")
       (Page "BLUETOOTH"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 798 50 508")
-        (Scroll "0 10")
+        (Placement "44 0 1 -1 -1 -8 -30 75 959 75 439")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\EXTEND-SCH\EXTEND.DSN")
+         "F:\LOOL_LENS\LOOL-LENS\HARDWARE\5.GLASS V1.0\EXTEND-SCH\EXTEND.DSN")
       (Schematic "BLUETOOTH")
       (Page "BTB")))
-  (MPSSessionName "psai")
+  (MPSSessionName "DaQi")
   (ISPCBBASICLICENSE "false"))
