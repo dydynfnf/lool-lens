@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : extend-pcb.brd                                )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Thu Jun 09 14:25:17 2016                      )
+(    Date/Time        : Sun Jun 12 12:16:55 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  6
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

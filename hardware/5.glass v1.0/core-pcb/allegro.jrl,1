@@ -1,58 +1,19 @@
-\t (00:00:13) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:13)     Journal start - Fri Jun 10 14:37:06 2016
-\t (00:00:13)         Host=PSAI-PC User=psai Pid=6812 CPUs=4
-\t (00:00:13) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:13) 
-\d (00:00:13) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
-\i (00:00:13) generaledit 
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 1023.404 580.986
-\i (00:00:15) trapsize 5334
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 1023.405 580.986
-\i (00:00:15) trapsize 2667
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 1022.338 580.986
-\i (00:00:15) trapsize 1334
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 1022.338 580.986
-\i (00:00:15) trapsize 667
-\i (00:00:16) zoom out 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom out 1022.339 580.986
-\i (00:00:16) trapsize 1334
-\i (00:00:16) zoom out 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom out 1022.338 580.986
-\i (00:00:16) trapsize 2667
-\i (00:00:19) roam start
-\i (00:00:19) roam x -48
-\i (00:00:19) roam x -16
-\i (00:00:19) roam x -32
-\i (00:00:19) roam x -32
-\i (00:00:19) roam x -32
-\i (00:00:19) roam y -16
-\i (00:00:19) roam x -48
-\i (00:00:19) roam end
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 803.642 609.789
-\i (00:00:20) trapsize 1334
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 804.176 609.789
-\i (00:00:20) trapsize 667
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out 804.976 610.323
-\i (00:00:21) trapsize 1334
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out 805.777 609.789
-\i (00:00:21) trapsize 2667
-\i (00:20:08) exit 
-\t (00:20:08)     Journal end - Fri Jun 10 14:57:01 2016
+\t (00:00:07) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:07)     Journal start - Fri Jun 10 16:58:14 2016
+\t (00:00:07)         Host=PSAI-PC User=psai Pid=9152 CPUs=4
+\t (00:00:07) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:07) 
+\t (00:00:10) Opening existing design...
+\d (00:00:12) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (00:00:12) trapsize 12921
+\i (00:00:13) trapsize 12545
+\i (00:00:13) trapsize 12986
+\i (00:00:14) trapsize 10668
+\i (00:00:14) trapsize 10668
+\i (00:00:16) generaledit 
+\i (00:00:24) open 
+\i (00:00:32) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb\extend-pcb.brd"
+\i (00:00:32) cd "E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb"
+\t (00:00:32) Opening existing design...
+\i (00:00:33) trapsize 10076
+\t (00:00:33)     Journal end - Fri Jun 10 16:58:39 2016

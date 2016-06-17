@@ -1,4 +1,4 @@
-Date and Time : 06/09/16 20:23:32
+Date and Time : 06/12/16 12:54:40
 
 --------------------------------------------------
 Checking Schematic: BLUETOOTH
@@ -26,90 +26,90 @@ Reporting Globals
     VBAT
 
 Reporting Net Names
-    NAV_NSS
-    VBAT
-    MIC_BIAS
-    N101904
-    N102504
-    LED-
-    INR-
-    NAV_MISO
-    NAV_INT
-    N109388
-    N113563
-    OUTR
-    INR+
-    N102000
-    N101900
-    N102500
-    3.3V
-    MICP
-    INL-
-    N102508
-    N113559
-    MICN
-    SCL
-    GND
-    N102346
-    BT-RX
-    BT-TX
-    N101976
-    OUTL
-    N101924
-    NAV_SCK
-    N102004
-    NAV_MOSI
-    SDA
-    INL+
-    3V
-    N102512
-    N102032
-    N1018520
-    N1018521
-    A1
-    A2
-    A3
-    A4
-    A5
-    A6
-    A7
+    B5
+    B12
+    B17
     A8
-    A9
-    A10
-    A11
-    A12
-    A13
-    A14
-    A15
-    A16
-    A17
+    B14
     A18
-    A19
+    B1
+    B6
     A20
     A21
-    A22
-    B1
-    B2
-    B3
-    B4
-    B5
-    B6
-    B7
-    B8
-    B9
+    A5
+    A14
     B10
-    B11
-    B12
-    B13
-    B14
     B15
+    A6
+    B2
+    A22
+    A16
+    A19
+    A2
+    B4
+    B7
+    B13
     B16
-    B17
-    B18
-    B19
-    B20
+    B11
+    A1
+    A9
     B21
+    A4
+    B18
+    B20
+    A11
+    A3
+    A10
+    A17
+    B9
+    A13
+    A12
+    B19
+    B3
+    B8
     B22
+    A15
+    A7
+    N102500
+    N102004
+    3V
+    NAV_NSS
+    SDA
+    N102508
+    N102032
+    OUTL
+    INR+
+    GND
+    MICP
+    MIC_BIAS
+    BT-RX
+    LED-
+    INR-
+    MICN
+    NAV_INT
+    NAV_SCK
+    N113563
+    N1018521
+    SCL
+    N102512
+    N101900
+    OUTR
+    3.3V
+    N101976
+    NAV_MOSI
+    INL-
+    N101904
+    N102504
+    N113559
+    INL+
+    N109388
+    N102346
+    N1018520
+    BT-TX
+    VBAT
+    N102000
+    NAV_MISO
+    N101924
 
 Checking Misleading Tap connection
 

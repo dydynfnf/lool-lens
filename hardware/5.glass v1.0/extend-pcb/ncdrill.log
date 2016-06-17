@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : extend-pcb.brd                                )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Sun Jun 12 12:27:11 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-360): Design precision is greater than that of the drill output file data.
+ WARNING(SPMHMF-361): Data rounding errors are very possible.
+
+
+Drill files being output to directory 'E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb' ...
+
+
+
+     'extend-pcb-1-2.drl' created for holes connecting TOP and BOTTOM
+     ----------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  12.0000    0.0000/  0.0000      PLATED        125
+            2.  41.3390    0.0000/  0.0000      PLATED          2
+            3.  39.3700    0.0000/  0.0000  NON_PLATED          2
+            4.  55.1180    0.0000/  0.0000  NON_PLATED          2
+
+     ---- Total holes:                                        131
+
+     ---- Total head travel:              1.24 feet (0.38 meters)
+

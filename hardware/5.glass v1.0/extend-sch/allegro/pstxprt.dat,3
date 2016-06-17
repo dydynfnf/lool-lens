@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 20:06:56 }
+{ Using PSTWRITER 16.6.0 d001Jun-09-2016 at 20:23:40 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='EXTEND';
@@ -244,6 +244,46 @@ SECTION_NUMBER 1
  '@EXTEND.BLUETOOTH(SCH_1):INS188296@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
  C_PATH='@extend.bluetooth(sch_1):ins188296@connector.\header 2.normal\(chips)',
  P_PATH='@extend.bluetooth(sch_1):page1_ins188296@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CONN RECT 11X2_MOLEX-BTB-18P-A_':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS223529@CONNECTOR.CONN RECT 11X2.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins223529@connector.\conn rect 11x2.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins223529@connector.\conn rect 11x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CONN RECT 11X2_MOLEX-BTB-18P-A_':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS223635@CONNECTOR.CONN RECT 11X2.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins223635@connector.\conn rect 11x2.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins223635@connector.\conn rect 11x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CONN RECT 11X2_MOLEX-BTB-18P-B_':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS223741@CONNECTOR.CONN RECT 11X2.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins223741@connector.\conn rect 11x2.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins223741@connector.\conn rect 11x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CONN RECT 11X2_MOLEX-BTB-18P-B_':;
+
+SECTION_NUMBER 1
+ '@EXTEND.BLUETOOTH(SCH_1):INS223847@CONNECTOR.CONN RECT 11X2.NORMAL(CHIPS)':
+ C_PATH='@extend.bluetooth(sch_1):ins223847@connector.\conn rect 11x2.normal\(chips)',
+ P_PATH='@extend.bluetooth(sch_1):page1_ins223847@connector.\conn rect 11x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
