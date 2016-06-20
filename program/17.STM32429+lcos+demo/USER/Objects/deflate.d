@@ -1,9 +1,0 @@
-.\objects\deflate.o: ..\PNG\deflate.c
-.\objects\deflate.o: ..\PNG\deflate.h
-.\objects\deflate.o: ..\PNG\zutil.h
-.\objects\deflate.o: ..\PNG\zlib.h
-.\objects\deflate.o: ..\PNG\zconf.h
-.\objects\deflate.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\deflate.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\deflate.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\deflate.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
