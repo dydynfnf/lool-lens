@@ -1,19 +1,217 @@
-\t (00:00:08) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:08)     Journal start - Mon Jun 13 09:46:19 2016
-\t (00:00:08)         Host=PSAI-PC User=psai Pid=3684 CPUs=4
-\t (00:00:08) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:08) 
-\t (00:00:10) Opening existing design...
-\d (00:00:10) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd
-\i (00:00:11) trapsize 20516
-\i (00:00:11) trapsize 19918
-\i (00:00:11) trapsize 20620
-\i (00:00:11) trapsize 16939
-\i (00:00:11) trapsize 16939
-\i (00:00:12) generaledit 
-\i (00:01:40) open 
-\i (00:01:53) fillin "E:\material\lool Inds Vibration\hardware\v1.0\pcb\vibration.brd"
-\i (00:01:53) cd "E:\material\lool Inds Vibration\hardware\v1.0\pcb"
-\t (00:01:53) Opening existing design...
-\i (00:01:54) trapsize 65963
-\t (00:01:54)     Journal end - Mon Jun 13 09:48:06 2016
+\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:05)     Journal start - Tue Aug 30 00:03:34 2016
+\t (00:00:05)         Host=PSAI-PC User=psai Pid=3496 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd
+\i (00:00:06) trapsize 41033
+\i (00:00:06) trapsize 39837
+\i (00:00:06) trapsize 41239
+\i (00:00:07) trapsize 33878
+\i (00:00:07) trapsize 33877
+\i (00:00:07) generaledit 
+\i (00:00:37) dbdoctor 
+\i (00:00:41) setwindow form.dbdoctor_allegro
+\i (00:00:41) FORM dbdoctor_allegro close  
+\i (00:00:41) setwindow pcb
+\i (00:00:41) generaledit 
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 957.188 310.128
+\i (00:00:41) trapsize 16939
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 953.800 310.129
+\i (00:00:42) trapsize 8469
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 953.801 310.129
+\i (00:00:42) trapsize 4235
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 953.801 310.129
+\i (00:00:42) trapsize 2117
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 954.648 310.129
+\i (00:00:42) trapsize 4235
+\i (00:00:43) roam start
+\i (00:00:43) roam x -32
+\i (00:00:43) roam y -32
+\i (00:00:43) roam x -64
+\i (00:00:43) roam y -32
+\i (00:00:43) roam x -80
+\i (00:00:43) roam y -16
+\i (00:00:43) roam y -16
+\i (00:00:43) roam x -16
+\i (00:00:43) roam x 16
+\i (00:00:43) roam y -32
+\i (00:00:43) roam x 32
+\i (00:00:43) roam y -16
+\i (00:00:44) roam end
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 1031.718 548.117
+\i (00:00:44) trapsize 2117
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 1032.142 548.117
+\i (00:00:44) trapsize 1059
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 1032.142 548.117
+\i (00:00:45) trapsize 2117
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 1032.141 548.118
+\i (00:00:45) trapsize 4235
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 1032.140 548.119
+\i (00:00:46) trapsize 8469
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 1108.365 587.078
+\i (00:00:47) trapsize 4235
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 1113.447 587.078
+\i (00:00:47) trapsize 2117
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 1123.187 584.961
+\i (00:00:47) trapsize 1059
+\i (00:00:50) setwindow form.find
+\i (00:00:50) FORM find pins YES 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 1127.210 543.249
+\i (00:01:59) trapsize 2117
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 1128.480 544.520
+\i (00:01:59) trapsize 4235
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 1128.479 544.520
+\i (00:01:59) trapsize 8469
+\i (00:02:00) roam start
+\i (00:02:00) roam x -16
+\i (00:02:00) roam y 48
+\i (00:02:00) roam x -48
+\i (00:02:00) roam y 64
+\i (00:02:00) roam x -16
+\i (00:02:00) roam y 16
+\i (00:02:00) roam x -32
+\i (00:02:00) roam y 48
+\i (00:02:00) roam y 16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam y 16
+\i (00:02:00) roam end
+\i (00:02:04) dbdoctor 
+\i (00:02:05) setwindow form.dbdoctor_allegro
+\i (00:02:05) FORM dbdoctor_allegro drc YES 
+\i (00:02:06) FORM dbdoctor_allegro execute  
+\t (00:02:06) Dbdoctor in progress - wait...
+\t (00:02:06) Checking db records
+\t (00:02:06)     checking for orphans...
+\t (00:02:06)     Checked 100 percent
+\t (00:02:06) Regenerating DRC
+\t (00:02:06)   Original DRC errors: 0
+\t (00:02:06) Performing DRC...
+\t (00:02:06) Multithreaded DRC update (4 threads).
+\t (00:02:07) No DRC errors detected.
+\t (00:02:07)   Updated DRC errors:  0
+\t (00:02:07) Done dbdoctor.
+\t (00:02:07) Dbdoctor completed.
+\i (00:02:09) FORM dbdoctor_allegro vlog  
+\i (00:02:11) setwindow text
+\i (00:02:11) close 
+\i (00:02:12) setwindow form.dbdoctor_allegro
+\i (00:02:12) FORM dbdoctor_allegro close  
+\i (00:02:12) setwindow pcb
+\i (00:02:12) generaledit 
+\i (00:02:14) status 
+\i (00:02:14) generaledit 
+\i (00:02:15) setwindow form.status
+\i (00:02:15) FORM status drc_update  
+\t (00:02:15) Running DRC, wait...
+\t (00:02:15) Performing DRC...
+\t (00:02:15) Multithreaded DRC update (4 threads).
+\t (00:02:15) No DRC errors detected.
+\t (00:02:15) DRC done.
+\i (00:02:17) FORM status done  
+\i (00:02:24) setwindow pcb
+\i (00:02:24) ncdrill legend 
+   (00:02:25) Loading signal.cxt 
+   (00:02:25) Loading mfg.cxt 
+\i (00:02:26) setwindow form.nc_drilllegend
+\i (00:02:26) FORM nc_drilllegend done  
+   (00:02:26) Loading axlcore.cxt 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom out 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom out 1343.391 288.107
+\i (00:02:27) trapsize 16939
+\i (00:02:27) zoom out 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom out 1343.391 288.108
+\i (00:02:27) trapsize 33877
+\i (00:02:29) pick grid 2200.492 1678.779
+\t (00:02:29) last pick:  2200.000 1679.000
+\t (00:02:29) NC Drill Legend generation successful
+\i (00:02:29) generaledit 
+\i (00:02:34) ncdrill param 
+\i (00:02:34) generaledit 
+\i (00:02:41) setwindow form.nc_parameters
+\i (00:02:41) FORM nc_parameters done  
+\i (00:02:44) setwindow pcb
+\i (00:02:44) nctape_full 
+\i (00:02:45) setwindow form.nc_drill
+\i (00:02:45) FORM nc_drill execute  
+\t (00:02:45) Starting Generating NC Drill...
+\i (00:02:51) FORM nc_drill viewlog  
+\i (00:03:30) setwindow text
+\i (00:03:30) close 
+\i (00:03:31) setwindow form.nc_drill
+\i (00:03:31) FORM nc_drill cancel  
+\i (00:03:31) setwindow pcb
+\i (00:03:31) generaledit 
+\i (00:03:35) artwork 
+\i (00:03:37) setwindow form.film_control
+\i (00:03:37) FORM film_control select_all  
+\i (00:03:39) FORM film_control filmtree  DRILL 
+\i (00:03:39) FORM film_control filmtree  OUTLINE 
+\i (00:03:39) FORM film_control filmtree  PASTEMASK_BOTTOM 
+\i (00:03:40) FORM film_control filmtree  PASTEMASK_TOP 
+\i (00:03:40) FORM film_control filmtree  SILKSCREEN_BOTTOM 
+\i (00:03:40) FORM film_control filmtree  SILKSCREEN_TOP 
+\i (00:03:40) FORM film_control filmtree  SOLDERMASK_BOTTOM 
+\i (00:03:41) FORM film_control filmtree  SOLDERMASK_TOP 
+\i (00:03:41) FORM film_control filmtree  TOP 
+\i (00:03:43) FORM film_control create  
+\t (00:03:43) Checking db records
+\t (00:03:43)     checking for orphans...
+\t (00:03:43)     Checked  88 percent
+\t (00:03:43)     Checked 100 percent
+\t (00:03:43) Done dbdoctor.
+\t (00:03:43) Starting Create artwork films...
+\w (00:03:44) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:03:45) Artwork generated with warnings.
+\i (00:04:00) setwindow text
+\i (00:04:00) close 
+\i (00:04:03) setwindow form.film_control
+\i (00:04:03) FORM film_control ok  
+\i (00:04:03) setwindow pcb
+\i (00:04:03) generaledit 
+\i (00:04:06) exit 
+\e (00:04:06) Do you want to save the changes you made to extend-pcb.brd?
+\i (00:04:08) fillin menu_cancel 
+\i (00:04:08) generaledit 
+\i (00:04:09) save 
+\i (00:04:10) fillin yes 
+\i (00:04:10) generaledit 
+\i (00:04:11) exit 
+\t (00:04:11)     Journal end - Tue Aug 30 00:07:40 2016

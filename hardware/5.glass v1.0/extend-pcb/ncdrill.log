@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : extend-pcb.brd                                )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sun Jun 12 12:27:11 2016                      )
+(    Date/Time        : Tue Aug 30 00:06:16 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -48,12 +48,12 @@ Drill files being output to directory 'E:/material/glass/workspace/hardware/5.gl
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.  12.0000    0.0000/  0.0000      PLATED        125
+            1.  12.0000    0.0000/  0.0000      PLATED        101
             2.  41.3390    0.0000/  0.0000      PLATED          2
             3.  39.3700    0.0000/  0.0000  NON_PLATED          2
             4.  55.1180    0.0000/  0.0000  NON_PLATED          2
 
-     ---- Total holes:                                        131
+     ---- Total holes:                                        107
 
-     ---- Total head travel:              1.24 feet (0.38 meters)
+     ---- Total head travel:              1.15 feet (0.35 meters)
 

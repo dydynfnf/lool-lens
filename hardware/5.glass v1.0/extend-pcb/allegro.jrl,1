@@ -1,56 +1,9 @@
-\t (00:00:02) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:02)     Journal start - Sun Jun 12 12:54:59 2016
-\t (00:00:02)         Host=PSAI-PC User=psai Pid=8232 CPUs=4
-\t (00:00:02) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd
-\i (00:00:04) trapsize 20516
-\i (00:00:04) trapsize 19918
-\i (00:00:04) trapsize 20620
-\i (00:00:04) trapsize 16939
-\i (00:00:04) trapsize 16939
-\i (00:00:05) generaledit 
-\i (00:00:12) netin 
-\i (00:00:12) setwindow form.niparams
-\i (00:00:12) FORM niparams import  
-\t (00:00:12) Starting Cadence Logic Import...
-\t (00:00:15) Opening existing design...
-\i (00:00:15) setwindow pcb
-\i (00:00:15) trapsize 16939
-\i (00:00:16) generaledit 
-\i (00:00:22) dbdoctor 
-\i (00:00:23) setwindow form.dbdoctor_allegro
-\i (00:00:23) FORM dbdoctor_allegro drc YES 
-\i (00:00:24) FORM dbdoctor_allegro execute  
-\t (00:00:24) Dbdoctor in progress - wait...
-\t (00:00:24) Checking db records
-\t (00:00:24)     checking for orphans...
-\t (00:00:24)     Checked 100 percent
-\t (00:00:24) Regenerating DRC
-\t (00:00:24)   Original DRC errors: 0
-\t (00:00:24) Performing DRC...
-\t (00:00:24) Multithreaded DRC update (4 threads).
-\t (00:00:25) No DRC errors detected.
-\t (00:00:25)   Updated DRC errors:  0
-\t (00:00:25) Done dbdoctor.
-\t (00:00:25) Dbdoctor completed.
-\i (00:00:25) FORM dbdoctor_allegro close  
-\i (00:00:25) setwindow pcb
-\i (00:00:25) generaledit 
-\i (00:00:27) status 
-\i (00:00:27) generaledit 
-\i (00:00:28) setwindow form.status
-\i (00:00:28) FORM status drc_update  
-\t (00:00:28) Running DRC, wait...
-\t (00:00:28) Performing DRC...
-\t (00:00:28) Multithreaded DRC update (4 threads).
-\t (00:00:28) No DRC errors detected.
-\t (00:00:28) DRC done.
-\i (00:00:29) FORM status done  
-\i (00:00:31) setwindow pcb
-\i (00:00:31) save 
-\i (00:00:32) fillin yes 
-\i (00:00:32) generaledit 
-\i (00:00:33) exit 
-\t (00:00:33)     Journal end - Sun Jun 12 12:55:31 2016
+\t (00:00:22) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:22)     Journal start - Sun Aug 28 22:05:19 2016
+\t (00:00:22)         Host=PSAI-PC User=psai Pid=4980 CPUs=4
+\t (00:00:22) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:22) 
+\d (00:00:22) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/extend-pcb/extend-pcb.brd
+\i (00:00:22) generaledit 
+\i (00:00:24) exit 
+\t (00:00:24)     Journal end - Sun Aug 28 22:05:21 2016

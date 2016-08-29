@@ -1,0 +1,131 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : extend-pcb.brd                                )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Wed Aug 24 01:39:53 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  B8                   BOTTOM                 0.784     *(1988.476 226.362) to  (1988.073 225.745)
+  B8                   TOP                    0.784     *(1988.476 226.362) to  (1988.073 225.745)
+  MIC_BIAS             BOTTOM                 0.001      (328.425 123.464) to *(328.425 123.465)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  GND                  VIA-12-16            (1661.000 412.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (392.386 568.386) TOP/BOTTOM 
+  GND                  VIA-12-16            (395.000 532.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (453.386 491.614) TOP/BOTTOM 
+  GND                  VIA-12-16            (275.000 537.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (290.617 580.392) TOP/BOTTOM 
+  GND                  VIA-12-16            (237.000 540.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (325.000 462.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (28.465 429.465) TOP/BOTTOM 
+  GND                  VIA-12-16            (1771.000 361.535) TOP/BOTTOM 
+  GND                  VIA-12-16            (441.000 261.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (440.000 290.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (28.465 296.535) TOP/BOTTOM 
+  GND                  VIA-12-16            (225.000 176.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (173.819 171.819) TOP/BOTTOM 
+  GND                  VIA-12-16            (200.000 144.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (144.000 46.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (203.000 27.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (361.728 118.272) TOP/BOTTOM 
+  GND                  VIA-12-16            (1743.299 182.157) TOP/BOTTOM 
+  GND                  VIA-12-16            (35.000 328.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (345.000 441.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (370.000 398.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (148.228 462.228) TOP/BOTTOM 
+  GND                  VIA-12-16            (104.000 452.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (270.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (240.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (210.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (180.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (270.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (240.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (210.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (180.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (270.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (240.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (210.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (180.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (553.000 220.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (1625.616 196.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1655.616 196.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1625.616 226.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1655.616 226.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1786.000 29.000) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  GND                  VIA-12-16            (1661.000 412.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (392.386 568.386) TOP/BOTTOM 
+  GND                  VIA-12-16            (395.000 532.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (453.386 491.614) TOP/BOTTOM 
+  GND                  VIA-12-16            (275.000 537.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (290.617 580.392) TOP/BOTTOM 
+  GND                  VIA-12-16            (237.000 540.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (325.000 462.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (28.465 429.465) TOP/BOTTOM 
+  GND                  VIA-12-16            (1771.000 361.535) TOP/BOTTOM 
+  GND                  VIA-12-16            (441.000 261.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (440.000 290.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (28.465 296.535) TOP/BOTTOM 
+  GND                  VIA-12-16            (225.000 176.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (173.819 171.819) TOP/BOTTOM 
+  GND                  VIA-12-16            (200.000 144.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (144.000 46.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (203.000 27.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (361.728 118.272) TOP/BOTTOM 
+  GND                  VIA-12-16            (1743.299 182.157) TOP/BOTTOM 
+  GND                  VIA-12-16            (35.000 328.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (345.000 441.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (370.000 398.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (148.228 462.228) TOP/BOTTOM 
+  GND                  VIA-12-16            (104.000 452.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (270.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (240.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (210.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (180.026 343.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (270.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (240.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (210.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (180.026 313.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (270.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (240.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (210.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (180.026 283.966) TOP/BOTTOM 
+  GND                  VIA-12-16            (553.000 220.000) TOP/BOTTOM 
+  GND                  VIA-12-16            (1625.616 196.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1655.616 196.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1625.616 226.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1655.616 226.347) TOP/BOTTOM 
+  GND                  VIA-12-16            (1786.000 29.000) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       3
+  Total dangling vias:       43
+  Total antenna vias:        43

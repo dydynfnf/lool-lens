@@ -1,4 +1,4 @@
-Date and Time : 06/12/16 12:54:40
+Date and Time : 08/23/16 20:26:50
 
 --------------------------------------------------
 Checking Schematic: BLUETOOTH
@@ -26,90 +26,68 @@ Reporting Globals
     VBAT
 
 Reporting Net Names
+    B14
+    B1
+    B6
+    B9
+    B10
+    B2
+    B15
+    B4
+    B16
+    B11
+    B18
+    B13
+    B21
+    B20
+    B7
+    B22
+    B3
+    B8
+    B19
     B5
     B12
     B17
-    A8
-    B14
-    A18
-    B1
-    B6
-    A20
-    A21
-    A5
-    A14
-    B10
-    B15
-    A6
-    B2
-    A22
-    A16
-    A19
-    A2
-    B4
-    B7
-    B13
-    B16
-    B11
-    A1
-    A9
-    B21
-    A4
-    B18
-    B20
-    A11
-    A3
-    A10
-    A17
-    B9
-    A13
-    A12
-    B19
-    B3
-    B8
-    B22
-    A15
-    A7
-    N102500
-    N102004
-    3V
-    NAV_NSS
-    SDA
-    N102508
-    N102032
-    OUTL
-    INR+
-    GND
-    MICP
-    MIC_BIAS
     BT-RX
-    LED-
-    INR-
-    MICN
-    NAV_INT
+    N102004
+    MICP
+    SDA
     NAV_SCK
-    N113563
+    N102032
+    INR+
     N1018521
-    SCL
-    N102512
-    N101900
+    MICN
+    MIC_BIAS
+    INR-
     OUTR
-    3.3V
-    N101976
-    NAV_MOSI
-    INL-
-    N101904
+    LED-
+    N102512
+    NAV_INT
     N102504
-    N113559
-    INL+
+    N113563
+    N101904
+    GND
+    NAV_MOSI
+    SCL
     N109388
-    N102346
+    N101900
+    N101976
     N1018520
     BT-TX
-    VBAT
+    INL-
     N102000
+    N102500
+    N113559
+    3.3V
     NAV_MISO
+    INL+
+    N102508
+    N102346
+    VBAT
+    OUTL
+    NAV_NSS
     N101924
+    3V
 
 Checking Misleading Tap connection
 

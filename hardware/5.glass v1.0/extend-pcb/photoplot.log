@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : extend-pcb.brd                                )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sun Jun 12 12:36:26 2016                      )
+(    Date/Time        : Tue Aug 30 00:07:12 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -13,23 +13,17 @@
 
 
 
-
- Can't open parameter file ... using default values:
-     DEVICE-TYPE        GERBER6X00
-     G-CODES            NO
-     STATIONS-PER-WHEEL 24
-     FILM-SIZE          24000 16000
-     COORDINATES        ABSOLUTE
-     OUTPUT-UNITS       INCHES
-     FORMAT             5.3
-     ABORT-ON-ERROR     abort film & continue
-     SUPPRESS-LEAD-ZEROES     YES
-     SUPPRESS-TRAIL-ZEROES    NO
-     OPTIMIZE           YES
-     SUPPRESS-EQUAL     YES
-     SCALE              1.0
-
-
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
 
 
 
@@ -50,15 +44,7 @@
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(1916.733 250.227) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1891.732 181.939) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1891.732 248.063) will be ignored. Increasing output
+	(1048.500 72.681) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -101,27 +87,11 @@
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(781.974 492.122) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(626.974 189.879) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(328.425 123.464) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
 	(328.425 123.464) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1916.733 250.229) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(1981.771 250.227) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
@@ -142,11 +112,9 @@
   CIRCLE     0.03543                                  DARK 
   CIRCLE     0.06299                                  DARK 
   SQUARE     0.06299                     0.000 NO     DARK 
-  RECTANGLE  0.01378     x 0.00945      90.000 NO     DARK 
   RECTANGLE  0.01378     x 0.01378       0.000 NO     DARK 
   RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
   RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
-  RECTANGLE  0.01654     x 0.01181      90.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
   RECTANGLE  0.01772     x 0.00945      90.000 NO     DARK 
   RECTANGLE  0.01968     x 0.01850      90.000 NO     DARK 
@@ -188,7 +156,7 @@
   CIRCLE     0.00787                                  DARK 
   CIRCLE     0.00984                                  DARK 
 
-     SILKSCREEN_TOP created with warnings
+     SILKSCREEN_TOP created.
 
 
 ================================================================
@@ -219,7 +187,7 @@
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.00984                                  DARK 
 
-     SILKSCREEN_BOTTOM created with warnings
+     SILKSCREEN_BOTTOM created.
 
 
 ================================================================
@@ -251,7 +219,7 @@
   RECTANGLE  0.07874     x 0.03543       0.000 NO     DARK 
   RECTANGLE  0.07874     x 0.03543      90.000 NO     DARK 
 
-     PASTEMASK_TOP created with warnings
+     PASTEMASK_TOP created.
 
 
 ================================================================
@@ -277,11 +245,9 @@
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.03543                                  DARK 
-  RECTANGLE  0.01378     x 0.00945      90.000 NO     DARK 
   RECTANGLE  0.01378     x 0.01378       0.000 NO     DARK 
   RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
   RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
-  RECTANGLE  0.01654     x 0.01181      90.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
   RECTANGLE  0.01772     x 0.00945      90.000 NO     DARK 
   RECTANGLE  0.01968     x 0.01850      90.000 NO     DARK 
@@ -294,7 +260,7 @@
   PAD SHAPE  R320_260C20_PM              0.000 YES    DARK 
   PAD SHAPE  S160C35_PM                180.000 YES    DARK 
 
-     PASTEMASK_BOTTOM created with warnings
+     PASTEMASK_BOTTOM created.
 
 
 ================================================================
@@ -328,7 +294,7 @@
   RECTANGLE  0.07874     x 0.03543       0.000 NO     DARK 
   RECTANGLE  0.07874     x 0.03543      90.000 NO     DARK 
 
-     SOLDERMASK_TOP created with warnings
+     SOLDERMASK_TOP created.
 
 
 ================================================================
@@ -356,11 +322,9 @@
   CIRCLE     0.03543                                  DARK 
   CIRCLE     0.06299                                  DARK 
   SQUARE     0.06299                     0.000 NO     DARK 
-  RECTANGLE  0.01378     x 0.00945      90.000 NO     DARK 
   RECTANGLE  0.01378     x 0.01378       0.000 NO     DARK 
   RECTANGLE  0.01476     x 0.02520       0.000 NO     DARK 
   RECTANGLE  0.01476     x 0.02520      90.000 NO     DARK 
-  RECTANGLE  0.01654     x 0.01181      90.000 NO     DARK 
   RECTANGLE  0.01673     x 0.03740      90.000 NO     DARK 
   RECTANGLE  0.01772     x 0.00945      90.000 NO     DARK 
   RECTANGLE  0.01968     x 0.01850      90.000 NO     DARK 
@@ -373,7 +337,7 @@
   PAD SHAPE  R320_260C20_SM              0.000 YES    DARK 
   PAD SHAPE  S160C35_SM                180.000 YES    DARK 
 
-     SOLDERMASK_BOTTOM created with warnings
+     SOLDERMASK_BOTTOM created.
 
 
 ================================================================
@@ -439,20 +403,20 @@
   ---------------------------------------------------------
   CIRCLE     0.00100                                  DARK 
 
-     OUTLINE created with warnings
+     OUTLINE created.
 
 
 ------------------------------------------------------
  SUMMARY:
         TOP created with warnings
         BOTTOM created with warnings
-        SILKSCREEN_TOP created with warnings
-        SILKSCREEN_BOTTOM created with warnings
-        PASTEMASK_TOP created with warnings
-        PASTEMASK_BOTTOM created with warnings
-        SOLDERMASK_TOP created with warnings
-        SOLDERMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created.
+        SILKSCREEN_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
         DRILL created with warnings
-        OUTLINE created with warnings
+        OUTLINE created.
 
  ARTWORK had warnings

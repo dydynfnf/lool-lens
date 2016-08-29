@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : extend-pcb.brd                                )
 (    Software Version : 16.6-2015S065                                 )
-(    Date/Time        : Sun Jun 12 12:25:27 2016                      )
+(    Date/Time        : Sun Jun 12 12:26:17 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -15,4 +15,3 @@ End of drill legend template file processing.
 Begin processing drill holes.
 No errors detected in processing holes.
 End processing drill holes.
-Drill Legend command cancelled.
