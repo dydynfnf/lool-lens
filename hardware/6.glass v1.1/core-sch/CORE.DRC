@@ -1,0 +1,754 @@
+Date and Time : 12/11/16 22:56:04
+
+--------------------------------------------------
+Checking Schematic:  Top
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+
+Reporting Net Names
+    LCD_B3
+    N209574
+    FMC_D6
+    N192994
+    N237076
+    FMC_A9
+    N206144
+    N237088
+    N226210
+    N209602
+    FMC_D3
+    FMC_A1
+    N193000
+    LCD_B7
+    FMC_D10
+    FMC_A6
+    N192986
+    N237100
+    N209554
+    FMC_D14
+    FMC_D0
+    N193004
+    LCD_B4
+    FMC_D7
+    FMC_A3
+    N192992
+    N209434
+    N209412
+    FMC_D11
+    FMC_A10
+    N193010
+    LCD_B1
+    N209530
+    N209598
+    FMC_D4
+    FMC_A2
+    N192998
+    FMC_D[0..15]
+    N237084
+    FMC_A7
+    N206152
+    N237092
+    N209550
+    FMC_D15
+    FMC_D1
+    N193002
+    N209430
+    LCD_B5
+    FMC_D8
+    FMC_A4
+    N192990
+    N234184
+    FMC_D12
+    FMC_A11
+    LCD_B2
+    LCD_B0
+    N209578
+    FMC_D5
+    N192996
+    FMC_A[0..12]
+    N237096
+    FMC_A8
+    N206148
+    LCD_B[0..7]
+    N237080
+    N226214
+    N209526
+    FMC_D2
+    FMC_A0
+    N219356
+    LCD_B6
+    FMC_D9
+    FMC_A5
+    N192988
+    N209400
+    FMC_D13
+    FMC_A12
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: POWER1 POWER
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    COU-ALRT
+    COU-SCL
+    COU-SDA
+    OTG-FS-DM
+    OTG-FS-DP
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    2.5V
+    VRTC
+    3.3V
+    VCHG
+    VBAT
+    5V
+
+Reporting Net Names
+    N87122
+    5V
+    N86193
+    SYS
+    VRTC
+    OTG-FS-DM
+    3.3V
+    N94775
+    N85526
+    COU-SCL
+    GND
+    N92645
+    2.5V
+    VBAT
+    N94238
+    N93770
+    N86681
+    N108232
+    N92103
+    N94612
+    N95538
+    N92575
+    N84564
+    VCHG
+    COU-SDA
+    N86197
+    COU-ALRT
+    N108220
+    N86348
+    OTG-FS-DP
+    N85062
+    N85983
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: SENSOR1 SENSOR
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    NAV_MISO
+    SEN_SCL
+    SEN_SDA
+    NAV_NSS
+    NAV_MOSI
+    BT_RX
+    3D_INT
+    BT_TX
+    NAV_INT
+    NAV_SCK
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    3V
+    GND
+    3.3V
+
+Reporting Net Names
+    N233325
+    3D_INT
+    N234001
+    MICN
+    BT_TX
+    NAV_MISO
+    GND
+    MIC_BIAS
+    N234321
+    3.3V
+    SEN_SDA
+    N76702
+    NAV_MOSI
+    N234029
+    N76608
+    INL-
+    INL+
+    N233329
+    INR-
+    N232777
+    NAV_SCK
+    N76822
+    SEN_SCL
+    N233963
+    NAV_NSS
+    N234317
+    N234325
+    OUTL
+    3V
+    N234037
+    N234231
+    N2332490
+    NAV_INT
+    MICP
+    N233931
+    INR+
+    N234313
+    OUTR
+    N234021
+    N233947
+    N2332311
+    LED-
+    BT_RX
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: STM32F1 MCU
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    FMC_RAS
+    FMC_CKE1
+    NAV_MISO
+    LCD_CLK
+    COU-ALRT
+    FMC_A10
+    FMC_A11
+    FMC_A12
+    FLS_MISO
+    LCD_MISO
+    SWCLK
+    SCL
+    SDA
+    FMC_D[0..15]
+    FMC_BA0
+    FMC_BA1
+    LCD_B[0..7]
+    HE_ADC
+    SWDIO
+    FMC_CAS
+    FMC_CLK
+    FLS_CS
+    FMC_D10
+    FMC_D11
+    FMC_D12
+    FMC_D13
+    FMC_D14
+    FMC_D15
+    OTG-FS-DM
+    OTG-FS-DP
+    FMC_A0
+    FMC_A1
+    FMC_A2
+    FMC_A3
+    FMC_A4
+    FMC_A5
+    FMC_A6
+    FMC_A7
+    FMC_A8
+    FMC_A9
+    FLS_SCK
+    NAV_NSS
+    FMC_D0
+    FMC_D1
+    FMC_D2
+    FMC_D3
+    FMC_D4
+    FMC_D5
+    FMC_D6
+    FMC_D7
+    FMC_D8
+    FMC_D9
+    FMC_WE
+    FMC_NBL0
+    FMC_NBL1
+    FMC_NE1
+    NAV_MOSI
+    FMC_A[0..12]
+    LCD_HSYNC
+    LCD_SCK
+    LCD_B0
+    LCD_B1
+    LCD_B2
+    LCD_B3
+    LCD_B4
+    LCD_B5
+    LCD_B6
+    LCD_B7
+    LCD_CS
+    LCD_DE
+    FLS_MOSI
+    LCD_MOSI
+    BT_RX
+    3D_INT
+    BT_TX
+    LCD_VSYNC
+    NAV_INT
+    NAV_SCK
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    VRTC
+    3.3V
+
+Reporting Net Names
+    LCD_CS
+    SWDIO
+    SWCLK
+    FMC_D7
+    LCD_B3
+    FMC_D5
+    BT_RX
+    FMC_D0
+    OTG-FS-DP
+    FLS_MOSI
+    FMC_CAS
+    FMC_D3
+    FMC_A11
+    FMC_CKE1
+    RESET
+    FMC_A8
+    FMC_A10
+    VRTC
+    BT_TX
+    FMC_D4
+    FMC_A6
+    LCD_VSYNC
+    OSC-OUT
+    FMC_D8
+    FMC_BA0
+    FMC_D2
+    FMC_D6
+    LCD_B6
+    VDDA
+    BYPASS
+    NAV_MOSI
+    FMC_A7
+    LCD_CLK
+    FMC_A12
+    LCD_B2
+    OSC-IN
+    FMC_A9
+    FMC_A5
+    SCL
+    VCAP_1
+    OTG-FS-DM
+    NAV_NSS
+    OSC32-OUT
+    LCD_B1
+    VCAP_2
+    PDR_ON
+    FLS_SCK
+    FMC_WE
+    FMC_NBL1
+    COU-ALRT
+    OSC32-IN
+    LCD_B0
+    FLS_MISO
+    FMC_CLK
+    BOOT1
+    FMC_D9
+    FMC_D12
+    3.3V
+    FLS_CS
+    FMC_A0
+    FMC_RAS
+    GND
+    FMC_D11
+    LCD_MISO
+    FMC_BA1
+    LCD_B7
+    FMC_D14
+    FMC_A3
+    LCD_B[0..7]
+    LCD_SCK
+    NAV_INT
+    SDA
+    FMC_D13
+    FMC_A4
+    FMC_A[0..12]
+    NAV_SCK
+    LCD_MOSI
+    LCD_DE
+    FMC_A2
+    BOOT0
+    FMC_D10
+    FMC_A1
+    LCD_B5
+    3D_INT
+    FMC_NE1
+    FMC_D1
+    FMC_D[0..15]
+    NAV_MISO
+    HE_ADC
+    FMC_NBL0
+    LCD_HSYNC
+    FMC_D15
+    LCD_B4
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: CONNECTOR1 CONNECTOR
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    LCD_CLK
+    LCD_MISO
+    SWCLK
+    LCD_B[0..7]
+    SWDIO
+    LCD_HSYNC
+    LCD_SCK
+    LCD_B0
+    LCD_B1
+    LCD_B2
+    LCD_B3
+    LCD_B4
+    LCD_B5
+    LCD_B6
+    LCD_B7
+    LCD_CS
+    LCD_DE
+    LCD_MOSI
+    LCD_VSYNC
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    2.5V
+    3.3V
+    5V
+
+Reporting Net Names
+    LCD_B2
+    5V
+    N58225
+    3.3V
+    LCD_B3
+    LCD_CLK
+    LCD_SCK
+    LCD_B1
+    LCD_MOSI
+    2.5V
+    LCD_DE
+    LCD_B6
+    LCD_VSYNC
+    LCD_B0
+    LCD_B4
+    LCD_MISO
+    SWDIO
+    LCD_CS
+    LCD_B5
+    SWCLK
+    GND
+    LCD_B7
+    LCD_B[0..7]
+    LCD_HSYNC
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: FLASH&SDRAM1 FLASH&SDRAM
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    FMC_RAS
+    FMC_CKE1
+    FMC_A10
+    FMC_A11
+    FMC_A12
+    FLS_MISO
+    FMC_D[0..15]
+    FMC_BA0
+    FMC_BA1
+    FMC_CAS
+    FMC_CLK
+    FLS_CS
+    FMC_D10
+    FMC_D11
+    FMC_D12
+    FMC_D13
+    FMC_D14
+    FMC_D15
+    FMC_A0
+    FMC_A1
+    FMC_A2
+    FMC_A3
+    FMC_A4
+    FMC_A5
+    FMC_A6
+    FMC_A7
+    FMC_A8
+    FMC_A9
+    FLS_SCK
+    FMC_D0
+    FMC_D1
+    FMC_D2
+    FMC_D3
+    FMC_D4
+    FMC_D5
+    FMC_D6
+    FMC_D7
+    FMC_D8
+    FMC_D9
+    FMC_WE
+    FMC_NBL0
+    FMC_NBL1
+    FMC_NE1
+    FMC_A[0..12]
+    FLS_MOSI
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    3.3V
+
+Reporting Net Names
+    FMC_BA0
+    FMC_D7
+    GND
+    FMC_NBL1
+    FMC_WE
+    FMC_A12
+    FMC_D14
+    FMC_D8
+    FMC_A[0..12]
+    FLS_SCK
+    FMC_A8
+    FMC_D2
+    FMC_D4
+    FMC_A4
+    FMC_NE1
+    FMC_D1
+    FMC_A9
+    FMC_D3
+    FMC_A6
+    FMC_CAS
+    FMC_D10
+    FMC_CLK
+    FMC_A10
+    FMC_D0
+    FLS_MISO
+    FMC_D5
+    FLS_CS
+    FMC_D9
+    FMC_CKE1
+    FMC_D11
+    FMC_A1
+    FMC_NBL0
+    FMC_D15
+    FMC_A11
+    FMC_D13
+    FMC_D12
+    FMC_A3
+    FMC_RAS
+    FMC_A7
+    3.3V
+    FMC_D[0..15]
+    FMC_A0
+    FMC_D6
+    FMC_A2
+    FMC_A5
+    FMC_BA1
+    FLS_MOSI
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic:  Top
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: POWER1 POWER
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: SENSOR1 SENSOR
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: STM32F1 MCU
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: CONNECTOR1 CONNECTOR
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: FLASH&SDRAM1 FLASH&SDRAM
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: CORE 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

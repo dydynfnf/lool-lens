@@ -120,9 +120,10 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\core.dsn")
+      (Path "Design Resources" ".\core.dsn" "CONNECTOR")
       (Path "Design Resources" ".\core.dsn" "POWER")
       (Path "Outputs")
-      (Select "Design Resources" ".\core.dsn" "POWER" "POWER"))
+      (Select "Design Resources" ".\core.dsn" "CONNECTOR" "CONNECTOR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -133,8 +134,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 200 894 200 726")
-        (Scroll "-7 -39")
-        (Zoom "93")
+        (Scroll "104 0")
+        (Zoom "186")
         (Occurrence "/STM32F1"))
       (Path
          "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
@@ -144,7 +145,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 225 923 225 755")
-        (Scroll "1281 400")
+        (Scroll "1015 400")
         (Zoom "200")
         (Occurrence "/POWER1"))
       (Path
@@ -155,12 +156,45 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "298 155")
+        (Scroll "18 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
       (Schematic "Top")
-      (Page "TOP")))
+      (Page "TOP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 798 100 630")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/CONNECTOR1"))
+      (Path
+         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Schematic "CONNECTOR")
+      (Page "CONNECTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 823 125 655")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/FLASH&SDRAM1"))
+      (Path
+         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Schematic "FLASH&SDRAM")
+      (Page "FLASH&SDRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 848 150 680")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/SENSOR1"))
+      (Path
+         "E:\MATERIAL\GLASS\WORKSPACE\HARDWARE\5.GLASS V1.0\CORE-SCH\CORE.DSN")
+      (Schematic "SENSOR")
+      (Page "SENSOR")))
   (MPSSessionName "psai")
   (ISPCBBASICLICENSE "false"))

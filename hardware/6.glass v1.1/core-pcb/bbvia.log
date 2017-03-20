@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Automatic B/B Via Creation                               )
+(                                                                     )
+(    Software Version : 16.6-2015S065                                 )
+(    Date/Time        : Wed May 25 10:17:08 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Via to be copied: Testpoint
+Start subclass: TOP
+End subclass: BOTTOM
+Old drawing: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/#Taaaaan06288.tmp
+New drawing: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/#Taaaaan06288.tmp
+Vias added to physical constraint set: DEFAULT
+Only Create Vias From External to Internal Layers
+
+*ERROR: TESTPOINT is not defined on layer GND1. B/B via TOP-GND1 cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND1. B/B via TOP-POWER cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND1. B/B via TOP-SIG cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND1. B/B via TOP-GND2 cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND1. B/B via TOP-BOTTOM cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND1. B/B via GND1-BOTTOM cannot be created.
+*ERROR: TESTPOINT is not defined on layer POWER. B/B via POWER-BOTTOM cannot be created.
+*ERROR: TESTPOINT is not defined on layer SIG. B/B via SIG-BOTTOM cannot be created.
+*ERROR: TESTPOINT is not defined on layer GND2. B/B via GND2-BOTTOM cannot be created.
+
+Number of padstacks created 0
+Number of existing padstacks that did not need to be modified: 0
+Number of existing padstacks that were modified: 0
+Number of existing padstacks that could not be modified: 0
+
+bbvia is complete.

@@ -1,44 +1,19 @@
-\t (00:03:12) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:03:12)     Journal start - Sun Aug 28 21:59:24 2016
-\t (00:03:12)         Host=PSAI-PC User=psai Pid=4484 CPUs=4
-\t (00:03:12) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:03:12) 
-\d (00:03:12) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
-\i (00:03:12) generaledit 
-\i (00:03:14) settoggle no_etch_shape_display 
-\i (00:03:14) redraw 
-\i (00:03:14) trapsize 10668
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in 325.711 290.280
-\i (00:03:15) trapsize 5334
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in 325.711 290.280
-\i (00:03:15) trapsize 2667
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in 325.711 290.280
-\i (00:03:15) trapsize 1334
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in 325.711 290.280
-\i (00:03:15) trapsize 667
-\i (00:03:16) zoom out 1 
-\i (00:03:16) setwindow pcb
-\i (00:03:16) zoom out 335.846 284.546
-\i (00:03:16) trapsize 1334
-\i (00:03:16) zoom out 1 
-\i (00:03:16) setwindow pcb
-\i (00:03:16) zoom out 336.646 284.547
-\i (00:03:16) trapsize 2667
-\i (00:03:17) roam start
-\i (00:03:17) roam x 16
-\i (00:03:17) roam y 48
-\i (00:03:17) roam x 16
-\i (00:03:17) roam y 64
-\i (00:03:17) roam y 16
-\i (00:03:18) roam y 16
-\i (00:03:18) roam end
-\i (00:08:36) exit 
-\t (00:08:36)     Journal end - Sun Aug 28 22:04:48 2016
+\t (00:00:08) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:08)     Journal start - Sat Feb 11 16:18:27 2017
+\t (00:00:08)         Host=PSAI-PC User=psai Pid=18156 CPUs=4
+\t (00:00:08) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:08) 
+\t (00:00:10) Opening existing design...
+\d (00:00:10) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (00:00:10) trapsize 12921
+\i (00:00:10) trapsize 12545
+\i (00:00:10) trapsize 12986
+\i (00:00:11) trapsize 10668
+\i (00:00:11) trapsize 10668
+\i (00:00:12) generaledit 
+\i (00:00:15) open 
+\i (00:00:30) fillin "E:\material\lool Inds Vibration\hardware\v2.0\pcb\vibration.brd"
+\i (00:00:30) cd "E:\material\lool Inds Vibration\hardware\v2.0\pcb"
+\t (00:00:30) Opening existing design...
+\i (00:00:30) trapsize 36257
+\t (00:00:31)     Journal end - Sat Feb 11 16:18:50 2017

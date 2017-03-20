@@ -1,4 +1,3 @@
-INFO: Loaded existing device file 'E:\material\glass\pcb\ssd1963test\pcb\devices.dml'
-INFO: Loaded existing device file 'E:\material\glass\pcb\ssd1963test\pcb\sigxp.dml'
-INFO: Finished loading SigNoise device libraries
-INFO: Clearing simulation data for "case0"
+INFO: Loaded existing interconnect file 'E:\material\glass\pcb\ssd1963test\pcb\interconn.iml'
+INFO: Loaded existing interconnect file 'D:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries

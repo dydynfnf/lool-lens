@@ -1,0 +1,1305 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Dec-09-2016 at 02:21:10 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='CORE';
+ POST_TIME='Aug  3 2015 18:16:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255571@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255571@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255571@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256603@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256603@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256603@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256935@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256935@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256935@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255611@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255611@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255611@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255979@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255979@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255979@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256299@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256299@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256299@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS78507@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins78507@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins78507@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS78695@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins78695@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins78695@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS78655@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins78655@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins78655@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS78635@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins78635@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins78635@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256258@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256258@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256258@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255591@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255591@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255591@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP_0402_4.7PF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256866@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256866@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256866@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256646@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256646@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256646@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256558@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256558@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256558@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256686@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256686@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256686@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256626@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256626@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256626@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256766@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256766@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256766@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP_0402_33PF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256786@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256786@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256786@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256338@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256338@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256338@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256358@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256358@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256358@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256706@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256706@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256706@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_0402_20PF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255919@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255919@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255919@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256666@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256666@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256666@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256746@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256746@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256746@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAP_0603_4.7UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256178@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256178@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256178@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256298@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256298@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256298@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256398@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256398@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256398@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256806@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256806@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256806@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256458@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256458@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256458@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C37 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256478@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256478@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256478@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256418@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256418@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256418@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209628@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209628@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209628@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP_0402_20PF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256915@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256915@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256915@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209568@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209568@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209568@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C41 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209608@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209608@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209608@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209648@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209648@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209648@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C43 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209708@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209708@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209708@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C46 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS269683@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins269683@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins269683@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C47 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233157@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233157@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233157@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C48 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233271@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233271@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233271@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP_0603_2.2UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233303@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233303@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233303@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP_0402_12PF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256151@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256151@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256151@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C50 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233173@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233173@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233173@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C51 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233331@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233331@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233331@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233451@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233451@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233451@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C53 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233543@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233543@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233543@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C54 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS232961@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins232961@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins232961@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C55 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233009@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233009@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233009@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C56 'CAP_0402_470NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233095@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233095@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233095@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C57 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS232993@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins232993@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins232993@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C58 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233639@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233639@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233639@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C59 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233607@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233607@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233607@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP_0402_12PF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255999@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255999@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255999@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233375@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233375@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233375@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C61 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233575@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233575@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233575@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C62 'CAP_0402_10NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233347@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233347@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233347@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C63 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233205@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233205@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233205@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C64 'CAP_0402_10NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233287@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233287@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233287@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C65 'CAP_0402_1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233591@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233591@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233591@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C66 'CAP_0402_10NF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS232909@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins232909@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins232909@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256319@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256319@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256319@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256379@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256379@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256379@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256419@MYLIBRARY.CAP.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256419@mylibrary.\cap.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256419@mylibrary.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_0603_LED':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256886@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256886@discrete.\led.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256886@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 '1N5819_SOD123_CMMSH1-40':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233255@MYLIBRARY.1N5819.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233255@mylibrary.\1n5819.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233255@mylibrary.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FPC-22_FPC-22_FPC-22':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):CONNECTOR@CORE.CONNECTOR(SCH_1):INS100431@MYLIBRARY.FPC-22.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):connector@core.connector(sch_1):ins100431@mylibrary.\fpc-22.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_connector@core.connector(sch_1):page1_ins100431@mylibrary.\fpc-22.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F2 'FPC-4_FPC-4_FPC-4':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):CONNECTOR@CORE.CONNECTOR(SCH_1):INS272108@MYLIBRARY.FPC-4.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):connector@core.connector(sch_1):ins272108@mylibrary.\fpc-4.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_connector@core.connector(sch_1):page1_ins272108@mylibrary.\fpc-4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'MICRO-USB_MICRO-USB_MICRO-USB':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256578@MYLIBRARY.MICRO-USB.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256578@mylibrary.\micro-usb.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256578@mylibrary.\micro-usb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 2_H-2_HEADER 2':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS262681@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins262681@connector.\header 2.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins262681@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'PHONEJACK STEREO_PHONEJACK-3P_P':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233237@CONNECTOR.PHONEJACK STEREO.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233237@connector.\phonejack stereo.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233237@connector.\phonejack stereo.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_0402_100NH':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255651@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255651@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255651@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_0806_2.2UH':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256070@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256070@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256070@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'INDUCTOR_0806_2.2UH':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256518@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256518@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256518@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'INDUCTOR_0806_2.2UH':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256030@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256030@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256030@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'INDUCTOR_0806_2.2UH':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256726@MYLIBRARY.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256726@mylibrary.\inductor.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256726@mylibrary.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M1 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):INS222420@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):ins222420@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_ins222420@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ M2 'MTG_MTG-100_MTG':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):INS222434@MYLIBRARY.MTG.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):ins222434@mylibrary.\mtg.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_ins222434@mylibrary.\mtg.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ O1 'OSC-N_OSC-2016_25M':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256439@MYLIBRARY.OSC-N.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256439@mylibrary.\osc-n.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256439@mylibrary.\osc-n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ O2 'OSC-CLK_OSC-2012_32.768K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256895@MYLIBRARY.OSC-CLK.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256895@mylibrary.\osc-clk.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256895@mylibrary.\osc-clk.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255959@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255959@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255959@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RES_0402_1K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS78675@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins78675@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins78675@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RES_0402_160K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256498@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256498@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256498@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'RES_0402_30K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256378@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256378@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256378@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'RES_0402_470K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256158@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256158@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256158@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RES_0402_150K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256906@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256906@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256906@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RES_0402_470K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256238@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256238@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256238@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'RES_0402_220K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256050@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256050@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256050@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'RES_0402_22':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256218@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256218@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256218@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'RES_0402_22':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256538@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256538@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256538@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'RES_0402_10':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256278@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256278@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256278@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256955@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256955@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256955@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'RES_0402_220K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256438@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256438@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256438@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'RES_0402_1.5K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256198@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256198@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256198@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'RES_0402_100K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256846@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256846@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256846@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'RES_0402_100K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256090@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256090@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256090@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256826@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256826@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256826@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):CONNECTOR@CORE.CONNECTOR(SCH_1):INS100291@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):connector@core.connector(sch_1):ins100291@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_connector@core.connector(sch_1):page1_ins100291@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):CONNECTOR@CORE.CONNECTOR(SCH_1):INS100311@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):connector@core.connector(sch_1):ins100311@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_connector@core.connector(sch_1):page1_ins100311@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209588@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209588@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209588@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS232977@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins232977@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins232977@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256359@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256359@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256359@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'RES_0402_16':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233435@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233435@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233435@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'RES_0402_16':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233221@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233221@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233221@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'RES_0402_3.3K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233623@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233623@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233623@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233391@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233391@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233391@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233559@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233559@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233559@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'RES_0402_0':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233189@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233189@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233189@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'RES_0402_NC':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS232925@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins232925@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins232925@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256467@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256467@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256467@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255939@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255939@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255939@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256339@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256339@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256339@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256171@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256171@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256171@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255631@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255631@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255631@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RES_0402_10K':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256399@MYLIBRARY.RES.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256399@mylibrary.\res.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256399@mylibrary.\res.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'STM32F429_STM32F429-UFBGA176_(S':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256487@MYLIBRARY.STM32F429A.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256487@mylibrary.\stm32f429a.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256487@mylibrary.\stm32f429a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256763@MYLIBRARY.STM32F429B.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256763@mylibrary.\stm32f429b.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256763@mylibrary.\stm32f429b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256623@MYLIBRARY.STM32F429C.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256623@mylibrary.\stm32f429c.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256623@mylibrary.\stm32f429c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256019@MYLIBRARY.STM32F429D.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256019@mylibrary.\stm32f429d.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256019@mylibrary.\stm32f429d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+SECTION_NUMBER 5
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS256191@MYLIBRARY.STM32F429E.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins256191@mylibrary.\stm32f429e.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins256191@mylibrary.\stm32f429e.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='E';
+
+SECTION_NUMBER 6
+ '@CORE.TOP(SCH_1):STM32F429@CORE.MCU(SCH_1):INS255671@MYLIBRARY.STM32F429F.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):stm32f429@core.mcu(sch_1):ins255671@mylibrary.\stm32f429f.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_stm32f429@core.mcu(sch_1):page1_ins255671@mylibrary.\stm32f429f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='F';
+
+PART_NAME
+ U10 'ADBS-A320_1_ADBS-A320-QFN_ADBS-':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233025@EXTEND.ADBS-A320_1.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233025@extend.\adbs-a320_1.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233025@extend.\adbs-a320_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U11 'BMP280_0_BMP280-LGA8_BMP280':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233407@EXTEND.BMP280_0.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233407@extend.\bmp280_0.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233407@extend.\bmp280_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'MPU6050_MPU6050-QFN_MPU6050':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS78527@MYLIBRARY.MPU6050.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins78527@mylibrary.\mpu6050.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins78527@mylibrary.\mpu6050.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'RT5002_RT5002-QFN40_RT5002':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256926@MYLIBRARY.RT5002.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256926@mylibrary.\rt5002.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256926@mylibrary.\rt5002.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'MAX17048_MAX17048-TDFN8_MAX1704':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):POWER@CORE.POWER(SCH_1):INS256110@MYLIBRARY.MAX17048.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):power@core.power(sch_1):ins256110@mylibrary.\max17048.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_power@core.power(sch_1):page1_ins256110@mylibrary.\max17048.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'MT48LC8M16A2_MT48LC8M16A2-VFBGA':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209772@MYLIBRARY.MT48LC8M16A2.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209772@mylibrary.\mt48lc8m16a2.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209772@mylibrary.\mt48lc8m16a2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'W25Q256_W25Q256-SON_W25Q256':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):FLASH&SDRAM@CORE.FLASH&SDRAM(SCH_1):INS209728@MYLIBRARY.W25Q256.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):\flash&sdram\@core.\flash&sdram\(sch_1):ins209728@mylibrary.\w25q256.normal\(chips)',
+ P_PATH='@core.top(sch_1):\page1_flash&sdram\@core.\flash&sdram\(sch_1):page1_ins209728@mylibrary.\w25q256.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'BK8000L-MODULE_BK8000L-MODULE_B':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233467@MYLIBRARY.BK8000L-MODULE.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233467@mylibrary.\bk8000l-module.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233467@mylibrary.\bk8000l-module.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'TPA6132A2_TPA6132A2-QFN_TPA6132':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS233111@MYLIBRARY.TPA6132A2.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins233111@mylibrary.\tpa6132a2.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins233111@mylibrary.\tpa6132a2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'SPU0410HR5H-PB_SPU0410HR5H-PB_S':;
+
+SECTION_NUMBER 1
+ '@CORE.TOP(SCH_1):SENSOR@CORE.SENSOR(SCH_1):INS232941@MYLIBRARY.SPU0410HR5H-PB.NORMAL(CHIPS)':
+ C_PATH='@core.top(sch_1):sensor@core.sensor(sch_1):ins232941@mylibrary.\spu0410hr5h-pb.normal\(chips)',
+ P_PATH='@core.top(sch_1):page1_sensor@core.sensor(sch_1):page1_ins232941@mylibrary.\spu0410hr5h-pb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

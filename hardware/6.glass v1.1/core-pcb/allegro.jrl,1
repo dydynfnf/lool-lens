@@ -1,0 +1,15 @@
+\t (00:00:05) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:05)     Journal start - Sat Dec 17 09:45:01 2016
+\t (00:00:05)         Host=PSAI-PC User=psai Pid=9120 CPUs=4
+\t (00:00:05) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:05) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: E:/material/glass/workspace/hardware/6.glass v1.1/core-pcb/core.brd
+\i (00:00:06) trapsize 9148
+\i (00:00:06) trapsize 8945
+\i (00:00:06) trapsize 9183
+\i (00:00:07) trapsize 7886
+\i (00:00:07) trapsize 7886
+\i (00:00:07) generaledit 
+\i (00:01:47) exit 
+\t (00:01:47)     Journal end - Sat Dec 17 09:46:44 2016

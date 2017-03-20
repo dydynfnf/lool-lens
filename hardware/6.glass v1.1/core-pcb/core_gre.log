@@ -1,0 +1,72 @@
+! Log file started at 14:4:45 5/26/2016 
+INFO (SPGRE-16): Strategy file Date: Oct-28-2015
+INFO (SPGRE-16): Strategy file Version: 16.6
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 10.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer SIG is 0. Changing to Min Line Width of 10.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer SIG is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set POWER: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 10.000
+WARNING (SPGRE-15): Constraint Set POWER: Neck Gap on layer TOP is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer BOTTOM is 0. Changing to Min Line Width of 4.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer SIG is 0. Changing to Min Line Width of 4.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer SIG is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Min Neck Width on layer TOP is 0. Changing to Min Line Width of 4.000
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer TOP is 0. Primary Gap is 0.
+INFO (SPGRE-16): Status: Routing initialization completed successfully
+
+ERROR (SPGRE-16): Pin U1.C4 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.C3 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B8 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.D4 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.C2 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B9 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B1 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B10 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.C4 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.C3 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B8 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.D4 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.C2 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B9 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B1 appears blocked or might be missing fanout
+ERROR (SPGRE-16): Pin U1.B10 appears blocked or might be missing fanout
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Status: Breakout completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 8
+INFO (SPGRE-16):   Routed length of scheduled rats = 0.000 MIL
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 91441 KB
+INFO (SPGRE-16):  
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.10 to Pin U1.D4 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.12 to Pin U1.B9 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.13 to Pin U1.B10 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.14 to Pin U1.B8 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.15 to Pin U1.B1 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.7 to Pin U1.C2 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.8 to Pin U1.C3 because
+    it has plan level less than Topological.
+
+WARNING (SPGRE-20): Commit Plan:
+    Skipped connection path from Pin F1.9 to Pin U1.C4 because
+    it has plan level less than Topological.
+

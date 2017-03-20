@@ -1,0 +1,68 @@
+\t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
+\t (00:00:00)     Journal start - Sat Dec 10 23:57:18 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=8716 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\6.glass v1.1\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaada07084.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 873
+\i (00:00:00) trapsize 852
+\i (00:00:00) trapsize 876
+\i (00:00:00) trapsize 914
+\i (00:00:00) trapsize 1483
+\i (00:00:00) trapsize 7417
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 7417
+\i (00:00:00) trapsize 7417
+\i (00:00:00) trapsize 7417
+   (00:00:00) Loading signal.cxt 
+   (00:00:00) Loading sigxp.cxt 
+   (00:00:00) Loading sxutil.cxt 
+   (00:00:00) Loading axlcore.cxt 
+   (00:00:00) Loading fputil.cxt 
+   (00:00:00) Already Placed Circuit
+\i (00:00:00) trapsize 23
+   (00:00:00) Loading skillExt.cxt 
+\i (00:00:00) sigxp background 
+\i (00:00:03) sxconstraints 
+\i (00:00:04) setwindow form.sxconstraint
+\i (00:00:04) FORM sxconstraint rel_prop_delay  
+\i (00:00:05) FORM sxconstraint diff_pair  
+\i (00:00:12) FORM sxconstraint dp_primary_gap '6.000 MIL' 
+\i (00:00:17) FORM sxconstraint dp_line_width '12.000 MIL' 
+\i (00:00:21) FORM sxconstraint dp_min_line_spacing '6.000 MIL' 
+\i (00:00:21) FORM sxconstraint apply  
+\i (00:00:22) FORM sxconstraint done  
+\i (00:00:22) setwindow sigxp
+\i (00:00:22) sigxp background 
+\i (00:00:24) update cm 
+\i (00:00:25) sigxp background 
+\i (00:02:49) sxconstraints 
+\i (00:02:54) setwindow form.sxconstraint
+\i (00:02:54) FORM sxconstraint dp_neck_gap 6 
+\i (00:02:57) FORM sxconstraint dp_neck_width 12 
+\i (00:03:02) FORM sxconstraint done  
+\i (00:03:02) setwindow sigxp
+\i (00:03:02) sigxp background 
+\i (00:03:04) update cm 
+\i (00:03:04) sigxp background 
+\i (00:07:06) open C:/Users/psai/AppData/Local/Temp/#Taaaadf07084.tmp 
+\i (00:07:09) fillin yes 
+\t (00:07:09) Starting new design...
+\i (00:07:09) trapsize 7417
+\i (00:07:09) trapsize 7417
+\i (00:07:09) trapsize 7417
+   (00:07:09) Already Placed Circuit
+\i (00:07:09) trapsize 23
+\i (00:07:09) sigxp background 
+\i (00:07:10) sxconstraints 
+\i (00:07:17) setwindow form.sxconstraint
+\i (00:07:17) FORM sxconstraint dp_primary_gap 12MIL 
+\i (00:07:20) FORM sxconstraint dp_neck_gap 12MIL 
+\i (00:07:25) FORM sxconstraint dp_min_line_spacing 12MIL 
+\i (00:07:26) FORM sxconstraint done  
+\i (00:07:26) setwindow sigxp
+\i (00:07:26) sigxp background 
+\i (00:07:30) update cm 
+\i (00:07:30) sigxp background 
+\i (00:08:31) exit 
+\t (00:08:41)     Journal end - Sun Dec 11 00:05:59 2016

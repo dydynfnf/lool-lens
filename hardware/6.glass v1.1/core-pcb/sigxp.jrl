@@ -1,0 +1,42 @@
+\t (00:00:00) sigxp 16.6-2015 S065 (v16-6-112FG) Windows 32
+\t (00:00:00)     Journal start - Sun Dec 11 00:14:20 2016
+\t (00:00:00)         Host=PSAI-PC User=psai Pid=3584 CPUs=4
+\t (00:00:00) CmdLine= sigxp -spawn -p E:\material\glass\workspace\hardware\6.glass v1.1\core-pcb C:/Users/psai/AppData/Local/Temp/#Taaaaac08720.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 873
+\i (00:00:00) trapsize 852
+\i (00:00:00) trapsize 876
+\i (00:00:00) trapsize 914
+\i (00:00:00) trapsize 1483
+\i (00:00:00) trapsize 7417
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 7417
+\i (00:00:00) trapsize 7417
+\i (00:00:00) trapsize 7417
+   (00:00:00) Loading signal.cxt 
+   (00:00:00) Loading sigxp.cxt 
+   (00:00:00) Loading sxutil.cxt 
+   (00:00:00) Loading axlcore.cxt 
+   (00:00:00) Loading fputil.cxt 
+   (00:00:00) Already Placed Circuit
+\i (00:00:00) trapsize 23
+   (00:00:00) Loading skillExt.cxt 
+\i (00:00:00) sigxp background 
+\i (00:00:11) sxconstraints 
+\i (00:00:14) setwindow form.sxconstraint
+\i (00:00:14) FORM sxconstraint diff_pair  
+\i (00:00:22) FORM sxconstraint dp_primary_gap 6MIL 
+\i (00:00:25) FORM sxconstraint dp_neck_gap  
+\i (00:00:29) FORM sxconstraint dp_neck_width  
+\i (00:00:31) FORM sxconstraint dp_neck_gap 6 
+\i (00:00:35) FORM sxconstraint dp_neck_width 12 
+\i (00:00:38) FORM sxconstraint dp_min_line_spacing 6 
+\i (00:00:38) FORM sxconstraint apply  
+\i (00:00:39) FORM sxconstraint done  
+\i (00:00:39) setwindow sigxp
+\i (00:00:39) sigxp background 
+\i (00:00:41) update cm 
+\i (00:00:41) sigxp background 
+\i (00:00:43) exit 
+\t (00:00:44)     Journal end - Sun Dec 11 00:15:04 2016

@@ -1,0 +1,347 @@
+\t (00:00:23) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:00:23)     Journal start - Mon Mar 13 19:42:35 2017
+\t (00:00:23)         Host=PSAI-PC User=psai Pid=4888 CPUs=4
+\t (00:00:23) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:23) 
+\t (00:00:24) Opening existing design...
+\d (00:00:24) Design opened: E:/material/glass/workspace/hardware/6.glass v1.1/core-pcb/core.brd
+\i (00:00:25) trapsize 9148
+\i (00:00:25) trapsize 8945
+\i (00:00:25) trapsize 9183
+\i (00:00:25) trapsize 7886
+\i (00:00:25) trapsize 7886
+\i (00:00:26) generaledit 
+\i (00:00:30) settoggle no_etch_shape_display 
+\i (00:00:30) redraw 
+\i (00:00:30) trapsize 7886
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1913.250 181.073
+\i (00:00:31) trapsize 3943
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1913.250 181.073
+\i (00:00:31) trapsize 1972
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 1829.654 180.285
+\i (00:00:32) trapsize 3943
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 1829.655 180.285
+\i (00:00:32) trapsize 7886
+\i (00:00:32) roam start
+\i (00:00:32) roam x 96
+\i (00:00:33) roam end
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 1602.524 101.420
+\i (00:00:33) trapsize 3943
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 1576.499 144.007
+\i (00:00:34) trapsize 1972
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 1575.711 149.922
+\i (00:00:34) trapsize 986
+\i (00:00:35) roam start
+\i (00:00:35) roam y -128
+\i (00:00:35) roam y -80
+\i (00:00:35) roam x -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam end
+\i (00:00:37) slide 
+\t (00:00:37) Pick element to slide.
+\i (00:00:38) pick grid 1583.595 204.140
+\t (00:00:38) last pick:  1584.000 204.000
+\t (00:00:38) last pick:  1582.764 203.308
+\t (00:00:38) Waiting for the destination pick.
+\i (00:00:39) slide 
+\t (00:00:39) Pick element to slide.
+\i (00:00:42) pick grid ext 1578.469 204.731
+\t (00:00:42) last pick:  1578.000 205.000
+\t (00:00:42) last pick:  1578.469 205.375
+\t (00:00:42) Waiting for the destination pick.
+\i (00:00:44) slide 
+\t (00:00:44) Pick element to slide.
+\i (00:00:45) drag_start grid 1577.286 210.646
+\i (00:00:45) drag_stop 1587.341 198.816
+\t (00:00:46) Waiting for origin pick.
+\i (00:00:46) pick grid 1582.412 203.154
+\t (00:00:46) last pick:  1582.000 203.000
+\t (00:00:46) Waiting for the destination pick.
+\i (00:00:48) slide 
+\t (00:00:48) Pick element to slide.
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 1577.877 209.266
+\i (00:00:49) trapsize 1972
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 1577.877 209.266
+\i (00:00:49) trapsize 3943
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 1577.878 209.266
+\i (00:00:49) trapsize 7886
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 1587.342 217.152
+\i (00:00:50) trapsize 3943
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 1587.342 217.152
+\i (00:00:50) trapsize 1972
+\i (00:00:51) zoom in 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom in 1587.342 217.152
+\i (00:00:51) trapsize 986
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 1617.705 199.802
+\i (00:00:54) trapsize 1972
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 1617.705 199.803
+\i (00:00:54) trapsize 3943
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 1618.494 199.803
+\i (00:00:55) trapsize 7886
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 2205.245 127.248
+\i (00:00:56) trapsize 3943
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 2205.245 127.249
+\i (00:00:56) trapsize 1972
+\i (00:00:57) delay tune 
+\i (00:01:07) pick grid 2129.141 186.397
+\t (00:01:07) last pick:  2129.000 186.000
+\t (00:01:07) last pick:  2126.269 189.269
+\i (00:01:11) pick grid 2075.119 108.716
+\t (00:01:11) last pick:  2075.000 109.000
+\i (00:01:11) zoom in 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom in 2129.141 154.852
+\i (00:01:11) trapsize 986
+\i (00:01:11) zoom in 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom in 2129.141 154.852
+\i (00:01:11) trapsize 493
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 2129.141 154.853
+\i (00:01:12) trapsize 986
+\i (00:01:14) undo 
+\i (00:01:14) trapsize 1972
+\i (00:01:14) generaledit 
+\i (00:01:18) delay tune 
+\i (00:01:19) pick grid 2142.153 204.536
+\t (00:01:19) last pick:  2142.000 205.000
+\t (00:01:19) last pick:  2145.000 208.000
+\i (00:01:21) pick grid 2109.819 135.136
+\t (00:01:21) last pick:  2110.000 135.000
+\i (00:01:23) slide 
+\t (00:01:23) Pick element to slide.
+\i (00:01:24) pick grid 2156.743 184.820
+\t (00:01:24) last pick:  2157.000 185.000
+\t (00:01:24) last pick:  2158.579 184.020
+\t (00:01:24) Waiting for the destination pick.
+\i (00:01:25) slide 
+\t (00:01:25) Pick element to slide.
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 2161.869 196.650
+\i (00:01:27) trapsize 986
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in 2161.672 196.650
+\i (00:01:27) trapsize 493
+\i (00:01:28) undo 
+\i (00:01:28) trapsize 1972
+\i (00:01:28) generaledit 
+\i (00:01:29) undo 
+\i (00:01:29) trapsize 1972
+\i (00:01:29) generaledit 
+\i (00:01:31) undo 
+\i (00:01:31) trapsize 1972
+\i (00:01:31) generaledit 
+\i (00:01:32) delay tune 
+\i (00:01:35) setwindow form.mini
+\i (00:01:35) FORM mini dtun_sawtooth_style YES 
+\i (00:01:37) FORM mini dtun_gap '3x width' 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick grid 2138.210 197.438
+\t (00:01:38) last pick:  2138.000 197.000
+\t (00:01:38) last pick:  2136.324 199.324
+\i (00:01:46) setwindow form.mini
+\i (00:01:46) FORM mini dtun_gap '1x space' 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) prepopup 2143.731 169.047
+\i (00:01:50) oops 
+\i (00:01:55) pick grid 2138.999 198.621
+\t (00:01:55) last pick:  2139.000 199.000
+\t (00:01:55) last pick:  2137.309 200.309
+\i (00:02:02) slide 
+\t (00:02:02) Pick element to slide.
+\i (00:02:04) delay tune 
+\i (00:02:07) setwindow form.mini
+\i (00:02:07) FORM mini dtun_accordion_style YES 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) pick grid 2140.970 204.142
+\t (00:02:08) last pick:  2141.000 204.000
+\t (00:02:08) last pick:  2141.058 204.058
+\i (00:02:12) setwindow form.mini
+\i (00:02:12) FORM mini dtun_sawtooth_style YES 
+\i (00:02:26) FORM mini dtun_accordion_style YES 
+\i (00:02:29) FORM mini corner_mode 45 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 2122.437 144.205
+\i (00:02:31) trapsize 986
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 2122.437 144.205
+\i (00:02:31) trapsize 493
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 2122.438 144.205
+\i (00:02:31) trapsize 246
+\i (00:02:32) zoom out 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom out 2122.438 144.205
+\i (00:02:32) trapsize 493
+\i (00:02:32) zoom out 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom out 2122.438 144.205
+\i (00:02:32) trapsize 986
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 2122.437 144.402
+\i (00:02:33) trapsize 1972
+\i (00:02:36) pick grid 2099.172 125.869
+\t (00:02:36) last pick:  2099.000 126.000
+\i (00:02:37) zoom in 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom in 2154.772 168.062
+\i (00:02:37) trapsize 986
+\i (00:02:37) zoom in 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom in 2154.772 168.062
+\i (00:02:37) trapsize 493
+\i (00:02:37) zoom in 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom in 2154.772 168.062
+\i (00:02:37) trapsize 246
+\i (00:02:37) zoom out 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom out 2154.575 168.309
+\i (00:02:37) trapsize 493
+\i (00:02:37) zoom out 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom out 2154.576 168.309
+\i (00:02:37) trapsize 986
+\i (00:02:38) slide 
+\t (00:02:38) Pick element to slide.
+\i (00:02:39) pick grid 2152.407 178.759
+\t (00:02:39) last pick:  2152.000 179.000
+\t (00:02:39) last pick:  2152.082 179.082
+\t (00:02:39) Waiting for the destination pick.
+\i (00:02:42) slide 
+\t (00:02:42) Pick element to slide.
+\i (00:02:45) pick grid 2126.776 152.931
+\t (00:02:45) last pick:  2127.000 153.000
+\t (00:02:45) last pick:  2126.354 153.354
+\t (00:02:45) Waiting for the destination pick.
+\i (00:02:46) slide 
+\t (00:02:46) Pick element to slide.
+\i (00:02:48) setwindow form.mini
+\i (00:02:48) FORM mini extend_selection YES 
+\i (00:02:49) setwindow pcb
+\i (00:02:49) slide 
+\t (00:02:49) Pick element to slide.
+\i (00:02:50) pick grid 2152.013 177.971
+\t (00:02:50) last pick:  2152.000 178.000
+\t (00:02:50) last pick:  2150.270 177.270
+\t (00:02:50) Waiting for the destination pick.
+\i (00:02:51) slide 
+\t (00:02:51) Pick element to slide.
+\i (00:02:53) pick grid 2139.394 166.141
+\t (00:02:53) last pick:  2139.000 166.000
+\t (00:02:53) last pick:  2139.268 166.268
+\t (00:02:53) Waiting for the destination pick.
+\i (00:02:54) slide 
+\t (00:02:54) Pick element to slide.
+\i (00:02:55) pick grid 2153.196 178.956
+\t (00:02:55) last pick:  2153.000 179.000
+\t (00:02:55) last pick:  2152.576 179.576
+\t (00:02:55) Waiting for the destination pick.
+\i (00:02:55) slide 
+\t (00:02:56) Pick element to slide.
+\i (00:02:57) pick grid 2144.521 179.351
+\t (00:02:57) last pick:  2145.000 179.000
+\t (00:02:57) last pick:  2144.490 179.322
+\t (00:02:57) Waiting for the destination pick.
+\i (00:02:57) slide 
+\t (00:02:57) Pick element to slide.
+\i (00:02:58) pick grid 2150.238 176.788
+\t (00:02:58) last pick:  2150.000 177.000
+\t (00:02:58) last pick:  2150.238 177.270
+\t (00:02:58) Waiting for the destination pick.
+\i (00:02:59) slide 
+\t (00:02:59) Pick element to slide.
+\i (00:03:00) pick grid 2152.407 177.773
+\t (00:03:00) last pick:  2152.000 178.000
+\t (00:03:00) last pick:  2151.590 178.590
+\t (00:03:00) Waiting for the destination pick.
+\i (00:03:01) slide 
+\t (00:03:01) Pick element to slide.
+\i (00:03:05) setwindow form.mini
+\i (00:03:05) FORM mini extend_selection NO 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) pick grid 2152.013 177.576
+\t (00:03:06) last pick:  2152.000 178.000
+\t (00:03:06) last pick:  2150.270 177.270
+\t (00:03:06) Waiting for the destination pick.
+\i (00:03:07) slide 
+\t (00:03:07) Pick element to slide.
+\i (00:03:09) pick grid 2152.210 179.153
+\t (00:03:09) last pick:  2152.000 179.000
+\t (00:03:09) last pick:  2152.182 179.182
+\t (00:03:09) Waiting for the destination pick.
+\i (00:03:09) slide 
+\t (00:03:09) Pick element to slide.
+\i (00:03:11) pick grid 2140.380 166.732
+\t (00:03:11) last pick:  2140.000 167.000
+\t (00:03:11) last pick:  2140.056 167.056
+\t (00:03:11) Waiting for the destination pick.
+\i (00:03:11) slide 
+\t (00:03:12) Pick element to slide.
+\i (00:03:13) pick grid 2092.667 154.114
+\t (00:03:13) last pick:  2093.000 154.000
+\t (00:03:13) last pick:  2092.667 153.358
+\t (00:03:13) Waiting for the destination pick.
+\i (00:03:14) slide 
+\t (00:03:14) Pick element to slide.
+\i (00:03:15) pick grid 2115.144 140.904
+\t (00:03:15) last pick:  2115.000 141.000
+\t (00:03:15) last pick:  2114.524 141.524
+\t (00:03:15) Waiting for the destination pick.
+\i (00:03:16) slide 
+\t (00:03:16) Pick element to slide.
+\i (00:03:16) drag_start grid 2119.087 129.863
+\i (00:03:17) drag_stop 2107.257 147.213
+\t (00:03:17) Waiting for origin pick.
+\i (00:03:18) pick grid 2113.961 140.904
+\t (00:03:18) last pick:  2114.000 141.000
+\t (00:03:18) Waiting for the destination pick.
+\i (00:03:20) slide 
+\t (00:03:20) Pick element to slide.
+\i (00:03:26) exit 
+\e (00:03:26) Do you want to save the changes you made to core.brd?
+\i (00:03:27) fillin no 
+\t (00:03:27)     Journal end - Mon Mar 13 19:45:39 2017

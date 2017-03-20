@@ -1,19 +1,270 @@
-\t (00:00:03) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
-\t (00:00:03)     Journal start - Sun Aug 28 22:04:59 2016
-\t (00:00:03)         Host=PSAI-PC User=psai Pid=4980 CPUs=4
-\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
-\i (00:00:05) trapsize 12921
-\i (00:00:05) trapsize 12545
-\i (00:00:05) trapsize 12986
-\i (00:00:06) trapsize 10668
-\i (00:00:06) trapsize 10668
-\i (00:00:06) generaledit 
-\i (00:00:09) open 
-\i (00:00:22) fillin "E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb\extend-pcb.brd"
-\i (00:00:22) cd "E:\material\glass\workspace\hardware\5.glass v1.0\extend-pcb"
-\t (00:00:22) Opening existing design...
-\i (00:00:22) trapsize 33877
-\t (00:00:22)     Journal end - Sun Aug 28 22:05:19 2016
+\t (00:05:08) allegro 16.6-2015 S065 (v16-6-112FH) Windows 32
+\t (00:05:08)     Journal start - Sun Feb 19 14:47:33 2017
+\t (00:05:08)         Host=PSAI-PC User=psai Pid=10520 CPUs=4
+\t (00:05:08) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:05:08) 
+\d (00:05:08) Design opened: E:/material/glass/workspace/hardware/5.glass v1.0/core-pcb/core.brd
+\i (00:05:08) generaledit 
+\i (00:05:56) pick grid 865.516 800.215
+\t (00:05:56) last pick:  866.000 800.000
+\i (00:06:04) zoom in 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom in 359.849 266.810
+\i (00:06:04) trapsize 5334
+\i (00:06:04) zoom in 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom in 359.849 266.810
+\i (00:06:04) trapsize 2667
+\i (00:06:04) zoom in 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom in 359.849 266.811
+\i (00:06:04) trapsize 1334
+\i (00:06:04) zoom out 1 
+\i (00:06:04) setwindow pcb
+\i (00:06:04) zoom out 409.189 240.674
+\i (00:06:04) trapsize 2667
+\i (00:06:05) zoom out 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom out 416.124 248.143
+\i (00:06:05) trapsize 5334
+\i (00:06:05) zoom out 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom out 425.724 264.144
+\i (00:06:05) trapsize 10668
+\i (00:06:05) zoom in 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom in 929.525 253.476
+\i (00:06:05) trapsize 5334
+\i (00:06:07) zoom in 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom in 290.507 363.358
+\i (00:06:07) trapsize 2667
+\i (00:06:08) roam start
+\i (00:06:08) roam x -48
+\i (00:06:08) roam x -64
+\i (00:06:08) roam y 16
+\i (00:06:08) roam x -80
+\i (00:06:08) roam x -48
+\i (00:06:08) roam x -80
+\i (00:06:08) roam y 16
+\i (00:06:08) roam x -64
+\i (00:06:08) roam x -48
+\i (00:06:09) roam end
+\i (00:06:09) zoom out 1 
+\i (00:06:09) setwindow pcb
+\i (00:06:09) zoom out 429.724 449.234
+\i (00:06:09) trapsize 5334
+\i (00:06:09) zoom out 1 
+\i (00:06:09) setwindow pcb
+\i (00:06:09) zoom out 429.725 448.168
+\i (00:06:09) trapsize 10668
+\i (00:06:12) assign color 
+\i (00:06:14) hilight 
+\i (00:06:19) xNet N209550 
+\i (00:06:19) xname_flush 
+\i (00:06:19) trapsize 2038
+\t (00:06:19) Net "N209550" highlighted.
+\i (00:06:23) zoom out 1 
+\i (00:06:23) setwindow pcb
+\i (00:06:23) zoom out 88.908 229.277
+\i (00:06:23) trapsize 4075
+\i (00:06:27) zoom in 1 
+\i (00:06:27) setwindow pcb
+\i (00:06:27) zoom in 247.834 657.156
+\i (00:06:27) trapsize 2038
+\i (00:06:28) roam start
+\i (00:06:28) roam x -32
+\i (00:06:28) roam y 32
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 48
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 64
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 48
+\i (00:06:28) roam x -32
+\i (00:06:28) roam y 64
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 80
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 32
+\i (00:06:28) roam y 48
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 48
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 64
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 32
+\i (00:06:28) roam x -16
+\i (00:06:28) roam y 48
+\i (00:06:28) roam y 64
+\i (00:06:28) roam y 64
+\i (00:06:28) roam y 64
+\i (00:06:28) roam y 32
+\i (00:06:29) roam x -16
+\i (00:06:29) roam y 32
+\i (00:06:29) roam y -32
+\i (00:06:29) roam y -32
+\i (00:06:29) roam x 16
+\i (00:06:29) roam y -48
+\i (00:06:29) roam y -32
+\i (00:06:29) roam y -32
+\i (00:06:29) roam x 16
+\i (00:06:29) roam y -16
+\i (00:06:29) roam y -16
+\i (00:06:29) roam y -16
+\i (00:06:29) roam y -32
+\i (00:06:29) roam x 16
+\i (00:06:29) roam y -32
+\i (00:06:29) roam y -32
+\i (00:06:29) roam x 16
+\i (00:06:29) roam y -32
+\i (00:06:29) roam y -32
+\i (00:06:29) roam y -16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -32
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -32
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -32
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam y -16
+\i (00:06:30) roam x 16
+\i (00:06:30) roam y -16
+\i (00:06:31) roam y 32
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 64
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 80
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 96
+\i (00:06:31) roam y 48
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 32
+\i (00:06:31) roam y 32
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 16
+\i (00:06:31) roam y 16
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 48
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 64
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y 80
+\i (00:06:31) roam x -32
+\i (00:06:31) roam y 32
+\i (00:06:31) roam y 16
+\i (00:06:31) roam x -16
+\i (00:06:31) roam y -32
+\i (00:06:31) roam y -64
+\i (00:06:31) roam y -48
+\i (00:06:31) roam y -48
+\i (00:06:32) roam y -48
+\i (00:06:32) roam y -32
+\i (00:06:32) roam end
+\i (00:06:32) zoom out 1 
+\i (00:06:32) setwindow pcb
+\i (00:06:32) zoom out 171.974 445.333
+\i (00:06:32) trapsize 4075
+\i (00:06:33) zoom in 1 
+\i (00:06:33) setwindow pcb
+\i (00:06:33) zoom in 171.974 150.300
+\i (00:06:33) trapsize 2038
+\i (00:06:33) zoom in 1 
+\i (00:06:33) setwindow pcb
+\i (00:06:33) zoom in 186.237 166.193
+\i (00:06:33) trapsize 1019
+\i (00:06:36) zoom out 1 
+\i (00:06:36) setwindow pcb
+\i (00:06:36) zoom out 211.502 184.531
+\i (00:06:36) trapsize 2038
+\i (00:06:36) zoom out 1 
+\i (00:06:36) setwindow pcb
+\i (00:06:36) zoom out 211.502 184.530
+\i (00:06:36) trapsize 4075
+\i (00:06:36) roam start
+\i (00:06:36) roam x 48
+\i (00:06:36) roam y -32
+\i (00:06:36) roam x 32
+\i (00:06:36) roam y -64
+\i (00:06:37) roam x 32
+\i (00:06:37) roam y -48
+\i (00:06:37) roam x 16
+\i (00:06:37) roam y -96
+\i (00:06:37) roam x 32
+\i (00:06:37) roam y -80
+\i (00:06:37) roam x 32
+\i (00:06:37) roam y -96
+\i (00:06:37) roam x 16
+\i (00:06:37) roam y -48
+\i (00:06:37) roam end
+\i (00:06:37) roam start
+\i (00:06:37) roam x -32
+\i (00:06:37) roam y 48
+\i (00:06:37) roam x -32
+\i (00:06:37) roam y 48
+\i (00:06:38) roam x -32
+\i (00:06:38) roam y 48
+\i (00:06:38) roam x -48
+\i (00:06:38) roam y 64
+\i (00:06:38) roam x -32
+\i (00:06:38) roam y 48
+\i (00:06:38) roam x -16
+\i (00:06:38) roam y 32
+\i (00:06:38) roam end
+\i (00:06:42) dehilight 
+\i (00:06:45) xNet N209550 
+\i (00:06:45) xname_flush 
+\t (00:06:45) Net "N209550" dehighlighted.
+\i (00:06:48) pick grid 22.421 323.081
+\t (00:06:48) last pick:  22.000 323.000
+\t (00:06:48) Net "3.3V" dehighlighted.
+\i (00:06:49) zoom out 1 
+\i (00:06:49) setwindow pcb
+\i (00:06:49) zoom out 50.131 297.001
+\i (00:06:49) trapsize 8150
+\i (00:06:50) zoom in 1 
+\i (00:06:50) setwindow pcb
+\i (00:06:50) zoom in 527.725 272.550
+\i (00:06:50) trapsize 4075
+\i (00:06:50) zoom in 1 
+\i (00:06:50) setwindow pcb
+\i (00:06:50) zoom in 527.725 272.551
+\i (00:06:50) trapsize 2038
+\i (00:06:50) zoom out 1 
+\i (00:06:50) setwindow pcb
+\i (00:06:50) zoom out 527.725 272.551
+\i (00:06:50) trapsize 4075
+\i (00:11:04) cmgr 
+\i (00:11:05) setwindow cmgr
+\i (00:11:05) cm newView ( worksheet 53:Electrical "1:Electrical Constraint Set" "2:Signal Integrity" "3:Reflection/Edge Distortions" )
+\i (00:11:09) cm select ( worksheet 53:Electrical "1:Electrical Constraint Set" "2:Signal Integrity" "3:Reflection/Edge Distortions" )
+\i (00:11:09) cm select ( worksheet 53:Electrical "1:Electrical Constraint Set" "2:Signal Integrity" "3:Reflection/Edge Distortions" )
+\i (00:11:11) cm newView ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:11:20) cm newView ( worksheet 144:Properties 14:Net "67:Electrical Properties" "73:Electrical Properties" )
+\i (00:11:21) cm select ( frame ( workbook 144:Properties 14:Net "36:General Properties" ) )
+\i (00:11:26) setwindow pcb
+\i (00:11:26) generaledit 
+\i (00:12:58) open 
+\e (00:12:58) Do you want to save the changes you made to core.brd?
+\i (00:12:59) fillin no 
+\i (00:13:08) fillin "C:\Users\psai\Desktop\hyp\core.brd"
+\i (00:13:08) cd "C:\Users\psai\Desktop\hyp"
+\t (00:13:09) Opening existing design...
+\i (00:13:09) trapsize 10668
+\t (00:13:09)     Journal end - Sun Feb 19 14:55:33 2017
